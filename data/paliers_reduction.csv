@@ -1,0 +1,4 @@
+nb_participants_min,nb_participants_max,coefficient_reduction,description
+1,4,0.50,Très petit peloton (1-4 participants)
+5,9,0.75,Petit peloton (5-9 participants)
+10,999,1.00,Course normale (10+ participants)

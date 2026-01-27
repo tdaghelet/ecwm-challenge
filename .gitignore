@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Cache (généré automatiquement par main.py)
+cache/
+
+# Données sensibles (à ajuster selon vos besoins)
+# data/ecwm_coureurs.csv  # Décommenter si noms privés
+
+old/
+
+# Optionnel : exclure les anciens PDFs
+# classements24-25/

@@ -1,0 +1,18 @@
+badge_id,nom,emoji,description,type,critere,niveau,seuil,actif,bonus_points
+assidu_bronze,Assidu,🏅,Participer à plusieurs courses,palier,nb_courses,Bronze,6,1,30
+assidu_argent,Assidu,🏅,Participer à plusieurs courses,palier,nb_courses,Argent,10,1,60
+assidu_or,Assidu,🏅,Participer à plusieurs courses,palier,nb_courses,Or,15,1,100
+assidu_platine,Assidu,🏅,Participer à plusieurs courses,palier,nb_courses,Platine,20,1,150
+assidu_diamant,Assidu,🏅,Participer à plusieurs courses,palier,nb_courses,Diamant,25,1,200
+champion_objectif,Champion Objectif,⭐,Participer à plusieurs courses objectif,unique,nb_courses_objectif,,5,1,30
+podium_bronze,Podium,🥇,Monter sur le podium,palier,nb_podiums,Bronze,3,1,15
+podium_argent,Podium,🥇,Monter sur le podium,palier,nb_podiums,Argent,5,1,30
+podium_or,Podium,🥇,Monter sur le podium,palier,nb_podiums,Or,10,1,60
+top10_bronze,Top 10,🏆,Finir dans les 10 premiers,palier,nb_top10,Bronze,5,1,10
+top10_argent,Top 10,🏆,Finir dans les 10 premiers,palier,nb_top10,Argent,10,1,25
+top10_or,Top 10,🏆,Finir dans les 10 premiers,palier,nb_top10,Or,15,1,50
+champion_abandon,Champion de l'abandon,😅,Abandonner plusieurs courses,unique,nb_abandons,,5,1,0
+multi_fede,Multi-fédé,🌟,Participer aux deux fédérations,unique,deux_federations,,100,1,20
+multi_discipline,Multi-discipline,🚴,Participer en Route ET (CX ou VTT),unique,deux_disciplines,,100,1,15
+performeur,Performeur,📈,Excellent percentile moyen (min. 5 courses),unique,percentile_moyen,Unique,70,1,25
+regularite,Régularité,🎯,Participer à la majorité des courses,unique,taux_participation,Unique,80,1,20

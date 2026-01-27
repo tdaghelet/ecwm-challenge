@@ -1,0 +1,9 @@
+# Configuration des sources de données manuelles
+# type: google_sheet ou csv_local
+# url: URL du Google Sheet publié en CSV, ou chemin vers le fichier CSV local
+# actif: 1 pour actif, 0 pour désactif
+# description: Description de la source
+type,url,actif,description
+# google_sheet,https://docs.google.com/spreadsheets/d/e/YOUR_SHEET_ID/pub?output=csv,0,Saisie manuelle UFOLEP 2025-26
+# csv_local,classements/saisies_manuelles.csv,0,Exemple de saisie manuelle (test)
+google_sheet,https://docs.google.com/spreadsheets/d/e/2PACX-1vSurdxYaQ_HShpfq2KrhIKqJWIeHRxOfTdu3SP-ltmzV-WvqIGYcD3gwImI5ej3dWOPCxzrqGiLp2H1/pub?output=csv,1,Saisie manuelle 2025-26

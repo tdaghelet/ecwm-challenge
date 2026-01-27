@@ -1,0 +1,9 @@
+parametre,valeur,description
+points_participation,25,Points fixes pour participer et finir la course
+points_performance_max,25,Points maximum pour la performance (basé sur percentile)
+coef_cx_ufolep,1.0,Coefficient pour Cyclo-cross UFOLEP
+coef_route_ufolep,1.0,Coefficient pour Route UFOLEP
+coef_vtt_ufolep,1.0,Coefficient pour VTT UFOLEP
+coef_cx_ffc,1,Coefficient pour Cyclo-cross FFC
+coef_route_ffc,1,Coefficient pour Route FFC
+bonus_objectif,1.5,Multiplicateur pour les courses objectif club (+50%)
