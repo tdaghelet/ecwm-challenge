@@ -48,7 +48,7 @@ def scan_courses(base_dir: str = "classements") -> dict:
                 discipline = 'cx' if 'cx' in subdir.lower() else 'route'
                 
                 for filename in os.listdir(subdir_path):
-                    if filename.endswith('.pdf'):
+                    if filename.endswith('.csv'):  # CSV pour FFC, pas PDF
                         course_name = utils.extract_course_name(filename)
                         courses[(course_name, discipline)] = 'ffc'
     
@@ -73,7 +73,9 @@ def load_existing_metadata(csv_path: str) -> dict:
     with open(csv_path, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            key = (row['nom_course'].strip().lower(), row['discipline'].strip().lower())
+            # Gérer les deux formats de colonne (nom_course et nom)
+            nom_col = row.get('nom', row.get('nom_course', '')).strip().lower()
+            key = (nom_col, row['discipline'].strip().lower())
             metadata[key] = {
                 'is_objectif': row['is_objectif'].strip().lower() == 'true',
                 'saison': row['saison'].strip()
@@ -106,7 +108,7 @@ def generate_metadata(output_path: str = "data/courses_metadata.csv",
     # Créer le fichier CSV
     with open(output_path, 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow(['nom_course', 'discipline', 'federation', 'is_objectif', 'saison'])
+        writer.writerow(['nom', 'discipline', 'federation', 'is_objectif', 'saison'])
         
         for (nom, discipline), federation in sorted(courses.items()):
             # Récupérer les infos existantes ou valeurs par défaut

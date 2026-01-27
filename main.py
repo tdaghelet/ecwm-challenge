@@ -29,6 +29,7 @@ from src.core.badges import BadgeCalculator
 from src.core.models import CoureurClassement, CoureurPoints, CourseMetadata
 from src.parsers.ufolep import UfolepPDFParser
 from src.parsers.manual import ManualParser
+from src.parsers.ffc_csv import FFCCSVParser
 from src.core import utils
 
 
@@ -104,6 +105,7 @@ class ECWMPipeline:
         # Initialiser les parsers
         parser = UfolepPDFParser()
         manual_parser = ManualParser()
+        ffc_parser = FFCCSVParser()
         calculator = PointsCalculator(config)
 
         # Initialiser les classements
@@ -125,6 +127,20 @@ class ECWMPipeline:
             print(f"\n🏁 Extraction des résultats - {vtt_dir}")
             print("-" * 70)
             self._process_all_pdfs(vtt_dir, "vtt", parser, calculator, config, classements)
+
+        # Traiter les CSV FFC CX
+        ffc_cx_dir = "classements/ffc/cx-25-26"
+        if os.path.exists(ffc_cx_dir):
+            print(f"\n🏁 Extraction des résultats - {ffc_cx_dir}")
+            print("-" * 70)
+            self._process_all_csvs(ffc_cx_dir, "cx", ffc_parser, calculator, config, classements)
+
+        # Traiter les CSV FFC Route
+        ffc_route_dir = "classements/ffc/route-25-26"
+        if os.path.exists(ffc_route_dir):
+            print(f"\n🏁 Extraction des résultats - {ffc_route_dir}")
+            print("-" * 70)
+            self._process_all_csvs(ffc_route_dir, "route", ffc_parser, calculator, config, classements)
 
         # Traiter les saisies manuelles
         self._process_manual_entries(manual_parser, calculator, config, classements)
@@ -225,6 +241,105 @@ class ECWMPipeline:
         # Affichage
         course_display = course_name.upper().ljust(25)
         print(f"📄 {course_display}→ {nb_coureurs_trouves:2d} coureurs{objectif_marker}")
+
+    def _process_all_csvs(
+        self,
+        directory: str,
+        discipline: str,
+        parser: FFCCSVParser,
+        calculator: PointsCalculator,
+        config: Config,
+        classements: Dict[str, CoureurClassement]
+    ) -> None:
+        """Traite tous les CSV d'un répertoire (FFC)"""
+        csv_dir = Path(directory)
+        csv_files = sorted(csv_dir.glob("*.csv"), key=lambda x: x.name)
+
+        print(f"   {len(csv_files)} fichiers CSV trouvés\n")
+
+        for csv_path in csv_files:
+            course_name = utils.extract_course_name(csv_path.name)
+            self._process_csv(
+                str(csv_path),
+                course_name,
+                discipline,
+                parser,
+                calculator,
+                config,
+                classements
+            )
+
+        print()
+
+    def _process_csv(
+        self,
+        csv_path: str,
+        course_name: str,
+        discipline: str,
+        parser: FFCCSVParser,
+        calculator: PointsCalculator,
+        config: Config,
+        classements: Dict[str, CoureurClassement]
+    ) -> None:
+        """Traite un CSV FFC"""
+        # Parser le CSV
+        resultats = parser.parse_course_csv(csv_path)
+        if not resultats:
+            return
+
+        # Récupérer les métadonnées de la course
+        metadata = config.get_course_metadata(course_name, discipline)
+        
+        # Si pas de métadonnées, créer des métadonnées par défaut pour FFC
+        if metadata is None:
+            print(f"   ℹ️  Création automatique des métadonnées pour {course_name} (FFC)")
+            metadata = CourseMetadata(
+                nom=course_name,
+                discipline=discipline,
+                federation="ffc",  # FFC par défaut pour les CSV
+                is_objectif=False,
+                saison="25-26"
+            )
+        
+        federation = metadata.federation
+        is_objectif = metadata.is_objectif
+        
+        print(f"   DEBUG: discipline={discipline}, federation={federation}")
+
+        # Affichage
+        objectif_marker = " ⭐" if is_objectif else ""
+        nb_coureurs_trouves = 0
+
+        # Pour chaque coureur ECWM
+        for coureur in config.coureurs:
+            # Vérifier si autorisé pour cette discipline
+            if not config.coureur_autorise(coureur, discipline, federation):
+                continue
+
+            nom_norm = utils.normalize_name(coureur)
+
+            # Chercher le coureur dans les résultats
+            resultat = parser.find_coureur_in_results(nom_norm, resultats)
+
+            if resultat:
+                nb_coureurs_trouves += 1
+
+                # Calculer les points (même méthode que pour les PDFs)
+                course_points = calculator.calculate_course_points(
+                    coureur=coureur,
+                    course_name=course_name,
+                    resultat=resultat,
+                    discipline=discipline,
+                    course_metadata=metadata
+                )
+
+                # Ajouter au classement
+                classements[nom_norm].add_course(course_points)
+
+        # Affichage
+        course_display = course_name.upper().ljust(25)
+        print(f"📄 {course_display}→ {nb_coureurs_trouves:2d} coureurs{objectif_marker}")
+
 
     def _process_manual_entries(
         self,
@@ -612,9 +727,12 @@ class ECWMPipeline:
                 ],
                 'badges': [
                     {
+                        'badge_id': badge['badge_id'],
                         'nom': badge['nom'],
                         'emoji': badge['emoji'],
                         'description': badge['description'],
+                        'niveau': badge['niveau'],
+                        'valeur_obtenue': badge['valeur_obtenue'],
                         'bonus_points': badge['bonus_points'],
                     }
                     for badge in coureur_badges.get('badges_obtenus', [])

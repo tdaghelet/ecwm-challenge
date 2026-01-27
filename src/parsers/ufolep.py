@@ -142,7 +142,7 @@ class UfolepPDFParser:
                 position = match.group(1)
                 rest = match.group(2)
 
-                # Extraire le nom (2 premiers mots en majuscules = PRENOM NOM)
+                # Extraire le nom (jusqu'à 4 mots en majuscules pour gérer les noms composés)
                 words = rest.split()
                 name_words = []
                 for word in words:
@@ -151,7 +151,7 @@ class UfolepPDFParser:
                         name_words.append(word)
                     else:
                         break
-                    if len(name_words) >= 2:  # Max 2 mots (PRENOM NOM)
+                    if len(name_words) >= 4:  # Max 4 mots pour les noms composés
                         break
 
                 if name_words:

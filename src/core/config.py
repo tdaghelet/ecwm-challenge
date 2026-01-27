@@ -134,7 +134,8 @@ class Config:
         df = pd.read_csv(path)
         self.courses_metadata = {}
         for _, row in df.iterrows():
-            nom = row['nom_course'].strip().lower()
+            # Gérer les deux formats de colonne (nom_course et nom)
+            nom = row.get('nom', row.get('nom_course', '')).strip().lower()
             discipline = row['discipline'].strip().lower()
             metadata = CourseMetadata(
                 nom=nom,

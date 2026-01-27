@@ -1,0 +1,44 @@
+# Configuration des sources FFC
+# Format: course_name,date,discipline,saison,url
+# saison: dossier de destination (ex: cx-25-26, route-25-26)
+# Les URLs seront parsées automatiquement et converties en CSV (1 par course)
+course_name,date,discipline,saison,url
+verlinghem,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/verlinghem-c-cross-du-base-de-loisir-du-fort-elite-open-access-dames-u19/
+verlinghem,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/verlinghem-c-cross-du-base-de-loisir-du-fort-masters/
+verlinghem,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/verlinghem-c-cross-du-base-de-loisir-du-fort-u17-u15/
+verlinghem,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/verlinghem-c-cross-du-base-de-loisir-du-fort-u7-u9-u11-u13-2/
+arques,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/arques-cyclo-cross-u17-u15/
+arques,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/arques-cyclo-cross-masters-2/
+arques,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/arques-cyclo-cross-cyclo-cross-u13-u11-2/
+arques,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/arques-cyclo-cross-elite-2/
+barlin,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/barlin-20-eme-c-cross-de-la-fossette-elite-open-access/
+barlin,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/barlin-20-eme-c-cross-de-la-fossette-u17-u15/
+barlin,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/barlin-20-eme-c-cross-de-la-fossette-masters-2/
+barlin,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/barlin-20-eme-c-cross-de-la-fossette-u13-u11-2/
+calais,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/calais-14eme-cyclo-cross-de-la-citadelle-elite-open-access-dames/
+calais,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/calais-14eme-cyclo-cross-de-la-citadelle-u17-u15/
+calais,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/calais-14eme-cyclo-cross-de-la-citadelle-master/
+calais,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/calais-14eme-cyclo-cross-de-la-citadelle-master/
+vimy,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/vimy-cyclo-crosse-u13-u11-u9-u7/
+vimy,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/vimy-cyclo-crosse-master/
+vimy,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/vimy-cyclo-crosse-u17-u15/
+vimy,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/vimy-cyclo-crosse-elite-open-access/
+abbeville,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/abbeville-stadium-auto-elite-open-access-marster-u19-dames-2/
+abbeville,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/abbeville-stadium-auto-u17-2/
+abbeville,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/abbeville-stadium-auto-u13-u11-u9-2/
+arenberg,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/aremberg-cyclo-cross-u13-u11-u9-u7/
+arenberg,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/aremberg-cyclo-cross-u17-u15/
+arenberg,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/aremberg-cyclo-cross-masters/
+arenberg,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/aremberg-cyclo-cross-elite-open-access-dames-u19/
+bruay,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/bruay-la-buissiere-prix-du-bois-du-parque-elite-open-access-dames-u19/
+bruay,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/bruay-la-buissiere-prix-du-bois-du-parque-u17-u15/
+bruay,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/bruay-la-buissiere-prix-du-bois-du-parque-masters/
+bruay,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/bruay-la-buissiere-prix-du-bois-du-parque-u13-u11/
+beautor,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/beautor-cyclo-cross-de-beautor-u13-u11-u9-u7/
+beautor,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/beautor-cyclo-cross-de-beautor-elites-open-access-dames/
+beautor,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/beautor-cyclo-cross-de-beautor-masters/
+beautor,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/beautor-cyclo-cross-de-beautor-u17-u15/
+lievin,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/lievin-c-cross-de-la-ville-site-val-de-souchez-masters/
+lievin,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/lievin-c-cross-de-la-ville-site-val-de-souchez-elite-open-access-u19-dames/
+lievin,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/lievin-c-cross-de-la-ville-site-val-de-souchez-u7-u9-u11-u13/
+lievin,2025-01-15,cx,cx-25-26,https://velo.ffc.fr/resultats/lievin-c-cross-de-la-ville-site-val-de-souchez-u17-u15/
