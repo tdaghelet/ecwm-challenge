@@ -1,8 +1,8 @@
 {
   "meta": {
-    "derniere_maj": "27/01/2026 à 13:49",
+    "derniere_maj": "27/01/2026 à 14:01",
     "nb_coureurs": 78,
-    "nb_courses": 59
+    "nb_courses": 58
   },
   "coureurs": [
     {
@@ -13,6 +13,34 @@
       "bonus_badges": 190,
       "points_total": 1002,
       "courses_detail": [
+        {
+          "course": "albi",
+          "position": "7",
+          "nb_participants": 41,
+          "categorie": "Classement Manche : Elite et U23 Femme",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 85.4,
+          "points_participation": 25.0,
+          "points_performance": 21.3,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 46
+        },
+        {
+          "course": "albi2",
+          "position": "7",
+          "nb_participants": 42,
+          "categorie": "Classement Manche : Elite et U23 Femme",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 85.7,
+          "points_participation": 25.0,
+          "points_performance": 21.4,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 46
+        },
         {
           "course": "arenberg",
           "position": "23",
@@ -54,6 +82,48 @@
           "coefficient": 1.0,
           "bonus_objectif": 1.0,
           "points": 50
+        },
+        {
+          "course": "ouistreham",
+          "position": "8",
+          "nb_participants": 37,
+          "categorie": "ELITE ET U23 FEMMES",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 81.1,
+          "points_participation": 25.0,
+          "points_performance": 20.3,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 45
+        },
+        {
+          "course": "quelneuc",
+          "position": "3",
+          "nb_participants": 40,
+          "categorie": "ELITE ET U23 FEMMES",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 95.0,
+          "points_participation": 25.0,
+          "points_performance": 23.8,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 49
+        },
+        {
+          "course": "quelneuc2",
+          "position": "8",
+          "nb_participants": 40,
+          "categorie": "ELITE ET U23 FEMMES",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 82.5,
+          "points_participation": 25.0,
+          "points_performance": 20.6,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 46
         },
         {
           "course": "vimy",
@@ -98,62 +168,6 @@
           "points": 31
         },
         {
-          "course": "albi 1",
-          "position": "7",
-          "nb_participants": 42,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 85.7,
-          "points_participation": 25.0,
-          "points_performance": 21.4,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 46
-        },
-        {
-          "course": "albi 2",
-          "position": "7",
-          "nb_participants": 42,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 85.7,
-          "points_participation": 25.0,
-          "points_performance": 21.4,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 46
-        },
-        {
-          "course": "quelneuc 1",
-          "position": "3",
-          "nb_participants": 40,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 95.0,
-          "points_participation": 25.0,
-          "points_performance": 23.8,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 49
-        },
-        {
-          "course": "quelneuc 2",
-          "position": "8",
-          "nb_participants": 44,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 84.1,
-          "points_participation": 25.0,
-          "points_performance": 21.0,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 46
-        },
-        {
           "course": "gernelle",
           "position": "7",
           "nb_participants": 19,
@@ -180,20 +194,6 @@
           "coefficient": 1.0,
           "bonus_objectif": 1.0,
           "points": 34
-        },
-        {
-          "course": "ouistreham",
-          "position": "8",
-          "nb_participants": 37,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 81.1,
-          "points_participation": 25.0,
-          "points_performance": 20.3,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 45
         },
         {
           "course": "bethune",
@@ -558,6 +558,20 @@
           "points": 46
         },
         {
+          "course": "albi",
+          "position": "47",
+          "nb_participants": 49,
+          "categorie": "Classement Manche : Masters Hommes (35-49)",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 6.1,
+          "points_participation": 25.0,
+          "points_performance": 1.5,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 27
+        },
+        {
           "course": "arenberg",
           "position": "14",
           "nb_participants": 19,
@@ -612,20 +626,6 @@
           "coefficient": 1.0,
           "bonus_objectif": 1.0,
           "points": 37
-        },
-        {
-          "course": "albi",
-          "position": "47",
-          "nb_participants": 51,
-          "categorie": "MASTER",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 9.8,
-          "points_participation": 25.0,
-          "points_performance": 2.5,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 27
         }
       ],
       "badges": [
@@ -658,6 +658,246 @@
         }
       ],
       "rang": 2
+    },
+    {
+      "nom": "DE RIEMAECKER TOM",
+      "nb_courses": 13,
+      "nb_courses_objectif": 0,
+      "points_courses": 544,
+      "bonus_badges": 160,
+      "points_total": 704,
+      "courses_detail": [
+        {
+          "course": "orchies",
+          "position": "2",
+          "nb_participants": 11,
+          "categorie": "Cadets",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 90.9,
+          "points_participation": 25.0,
+          "points_performance": 22.7,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 48
+        },
+        {
+          "course": "henin1",
+          "position": "1",
+          "nb_participants": 4,
+          "categorie": "Cadets",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 100.0,
+          "points_participation": 25.0,
+          "points_performance": 12.5,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 38
+        },
+        {
+          "course": "raismes",
+          "position": "1",
+          "nb_participants": 11,
+          "categorie": "Cadets",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 100.0,
+          "points_participation": 25.0,
+          "points_performance": 25.0,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 50
+        },
+        {
+          "course": "btwin",
+          "position": "1",
+          "nb_participants": 8,
+          "categorie": "Cadets",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 100.0,
+          "points_participation": 37.5,
+          "points_performance": 18.8,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 56
+        },
+        {
+          "course": "verlinghem",
+          "position": "2",
+          "nb_participants": 6,
+          "categorie": "Cadets",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 83.3,
+          "points_participation": 25.0,
+          "points_performance": 15.6,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 41
+        },
+        {
+          "course": "le-quesnoy",
+          "position": "4",
+          "nb_participants": 10,
+          "categorie": "Cadets Masculin",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 70.0,
+          "points_participation": 25.0,
+          "points_performance": 17.5,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 42
+        },
+        {
+          "course": "abbeville",
+          "position": "7",
+          "nb_participants": 20,
+          "categorie": "U17",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 70.0,
+          "points_participation": 25.0,
+          "points_performance": 17.5,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 42
+        },
+        {
+          "course": "albi",
+          "position": "125",
+          "nb_participants": 135,
+          "categorie": "Classement Manche : U17 Garçon",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 8.1,
+          "points_participation": 25.0,
+          "points_performance": 2.0,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 27
+        },
+        {
+          "course": "arenberg",
+          "position": "5",
+          "nb_participants": 25,
+          "categorie": "Classement général individuel (épreuve de 1 jour)",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 84.0,
+          "points_participation": 25.0,
+          "points_performance": 21.0,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 46
+        },
+        {
+          "course": "barlin",
+          "position": "4",
+          "nb_participants": 10,
+          "categorie": "U17",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 70.0,
+          "points_participation": 25.0,
+          "points_performance": 17.5,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 42
+        },
+        {
+          "course": "beautor",
+          "position": "14",
+          "nb_participants": 21,
+          "categorie": "U17",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 38.1,
+          "points_participation": 25.0,
+          "points_performance": 9.5,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 35
+        },
+        {
+          "course": "ouistreham",
+          "position": "104",
+          "nb_participants": 126,
+          "categorie": "Classement général individuel (épreuve de 1 jour) : U17 HOMMES",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 18.3,
+          "points_participation": 25.0,
+          "points_performance": 4.6,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 30
+        },
+        {
+          "course": "verlinghem",
+          "position": "4",
+          "nb_participants": 27,
+          "categorie": "U17",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 88.9,
+          "points_participation": 25.0,
+          "points_performance": 22.2,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 47
+        }
+      ],
+      "badges": [
+        {
+          "badge_id": "multi_fede",
+          "nom": "Multi-fédé",
+          "emoji": "🌟",
+          "description": "Participer aux deux fédérations",
+          "niveau": null,
+          "valeur_obtenue": 100,
+          "bonus_points": 20
+        },
+        {
+          "badge_id": "performeur",
+          "nom": "Performeur",
+          "emoji": "📈",
+          "description": "Excellent percentile moyen (min. 5 courses)",
+          "niveau": "Unique",
+          "valeur_obtenue": 70.8945128945129,
+          "bonus_points": 25
+        },
+        {
+          "badge_id": "assidu_argent",
+          "nom": "Assidu",
+          "emoji": "🏅",
+          "description": "Participer à plusieurs courses",
+          "niveau": "Argent",
+          "valeur_obtenue": 13,
+          "bonus_points": 60
+        },
+        {
+          "badge_id": "podium_argent",
+          "nom": "Podium",
+          "emoji": "🥇",
+          "description": "Monter sur le podium",
+          "niveau": "Argent",
+          "valeur_obtenue": 5,
+          "bonus_points": 30
+        },
+        {
+          "badge_id": "top10_argent",
+          "nom": "Top 10",
+          "emoji": "🏆",
+          "description": "Finir dans les 10 premiers",
+          "niveau": "Argent",
+          "valeur_obtenue": 10,
+          "bonus_points": 25
+        }
+      ],
+      "rang": 3
     },
     {
       "nom": "VANDERMEIREN MANUEL",
@@ -919,218 +1159,6 @@
           "niveau": "Bronze",
           "valeur_obtenue": 8,
           "bonus_points": 10
-        }
-      ],
-      "rang": 3
-    },
-    {
-      "nom": "DE RIEMAECKER TOM",
-      "nb_courses": 11,
-      "nb_courses_objectif": 0,
-      "points_courses": 487,
-      "bonus_badges": 160,
-      "points_total": 647,
-      "courses_detail": [
-        {
-          "course": "orchies",
-          "position": "2",
-          "nb_participants": 11,
-          "categorie": "Cadets",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 90.9,
-          "points_participation": 25.0,
-          "points_performance": 22.7,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 48
-        },
-        {
-          "course": "henin1",
-          "position": "1",
-          "nb_participants": 4,
-          "categorie": "Cadets",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 100.0,
-          "points_participation": 25.0,
-          "points_performance": 12.5,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 38
-        },
-        {
-          "course": "raismes",
-          "position": "1",
-          "nb_participants": 11,
-          "categorie": "Cadets",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 100.0,
-          "points_participation": 25.0,
-          "points_performance": 25.0,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 50
-        },
-        {
-          "course": "btwin",
-          "position": "1",
-          "nb_participants": 8,
-          "categorie": "Cadets",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 100.0,
-          "points_participation": 37.5,
-          "points_performance": 18.8,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.5,
-          "points": 56
-        },
-        {
-          "course": "verlinghem",
-          "position": "2",
-          "nb_participants": 6,
-          "categorie": "Cadets",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 83.3,
-          "points_participation": 25.0,
-          "points_performance": 15.6,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 41
-        },
-        {
-          "course": "le-quesnoy",
-          "position": "4",
-          "nb_participants": 10,
-          "categorie": "Cadets Masculin",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 70.0,
-          "points_participation": 25.0,
-          "points_performance": 17.5,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 42
-        },
-        {
-          "course": "abbeville",
-          "position": "7",
-          "nb_participants": 20,
-          "categorie": "U17",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 70.0,
-          "points_participation": 25.0,
-          "points_performance": 17.5,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 42
-        },
-        {
-          "course": "arenberg",
-          "position": "5",
-          "nb_participants": 25,
-          "categorie": "Classement général individuel (épreuve de 1 jour)",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 84.0,
-          "points_participation": 25.0,
-          "points_performance": 21.0,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 46
-        },
-        {
-          "course": "barlin",
-          "position": "4",
-          "nb_participants": 10,
-          "categorie": "U17",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 70.0,
-          "points_participation": 25.0,
-          "points_performance": 17.5,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 42
-        },
-        {
-          "course": "beautor",
-          "position": "14",
-          "nb_participants": 21,
-          "categorie": "U17",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 38.1,
-          "points_participation": 25.0,
-          "points_performance": 9.5,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 35
-        },
-        {
-          "course": "verlinghem",
-          "position": "4",
-          "nb_participants": 27,
-          "categorie": "U17",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 88.9,
-          "points_participation": 25.0,
-          "points_performance": 22.2,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 47
-        }
-      ],
-      "badges": [
-        {
-          "badge_id": "multi_fede",
-          "nom": "Multi-fédé",
-          "emoji": "🌟",
-          "description": "Participer aux deux fédérations",
-          "niveau": null,
-          "valeur_obtenue": 100,
-          "bonus_points": 20
-        },
-        {
-          "badge_id": "performeur",
-          "nom": "Performeur",
-          "emoji": "📈",
-          "description": "Excellent percentile moyen (min. 5 courses)",
-          "niveau": "Unique",
-          "valeur_obtenue": 81.38423192968648,
-          "bonus_points": 25
-        },
-        {
-          "badge_id": "assidu_argent",
-          "nom": "Assidu",
-          "emoji": "🏅",
-          "description": "Participer à plusieurs courses",
-          "niveau": "Argent",
-          "valeur_obtenue": 11,
-          "bonus_points": 60
-        },
-        {
-          "badge_id": "podium_argent",
-          "nom": "Podium",
-          "emoji": "🥇",
-          "description": "Monter sur le podium",
-          "niveau": "Argent",
-          "valeur_obtenue": 5,
-          "bonus_points": 30
-        },
-        {
-          "badge_id": "top10_argent",
-          "nom": "Top 10",
-          "emoji": "🏆",
-          "description": "Finir dans les 10 premiers",
-          "niveau": "Argent",
-          "valeur_obtenue": 10,
-          "bonus_points": 25
         }
       ],
       "rang": 4
@@ -3526,17 +3554,10 @@
       "discipline": "cx",
       "federation": "ffc",
       "is_objectif": false,
-      "nb_participants": 1
+      "nb_participants": 3
     },
     {
-      "nom": "albi 1",
-      "discipline": "cx",
-      "federation": "ffc",
-      "is_objectif": false,
-      "nb_participants": 1
-    },
-    {
-      "nom": "albi 2",
+      "nom": "albi2",
       "discipline": "cx",
       "federation": "ffc",
       "is_objectif": false,
@@ -3855,17 +3876,17 @@
       "discipline": "cx",
       "federation": "ffc",
       "is_objectif": false,
-      "nb_participants": 1
+      "nb_participants": 2
     },
     {
-      "nom": "quelneuc 1",
+      "nom": "quelneuc",
       "discipline": "cx",
       "federation": "ffc",
       "is_objectif": false,
       "nb_participants": 1
     },
     {
-      "nom": "quelneuc 2",
+      "nom": "quelneuc2",
       "discipline": "cx",
       "federation": "ffc",
       "is_objectif": false,

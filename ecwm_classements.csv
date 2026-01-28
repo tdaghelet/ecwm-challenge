@@ -97,11 +97,11 @@ DAGHELET THOMAS,noeux,12,20,2ème Catégorie,cx,ufolep,0.45,25.0,11.2,1.0,1.0,36
 DAGHELET THOMAS,le-quesnoy,8,19,VTT Séniors B,cx,ufolep,0.63,25.0,15.8,1.0,1.0,41
 DAGHELET THOMAS,wingles,5,10,2ème Catégorie,cx,ufolep,0.6,25.0,15.0,1.0,1.0,40
 DAGHELET THOMAS,flers,4,20,2ème Catégorie,cx,ufolep,0.85,25.0,21.2,1.0,1.0,46
+DAGHELET THOMAS,albi,47,49,Classement Manche : Masters Hommes (35-49),cx,ffc,0.06,25.0,1.5,1.0,1.0,27
 DAGHELET THOMAS,arenberg,14,19,Classement général individuel (épreuve de 1 jour),cx,ffc,0.32,25.0,7.9,1.0,1.0,33
 DAGHELET THOMAS,arques,12,13,Classement général individuel (épreuve de 1 jour),cx,ffc,0.15,25.0,3.8,1.0,1.0,29
 DAGHELET THOMAS,beautor,11,14,Classement général individuel (épreuve de 1 jour),cx,ffc,0.29,25.0,7.1,1.0,1.0,32
 DAGHELET THOMAS,verlinghem,8,13,Classement général individuel (épreuve de 1 jour),cx,ffc,0.46,25.0,11.5,1.0,1.0,37
-DAGHELET THOMAS,albi,47,51,MASTER,cx,ffc,0.1,25.0,2.5,1.0,1.0,27
 DAGHELET THOMAS,--- TOTAL ---,,,,,,,,,,,772
 DAGHELET THOMAS,--- BONUS BADGES ---,,,,,,,,,,,195
 DAGHELET THOMAS,========== TOTAL GÉNÉRAL ==========,,,,,,,,,,,967
@@ -112,32 +112,34 @@ DE RIEMAECKER TOM,btwin,1,8,Cadets,cx,ufolep,1.0,37.5,18.8,1.0,1.5,56
 DE RIEMAECKER TOM,verlinghem,2,6,Cadets,cx,ffc,0.83,25.0,15.6,1.0,1.0,41
 DE RIEMAECKER TOM,le-quesnoy,4,10,Cadets Masculin,cx,ufolep,0.7,25.0,17.5,1.0,1.0,42
 DE RIEMAECKER TOM,abbeville,7,20,U17,cx,ffc,0.7,25.0,17.5,1.0,1.0,42
+DE RIEMAECKER TOM,albi,125,135,Classement Manche : U17 Garçon,cx,ffc,0.08,25.0,2.0,1.0,1.0,27
 DE RIEMAECKER TOM,arenberg,5,25,Classement général individuel (épreuve de 1 jour),cx,ffc,0.84,25.0,21.0,1.0,1.0,46
 DE RIEMAECKER TOM,barlin,4,10,U17,cx,ffc,0.7,25.0,17.5,1.0,1.0,42
 DE RIEMAECKER TOM,beautor,14,21,U17,cx,ffc,0.38,25.0,9.5,1.0,1.0,35
+DE RIEMAECKER TOM,ouistreham,104,126,Classement général individuel (épreuve de 1 jour) : U17 HOMMES,cx,ffc,0.18,25.0,4.6,1.0,1.0,30
 DE RIEMAECKER TOM,verlinghem,4,27,U17,cx,ffc,0.89,25.0,22.2,1.0,1.0,47
-DE RIEMAECKER TOM,--- TOTAL ---,,,,,,,,,,,487
+DE RIEMAECKER TOM,--- TOTAL ---,,,,,,,,,,,544
 DE RIEMAECKER TOM,--- BONUS BADGES ---,,,,,,,,,,,160
-DE RIEMAECKER TOM,========== TOTAL GÉNÉRAL ==========,,,,,,,,,,,647
+DE RIEMAECKER TOM,========== TOTAL GÉNÉRAL ==========,,,,,,,,,,,704
 DESABLENCE DAVID,--- TOTAL ---,,,,,,,,,,,0
 DESABLENCE DAVID,--- BONUS BADGES ---,,,,,,,,,,,0
 DESABLENCE DAVID,========== TOTAL GÉNÉRAL ==========,,,,,,,,,,,0
 DESTRES KERYANN,--- TOTAL ---,,,,,,,,,,,0
 DESTRES KERYANN,--- BONUS BADGES ---,,,,,,,,,,,0
 DESTRES KERYANN,========== TOTAL GÉNÉRAL ==========,,,,,,,,,,,0
+DEVIGNE CAMILLE,albi,7,41,Classement Manche : Elite et U23 Femme,cx,ffc,0.85,25.0,21.3,1.0,1.0,46
+DEVIGNE CAMILLE,albi2,7,42,Classement Manche : Elite et U23 Femme,cx,ffc,0.86,25.0,21.4,1.0,1.0,46
 DEVIGNE CAMILLE,arenberg,23,34,Classement général individuel (épreuve de 1 jour),cx,ffc,0.35,25.0,8.8,1.0,1.0,34
 DEVIGNE CAMILLE,arques,1,4,DAMES,cx,ffc,1.0,25.0,12.5,1.0,1.0,38
 DEVIGNE CAMILLE,beautor,1,11,DAMES,cx,ffc,1.0,25.0,25.0,1.0,1.0,50
+DEVIGNE CAMILLE,ouistreham,8,37,ELITE ET U23 FEMMES,cx,ffc,0.81,25.0,20.3,1.0,1.0,45
+DEVIGNE CAMILLE,quelneuc,3,40,ELITE ET U23 FEMMES,cx,ffc,0.95,25.0,23.8,1.0,1.0,49
+DEVIGNE CAMILLE,quelneuc2,8,40,ELITE ET U23 FEMMES,cx,ffc,0.82,25.0,20.6,1.0,1.0,46
 DEVIGNE CAMILLE,vimy,1,3,DAMES,cx,ffc,1.0,25.0,12.5,1.0,1.0,38
 DEVIGNE CAMILLE,essen,23,30,ELITE,cx,uci,0.27,25.0,6.7,1.0,1.0,32
 DEVIGNE CAMILLE,ruddervoorde,27,35,ELITE,cx,uci,0.26,25.0,6.4,1.0,1.0,31
-DEVIGNE CAMILLE,albi 1,7,42,ELITE,cx,ffc,0.86,25.0,21.4,1.0,1.0,46
-DEVIGNE CAMILLE,albi 2,7,42,ELITE,cx,ffc,0.86,25.0,21.4,1.0,1.0,46
-DEVIGNE CAMILLE,quelneuc 1,3,40,ELITE,cx,ffc,0.95,25.0,23.8,1.0,1.0,49
-DEVIGNE CAMILLE,quelneuc 2,8,44,ELITE,cx,ffc,0.84,25.0,21.0,1.0,1.0,46
 DEVIGNE CAMILLE,gernelle,7,19,ELITE,cx,uci,0.68,25.0,17.1,1.0,1.0,42
 DEVIGNE CAMILLE,flamanville,30,46,ELITE,cx,uci,0.37,25.0,9.2,1.0,1.0,34
-DEVIGNE CAMILLE,ouistreham,8,37,ELITE,cx,ffc,0.81,25.0,20.3,1.0,1.0,45
 DEVIGNE CAMILLE,bethune,8,17,ELITE,cx,uci,0.59,25.0,14.7,1.0,1.0,40
 DEVIGNE CAMILLE,loenhout,32,75,ELITE,cx,uci,0.59,25.0,14.7,1.0,1.0,40
 DEVIGNE CAMILLE,baal,27,59,ELITE,cx,uci,0.56,25.0,14.0,1.0,1.0,39

@@ -1,5 +1,7 @@
 nom,discipline,federation,is_objectif,saison
 abbeville,cx,ffc,false,25-26
+albi,cx,ffc,false,25-26
+albi2,cx,ffc,false,25-26
 arenberg,cx,ffc,false,25-26
 arques,cx,ffc,false,25-26
 auchy,cx,ufolep,false,25-26
@@ -65,8 +67,11 @@ obrechies,cx,ufolep,false,25-26
 obrechies,vtt,ufolep,false,25-26
 orchies,cx,ufolep,false,25-26
 orchies,vtt,ufolep,false,25-26
+ouistreham,cx,ffc,false,25-26
 pont-sur-sambre,cx,ufolep,false,25-26
 pont-sur-sambre,vtt,ufolep,false,25-26
+quelneuc,cx,ffc,false,25-26
+quelneuc2,cx,ffc,false,25-26
 raismes,cx,ufolep,false,25-26
 raismes,vtt,ufolep,false,25-26
 rouvroy,cx,ufolep,false,25-26
