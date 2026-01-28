@@ -13,6 +13,7 @@ class CourseMetadata:
     federation: str  # "ufolep" ou "ffc"
     is_objectif: bool
     saison: str
+    date_course: Optional[str] = None  # Format YYYY-MM-DD
 
     @property
     def type_course(self) -> str:
@@ -37,6 +38,7 @@ class CoureurPoints:
     bonus_objectif: float
     points_total: int  # Entier arrondi
     percentile_reel: float = None  # Percentile réel avant plafonnement (optionnel)
+    date_course: Optional[str] = None  # Format YYYY-MM-DD
 
     def __str__(self) -> str:
         if self.position == "Ab":

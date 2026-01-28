@@ -79,7 +79,8 @@ class PointsCalculator:
                     discipline=discipline or "cx",
                     federation="ufolep",
                     is_objectif=False,
-                    saison="unknown"
+                    saison="unknown",
+                    date_course=None
                 )
 
         # Calculer le percentile
@@ -142,7 +143,8 @@ class PointsCalculator:
             coefficient=coefficient,
             bonus_objectif=bonus_objectif,
             points_total=pts_total,
-            percentile_reel=pts_performance_base  # On stocke les points de performance de base dans percentile_reel
+            percentile_reel=pts_performance_base,  # On stocke les points de performance de base dans percentile_reel
+            date_course=course_metadata.date_course
         )
 
     def calculate_course_points_manual(
@@ -182,7 +184,8 @@ class PointsCalculator:
                     discipline=discipline or "cx",
                     federation="ufolep",
                     is_objectif=False,
-                    saison="unknown"
+                    saison="unknown",
+                    date_course=None
                 )
 
         # Récupérer les paramètres
@@ -244,5 +247,6 @@ class PointsCalculator:
             coefficient=coefficient,
             bonus_objectif=bonus_objectif,
             points_total=pts_total,
-            percentile_reel=pts_performance_base
+            percentile_reel=pts_performance_base,
+            date_course=course_metadata.date_course
         )

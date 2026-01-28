@@ -5,12 +5,49 @@ Permet d'intégrer des résultats saisis manuellement dans le challenge.
 Format : CSV avec colonnes course_name, coureur, position, nb_participants, etc.
 """
 import os
+import re
 import ssl
 import pandas as pd
 from typing import List, Optional
 from dataclasses import dataclass
 
 from src.core import utils
+
+
+def parse_date_to_iso(date_str: str) -> Optional[str]:
+    """
+    Convertit une date en format ISO (YYYY-MM-DD)
+
+    Formats supportés:
+    - JJ/MM/AA (ex: 10/10/25)
+    - JJ/MM/AAAA (ex: 10/10/2025)
+    - JJ-MM-AA ou JJ-MM-AAAA
+    - AAAA-MM-JJ (déjà ISO)
+
+    Returns:
+        Date au format YYYY-MM-DD ou None si parsing impossible
+    """
+    if not date_str or pd.isna(date_str):
+        return None
+
+    date_str = str(date_str).strip()
+    if not date_str:
+        return None
+
+    # Déjà au format ISO ?
+    if re.match(r'^\d{4}-\d{2}-\d{2}$', date_str):
+        return date_str
+
+    # Format JJ/MM/AA ou JJ/MM/AAAA ou JJ-MM-AA ou JJ-MM-AAAA
+    match = re.match(r'^(\d{1,2})[/-](\d{1,2})[/-](\d{2,4})$', date_str)
+    if match:
+        jour, mois, annee = match.groups()
+        if len(annee) == 2:
+            # Convertir AA en AAAA (25 -> 2025, 26 -> 2026)
+            annee = '20' + annee
+        return f"{annee}-{mois.zfill(2)}-{jour.zfill(2)}"
+
+    return None
 
 
 @dataclass
@@ -80,10 +117,10 @@ class ManualParser:
                 if 'categorie' in row and pd.notna(row['categorie']):
                     categorie = str(row['categorie'])
 
-                # Parser date (optionnel)
+                # Parser date (optionnel) et convertir en ISO
                 date = None
                 if 'date' in row and pd.notna(row['date']):
-                    date = str(row['date'])
+                    date = parse_date_to_iso(row['date'])
 
                 result = ManualResult(
                     course_name=str(row['course_name']).strip().lower(),

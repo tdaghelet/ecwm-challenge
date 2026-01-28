@@ -1,6 +1,35 @@
 // Application ECWM Challenge
 let data = null;
 
+// Formatage de date ISO vers français
+function formatDateFr(isoDate) {
+    if (!isoDate) return null;
+    try {
+        const date = new Date(isoDate + 'T00:00:00');
+        return date.toLocaleDateString('fr-FR', {
+            day: 'numeric',
+            month: 'short',
+            year: 'numeric'
+        });
+    } catch (e) {
+        return isoDate;
+    }
+}
+
+// Version courte de la date (ex: "17 nov.")
+function formatDateShort(isoDate) {
+    if (!isoDate) return null;
+    try {
+        const date = new Date(isoDate + 'T00:00:00');
+        return date.toLocaleDateString('fr-FR', {
+            day: 'numeric',
+            month: 'short'
+        });
+    } catch (e) {
+        return isoDate;
+    }
+}
+
 // Charger les données au démarrage
 document.addEventListener('DOMContentLoaded', () => {
     loadData();
@@ -123,18 +152,26 @@ function renderCoureurDetails(coureur) {
             <table class="courses-table">
                 <thead>
                     <tr>
-                        <th>Course (type)</th>
-                        <th>Position (percentile)</th>
-                        <th>Points (participation + perf)</th>
+                        <th>Course</th>
+                        <th>Position</th>
+                        <th>Points</th>
                     </tr>
                 </thead>
                 <tbody>
-                    ${coureur.courses_detail.map(course => `
+                    ${coureur.courses_detail
+                        .slice()
+                        .sort((a, b) => {
+                            // Trier par date décroissante
+                            const dateA = a.date_course || '0000-00-00';
+                            const dateB = b.date_course || '0000-00-00';
+                            return dateB.localeCompare(dateA);
+                        })
+                        .map(course => `
                         <tr>
                             <td class="${course.is_objectif ? 'course-objectif' : ''}">
-                                <strong>${course.course.toUpperCase()}</strong>${course.is_objectif ? ' ⭐' : ''}<br>
+                                <strong>${course.course.toUpperCase()}</strong>${course.is_objectif ? ' ★' : ''}<br>
                                 <span style="font-size: 0.75rem; color: var(--text-muted);">
-                                    ${course.discipline} ${course.federation}
+                                    ${course.date_course ? formatDateShort(course.date_course) + ' - ' : ''}${course.discipline.toUpperCase()} ${course.federation.toUpperCase()}
                                 </span>
                             </td>
                             <td>
@@ -146,9 +183,9 @@ function renderCoureurDetails(coureur) {
                             <td>
                                 <strong style="font-size: 1.125rem;">${course.points}</strong><br>
                                 <span style="font-size: 0.75rem; color: var(--text-muted);">
-                                    (${course.points_participation} + ${course.points_perf_reduits ? 
-                                        `<span style="color: #E60017; font-weight: 600; text-decoration: line-through;">${course.points_performance_base}</span> <span style="color: #E60017; font-weight: 600;" title="Points de performance réduits (petite course)">${course.points_performance} ⚠️</span>` 
-                                        : 
+                                    (${course.points_participation} + ${course.points_perf_reduits ?
+                                        `<span style="color: #E60017; font-weight: 600; text-decoration: line-through;">${course.points_performance_base}</span> <span style="color: #E60017; font-weight: 600;" title="Points de performance réduits (petite course)">${course.points_performance}</span>`
+                                        :
                                         course.points_performance
                                     })
                                 </span>
@@ -464,25 +501,39 @@ function renderCourses() {
                 nom: course.nom,
                 disciplines: [],
                 is_objectif: course.is_objectif, // Si au moins une version est objectif
-                total_participants: 0
+                total_participants: 0,
+                date_course: course.date_course
             };
         }
-        
+
         coursesGrouped[course.nom].disciplines.push({
             discipline: course.discipline,
             federation: course.federation,
             nb_participants: course.nb_participants
         });
         coursesGrouped[course.nom].total_participants += course.nb_participants;
-        
+
         // Si au moins une version est objectif, marquer tout le groupe
         if (course.is_objectif) {
             coursesGrouped[course.nom].is_objectif = true;
         }
+
+        // Prendre la date si disponible
+        if (course.date_course && !coursesGrouped[course.nom].date_course) {
+            coursesGrouped[course.nom].date_course = course.date_course;
+        }
     });
 
-    // Convertir en tableau et trier
-    const coursesArray = Object.values(coursesGrouped).sort((a, b) => a.nom.localeCompare(b.nom));
+    // Convertir en tableau et trier par date décroissante
+    const coursesArray = Object.values(coursesGrouped).sort((a, b) => {
+        const dateA = a.date_course || '0000-00-00';
+        const dateB = b.date_course || '0000-00-00';
+        // Trier par date décroissante, puis par nom
+        if (dateA !== dateB) {
+            return dateB.localeCompare(dateA);
+        }
+        return a.nom.localeCompare(b.nom);
+    });
 
     // Afficher directement les cartes (listeCourses a déjà la classe courses-grid)
     coursesEl.innerHTML = coursesArray.map(course => renderCourseCard(course)).join('');
@@ -490,7 +541,7 @@ function renderCourses() {
 
 function renderCourseCard(course) {
     const hasResults = course.total_participants > 0;
-    const participantsText = hasResults 
+    const participantsText = hasResults
         ? `${course.total_participants} coureur${course.total_participants > 1 ? 's' : ''}`
         : 'Aucun coureur';
 
@@ -504,12 +555,16 @@ function renderCourseCard(course) {
     // Fédération (on prend la première, généralement toutes pareilles)
     const fedBadge = course.disciplines[0].federation === 'ufolep' ? 'UFOLEP' : 'FFC';
 
+    // Date formatée
+    const dateText = course.date_course ? formatDateFr(course.date_course) : 'Date inconnue';
+
     return `
         <div class="course-card ${course.is_objectif ? 'objectif' : ''} ${!hasResults ? 'no-results' : ''}">
             <div class="course-header">
                 <div class="course-name">${course.nom}</div>
-                ${course.is_objectif ? '<span class="course-star">⭐</span>' : ''}
+                ${course.is_objectif ? '<span class="course-star">★</span>' : ''}
             </div>
+            <div class="course-date">${dateText}</div>
             <div class="course-disciplines">
                 ${disciplineBadges}
             </div>

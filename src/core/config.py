@@ -137,12 +137,19 @@ class Config:
             # Gérer les deux formats de colonne (nom_course et nom)
             nom = row.get('nom', row.get('nom_course', '')).strip().lower()
             discipline = row['discipline'].strip().lower()
+
+            # Charger la date si présente (format YYYY-MM-DD)
+            date_course = None
+            if 'date_course' in row and pd.notna(row['date_course']):
+                date_course = str(row['date_course']).strip()
+
             metadata = CourseMetadata(
                 nom=nom,
                 discipline=discipline,
                 federation=row['federation'].strip().lower(),
                 is_objectif=str(row['is_objectif']).lower() == 'true',
-                saison=row['saison'].strip()
+                saison=row['saison'].strip(),
+                date_course=date_course
             )
             # Utiliser (nom, discipline) comme clé composite
             key = (nom, discipline)

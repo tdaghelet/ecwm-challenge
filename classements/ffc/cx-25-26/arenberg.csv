@@ -1,161 +1,162 @@
 # Course FFC: arenberg
 # Saison: cx-25-26
+# Date: 2025-11-11
 # Nombre total de résultats: 157
-coureur,position,nb_participants,categorie
-PLUVINAGE AUGUSTIN,1,1,U7
-MOUTON PAUL,1,4,U9
-FRANCLIN ELIOTT,2,4,U9
-PHILIPPE HIPPOLYTE,3,4,U9
-BOUSSEMAER ADAM,4,4,U9
-DETAVERNIER GAUTHIER,1,10,U11
-YON THIEBEAUX TIMÉO,2,10,U11
-PHILIPPE AUGUSTIN,3,10,U11
-MANTEAU CALLEMEYN SWAN,4,10,U11
-GLAUERT KRICK JAKOB,5,10,U11
-D'ENGREMONT RAFAËL,6,10,U11
-PERIS LUCAS,7,10,U11
-MAES NILS,8,10,U11
-VANDER POORTEN EZRA,9,10,U11
-DA CUNHA RAMOS NINO,10,10,U11
-PASTOT ANGELO,1,17,U13
-DEFRANCQ ETHANN,2,17,U13
-ADRIANSEN BASILE,3,17,U13
-ROSITANO NATHAN,4,17,U13
-HARBONNIER LEONIE,5,17,U13
-VANDER GUCHT TEEJAY,6,17,U13
-COEUGNET ARTHUR,7,17,U13
-BAUW LUCAS,8,17,U13
-DION LOUIS,9,17,U13
-VILLEDARY JACQUES,10,17,U13
-DELBECQUE RAPHAËL,11,17,U13
-NIEPCERON ALIX,12,17,U13
-MARTIN HUGO,13,17,U13
-BARRE VICTOR,14,17,U13
-STIÉVENARD HADRIEN,15,17,U13
-PANGNATHIP ALBAN,16,17,U13
-DEDEURWAERDER ADAM,17,17,U13
-PECRIAUX THOMAS,1,25,Classement général individuel (épreuve de 1 jour)
-FERNANDEZ LÉO,2,25,Classement général individuel (épreuve de 1 jour)
-BONNIER MATHIS,3,25,Classement général individuel (épreuve de 1 jour)
-DECROMBECQUE TOM,4,25,Classement général individuel (épreuve de 1 jour)
-DE RIEMAECKER TOM,5,25,Classement général individuel (épreuve de 1 jour)
-HOUSET ALEXANDRE,6,25,Classement général individuel (épreuve de 1 jour)
-LEU ADRIEN,7,25,Classement général individuel (épreuve de 1 jour)
-DEFRANCQ ROBIN,8,25,Classement général individuel (épreuve de 1 jour)
-DEVOS LOUIS,9,25,Classement général individuel (épreuve de 1 jour)
-BODDAERT GERMAIN,11,25,Classement général individuel (épreuve de 1 jour)
-DUTERTRE QUENTIN,12,25,Classement général individuel (épreuve de 1 jour)
-ROGER LOUIS,13,25,Classement général individuel (épreuve de 1 jour)
-NOLLET PABLO,14,25,Classement général individuel (épreuve de 1 jour)
-GRZESKIEWICZ ELIE,15,25,Classement général individuel (épreuve de 1 jour)
-TETU PAULINE,16,25,Classement général individuel (épreuve de 1 jour)
-GRUMIAUX RÉMI,17,25,Classement général individuel (épreuve de 1 jour)
-DELMOTTE TIMOTHÉE,18,25,Classement général individuel (épreuve de 1 jour)
-VITIGE MATHIAS,19,25,Classement général individuel (épreuve de 1 jour)
-DEKERLE BENJAMIN,20,25,Classement général individuel (épreuve de 1 jour)
-PLUQUET LILIAN,21,25,Classement général individuel (épreuve de 1 jour)
-LONZA GASPARD,22,25,Classement général individuel (épreuve de 1 jour)
-HOFFMANN RAPHAËL,23,25,Classement général individuel (épreuve de 1 jour)
-PERSON LOUIS,24,25,Classement général individuel (épreuve de 1 jour)
-DENEL CLÉMENT,25,25,Classement général individuel (épreuve de 1 jour)
-RICHARD ELIOTT,26,25,Classement général individuel (épreuve de 1 jour)
-MOLMY AXEL,1,33,U15
-DELY MAËL,2,33,U15
-DETRE LYSANDRE,3,33,U15
-CAILLEAU MATTÉO,4,33,U15
-TETU CLÉMENT,5,33,U15
-LECLERCQ ADAM,6,33,U15
-CANIPEL CHARLES,7,33,U15
-VIEQUE TOM,8,33,U15
-DEBARALLE BAPTISTE,9,33,U15
-DELBECQUE GASTON,10,33,U15
-VANACKER MARIUS,11,33,U15
-VAN GHELUWE SACHA,12,33,U15
-GRESSIER AXEL,13,33,U15
-DETAVERNIER MAXENCE,14,33,U15
-COMETTI LOUIS,15,33,U15
-VAN FRIEL THOMAS,16,33,U15
-DASSONVILLE LÉONTINE,17,33,U15
-MANTEAU CALLEMEYN MAËLINE,18,33,U15
-PLUVINAGE ANTONIN,19,33,U15
-SYMOND OCTAVE,20,33,U15
-PAGE DUBUS RAPHAËL,21,33,U15
-BECQUART LOUIS,22,33,U15
-MORIEUX BAPTISTE,23,33,U15
-DAUMERIES MAËLYS,24,33,U15
-DUPONT OCTAVIE,25,33,U15
-AURY VALLET LOANN,26,33,U15
-WYPELIER VICTOR,27,33,U15
-CAMPOVERDE GAUTHIER,28,33,U15
-POTTIEZ ARTHUR,29,33,U15
-BLANCHET LUCA,30,33,U15
-MUI EMILE JACK,31,33,U15
-CONDETTE NATHAN,32,33,U15
-POTTIER MILAN,33,33,U15
-LEFRANCQ LUDOVIC,1,19,Classement général individuel (épreuve de 1 jour)
-BUGNICOURT CYRIL,2,19,Classement général individuel (épreuve de 1 jour)
-BAJOREK MICHEL,3,19,Classement général individuel (épreuve de 1 jour)
-HERFEUIL ANTHONY,4,19,Classement général individuel (épreuve de 1 jour)
-THIERY SÉBASTIEN,5,19,Classement général individuel (épreuve de 1 jour)
-TAVERNIER CHRISTOPHE,6,19,Classement général individuel (épreuve de 1 jour)
-GOBAILLE FRANÇOIS,7,19,Classement général individuel (épreuve de 1 jour)
-CHALAS JEAN PIERRE,8,19,Classement général individuel (épreuve de 1 jour)
-CAULIER NICOLAS,9,19,Classement général individuel (épreuve de 1 jour)
-VANDERMEIREN MANUEL,10,19,Classement général individuel (épreuve de 1 jour)
-LECLERCQ DAVID,11,19,Classement général individuel (épreuve de 1 jour)
-CARRIÈRE FLORENT,12,19,Classement général individuel (épreuve de 1 jour)
-ROSITANO YOHAN,13,19,Classement général individuel (épreuve de 1 jour)
-DAGHELET THOMAS,14,19,Classement général individuel (épreuve de 1 jour)
-LIAL DENIS,15,19,Classement général individuel (épreuve de 1 jour)
-HAVART S.,16,19,Classement général individuel (épreuve de 1 jour)
-DEHONGHER MATTHIEU,17,19,Classement général individuel (épreuve de 1 jour)
-BAUW EDOUARD,18,19,Classement général individuel (épreuve de 1 jour)
-BAUCHART NICOLAS,19,19,Classement général individuel (épreuve de 1 jour)
-JOT MATÉO,1,34,Classement général individuel (épreuve de 1 jour)
-DUBAU LUCAS,2,34,Classement général individuel (épreuve de 1 jour)
-ANANIE UGO,3,34,Classement général individuel (épreuve de 1 jour)
-JOT HUGO,4,34,Classement général individuel (épreuve de 1 jour)
-VILLAR THIERY AUBIN,5,34,Classement général individuel (épreuve de 1 jour)
-LOETE HIPPOLYTE,6,34,Classement général individuel (épreuve de 1 jour)
-ROELANDT KENNY,7,34,Classement général individuel (épreuve de 1 jour)
-SALOMEZ YDRIS,8,34,Classement général individuel (épreuve de 1 jour)
-BONNAY LUCAS,9,34,Classement général individuel (épreuve de 1 jour)
-BLANPAIN KÉVIN,10,34,Classement général individuel (épreuve de 1 jour)
-DAIRE ALEXANDRE,11,34,Classement général individuel (épreuve de 1 jour)
-LEGILLON EMILIEN,12,34,Classement général individuel (épreuve de 1 jour)
-CARESMEL ALEXIS,13,34,Classement général individuel (épreuve de 1 jour)
-DEMEYER GUILLIAN,14,34,Classement général individuel (épreuve de 1 jour)
-FIEVEZ PHILIPPE,15,34,Classement général individuel (épreuve de 1 jour)
-CANNOOT LANCE,16,34,Classement général individuel (épreuve de 1 jour)
-POUILLARD RAPHAËL,17,34,Classement général individuel (épreuve de 1 jour)
-SAMIER GERMAIN,18,34,Classement général individuel (épreuve de 1 jour)
-MORDACQ ENZO,19,34,Classement général individuel (épreuve de 1 jour)
-POUILLARD LUCAS,20,34,Classement général individuel (épreuve de 1 jour)
-BEAUSSART CEDRIC,21,34,Classement général individuel (épreuve de 1 jour)
-LEMONNIER FRANÇOIS,22,34,Classement général individuel (épreuve de 1 jour)
-DEVIGNE CAMILLE,23,34,Classement général individuel (épreuve de 1 jour)
-KRAWCZYK BENJAMIN,24,34,Classement général individuel (épreuve de 1 jour)
-EVRARD CLÉMENT,25,34,Classement général individuel (épreuve de 1 jour)
-CHARDIN NATHAN,26,34,Classement général individuel (épreuve de 1 jour)
-VILLAR THIERY FAUSTINE,27,34,Classement général individuel (épreuve de 1 jour)
-DEVIENNE QUENTIN,28,34,Classement général individuel (épreuve de 1 jour)
-GENTE THÉO,29,34,Classement général individuel (épreuve de 1 jour)
-DEMOL LÉO,30,34,Classement général individuel (épreuve de 1 jour)
-ADAM LUCIE,31,34,Classement général individuel (épreuve de 1 jour)
-BOUSSEMAER SIMON,32,34,Classement général individuel (épreuve de 1 jour)
-SCHMIT DIDIER,33,34,Classement général individuel (épreuve de 1 jour)
-AVOINE ALISON,34,34,Classement général individuel (épreuve de 1 jour)
-RAEKELBOOM NOÉ,1,12,U19
-ROISSE CLÉMENT,2,12,U19
-REGOST LOUIS,3,12,U19
-BUGNICOURT ELIAS,4,12,U19
-DUC CHARLES,5,12,U19
-DELBECQUE LUCIEN,6,12,U19
-DEFRANCQ MAEL,7,12,U19
-BARTHELEMY LENY,8,12,U19
-BODDAERT GASPARD,9,12,U19
-BRIFFAUX JUSTIN,10,12,U19
-CHALAS LANDAS CYRIAQUE,11,12,U19
-HUYNEN BATISTE,12,12,U19
-TETU MÉLANIE,1,2,DAMES
-WITTEK DASSONVILLE CÉLINE,2,2,DAMES
+coureur,position,nb_participants,categorie,date_course
+PLUVINAGE AUGUSTIN,1,1,U7,2025-11-11
+MOUTON PAUL,1,4,U9,2025-11-11
+FRANCLIN ELIOTT,2,4,U9,2025-11-11
+PHILIPPE HIPPOLYTE,3,4,U9,2025-11-11
+BOUSSEMAER ADAM,4,4,U9,2025-11-11
+DETAVERNIER GAUTHIER,1,10,U11,2025-11-11
+YON THIEBEAUX TIMÉO,2,10,U11,2025-11-11
+PHILIPPE AUGUSTIN,3,10,U11,2025-11-11
+MANTEAU CALLEMEYN SWAN,4,10,U11,2025-11-11
+GLAUERT KRICK JAKOB,5,10,U11,2025-11-11
+D'ENGREMONT RAFAËL,6,10,U11,2025-11-11
+PERIS LUCAS,7,10,U11,2025-11-11
+MAES NILS,8,10,U11,2025-11-11
+VANDER POORTEN EZRA,9,10,U11,2025-11-11
+DA CUNHA RAMOS NINO,10,10,U11,2025-11-11
+PASTOT ANGELO,1,17,U13,2025-11-11
+DEFRANCQ ETHANN,2,17,U13,2025-11-11
+ADRIANSEN BASILE,3,17,U13,2025-11-11
+ROSITANO NATHAN,4,17,U13,2025-11-11
+HARBONNIER LEONIE,5,17,U13,2025-11-11
+VANDER GUCHT TEEJAY,6,17,U13,2025-11-11
+COEUGNET ARTHUR,7,17,U13,2025-11-11
+BAUW LUCAS,8,17,U13,2025-11-11
+DION LOUIS,9,17,U13,2025-11-11
+VILLEDARY JACQUES,10,17,U13,2025-11-11
+DELBECQUE RAPHAËL,11,17,U13,2025-11-11
+NIEPCERON ALIX,12,17,U13,2025-11-11
+MARTIN HUGO,13,17,U13,2025-11-11
+BARRE VICTOR,14,17,U13,2025-11-11
+STIÉVENARD HADRIEN,15,17,U13,2025-11-11
+PANGNATHIP ALBAN,16,17,U13,2025-11-11
+DEDEURWAERDER ADAM,17,17,U13,2025-11-11
+PECRIAUX THOMAS,1,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+FERNANDEZ LÉO,2,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+BONNIER MATHIS,3,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+DECROMBECQUE TOM,4,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+DE RIEMAECKER TOM,5,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+HOUSET ALEXANDRE,6,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+LEU ADRIEN,7,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+DEFRANCQ ROBIN,8,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+DEVOS LOUIS,9,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+BODDAERT GERMAIN,11,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+DUTERTRE QUENTIN,12,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+ROGER LOUIS,13,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+NOLLET PABLO,14,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+GRZESKIEWICZ ELIE,15,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+TETU PAULINE,16,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+GRUMIAUX RÉMI,17,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+DELMOTTE TIMOTHÉE,18,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+VITIGE MATHIAS,19,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+DEKERLE BENJAMIN,20,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+PLUQUET LILIAN,21,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+LONZA GASPARD,22,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+HOFFMANN RAPHAËL,23,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+PERSON LOUIS,24,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+DENEL CLÉMENT,25,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+RICHARD ELIOTT,26,25,Classement général individuel (épreuve de 1 jour),2025-11-11
+MOLMY AXEL,1,33,U15,2025-11-11
+DELY MAËL,2,33,U15,2025-11-11
+DETRE LYSANDRE,3,33,U15,2025-11-11
+CAILLEAU MATTÉO,4,33,U15,2025-11-11
+TETU CLÉMENT,5,33,U15,2025-11-11
+LECLERCQ ADAM,6,33,U15,2025-11-11
+CANIPEL CHARLES,7,33,U15,2025-11-11
+VIEQUE TOM,8,33,U15,2025-11-11
+DEBARALLE BAPTISTE,9,33,U15,2025-11-11
+DELBECQUE GASTON,10,33,U15,2025-11-11
+VANACKER MARIUS,11,33,U15,2025-11-11
+VAN GHELUWE SACHA,12,33,U15,2025-11-11
+GRESSIER AXEL,13,33,U15,2025-11-11
+DETAVERNIER MAXENCE,14,33,U15,2025-11-11
+COMETTI LOUIS,15,33,U15,2025-11-11
+VAN FRIEL THOMAS,16,33,U15,2025-11-11
+DASSONVILLE LÉONTINE,17,33,U15,2025-11-11
+MANTEAU CALLEMEYN MAËLINE,18,33,U15,2025-11-11
+PLUVINAGE ANTONIN,19,33,U15,2025-11-11
+SYMOND OCTAVE,20,33,U15,2025-11-11
+PAGE DUBUS RAPHAËL,21,33,U15,2025-11-11
+BECQUART LOUIS,22,33,U15,2025-11-11
+MORIEUX BAPTISTE,23,33,U15,2025-11-11
+DAUMERIES MAËLYS,24,33,U15,2025-11-11
+DUPONT OCTAVIE,25,33,U15,2025-11-11
+AURY VALLET LOANN,26,33,U15,2025-11-11
+WYPELIER VICTOR,27,33,U15,2025-11-11
+CAMPOVERDE GAUTHIER,28,33,U15,2025-11-11
+POTTIEZ ARTHUR,29,33,U15,2025-11-11
+BLANCHET LUCA,30,33,U15,2025-11-11
+MUI EMILE JACK,31,33,U15,2025-11-11
+CONDETTE NATHAN,32,33,U15,2025-11-11
+POTTIER MILAN,33,33,U15,2025-11-11
+LEFRANCQ LUDOVIC,1,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+BUGNICOURT CYRIL,2,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+BAJOREK MICHEL,3,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+HERFEUIL ANTHONY,4,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+THIERY SÉBASTIEN,5,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+TAVERNIER CHRISTOPHE,6,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+GOBAILLE FRANÇOIS,7,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+CHALAS JEAN PIERRE,8,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+CAULIER NICOLAS,9,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+VANDERMEIREN MANUEL,10,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+LECLERCQ DAVID,11,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+CARRIÈRE FLORENT,12,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+ROSITANO YOHAN,13,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+DAGHELET THOMAS,14,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+LIAL DENIS,15,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+HAVART S.,16,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+DEHONGHER MATTHIEU,17,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+BAUW EDOUARD,18,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+BAUCHART NICOLAS,19,19,Classement général individuel (épreuve de 1 jour),2025-11-11
+JOT MATÉO,1,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+DUBAU LUCAS,2,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+ANANIE UGO,3,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+JOT HUGO,4,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+VILLAR THIERY AUBIN,5,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+LOETE HIPPOLYTE,6,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+ROELANDT KENNY,7,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+SALOMEZ YDRIS,8,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+BONNAY LUCAS,9,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+BLANPAIN KÉVIN,10,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+DAIRE ALEXANDRE,11,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+LEGILLON EMILIEN,12,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+CARESMEL ALEXIS,13,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+DEMEYER GUILLIAN,14,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+FIEVEZ PHILIPPE,15,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+CANNOOT LANCE,16,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+POUILLARD RAPHAËL,17,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+SAMIER GERMAIN,18,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+MORDACQ ENZO,19,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+POUILLARD LUCAS,20,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+BEAUSSART CEDRIC,21,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+LEMONNIER FRANÇOIS,22,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+DEVIGNE CAMILLE,23,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+KRAWCZYK BENJAMIN,24,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+EVRARD CLÉMENT,25,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+CHARDIN NATHAN,26,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+VILLAR THIERY FAUSTINE,27,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+DEVIENNE QUENTIN,28,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+GENTE THÉO,29,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+DEMOL LÉO,30,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+ADAM LUCIE,31,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+BOUSSEMAER SIMON,32,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+SCHMIT DIDIER,33,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+AVOINE ALISON,34,34,Classement général individuel (épreuve de 1 jour),2025-11-11
+RAEKELBOOM NOÉ,1,12,U19,2025-11-11
+ROISSE CLÉMENT,2,12,U19,2025-11-11
+REGOST LOUIS,3,12,U19,2025-11-11
+BUGNICOURT ELIAS,4,12,U19,2025-11-11
+DUC CHARLES,5,12,U19,2025-11-11
+DELBECQUE LUCIEN,6,12,U19,2025-11-11
+DEFRANCQ MAEL,7,12,U19,2025-11-11
+BARTHELEMY LENY,8,12,U19,2025-11-11
+BODDAERT GASPARD,9,12,U19,2025-11-11
+BRIFFAUX JUSTIN,10,12,U19,2025-11-11
+CHALAS LANDAS CYRIAQUE,11,12,U19,2025-11-11
+HUYNEN BATISTE,12,12,U19,2025-11-11
+TETU MÉLANIE,1,2,DAMES,2025-11-11
+WITTEK DASSONVILLE CÉLINE,2,2,DAMES,2025-11-11

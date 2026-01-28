@@ -1,62 +1,62 @@
 # Course FFC: calais
 # Saison: cx-25-26
 # Nombre total de résultats: 58
-coureur,position,nb_participants,categorie
-ROELANDT KENNY,1,11,Elite - Opens
-SALOMEZ YDRIS,2,11,Elite - Opens
-BLANPAIN KÉVIN,3,11,Elite - Opens
-ROUSSEL ETIENNE,4,11,Elite - Opens
-DEMEYER GUILLIAN,5,11,Elite - Opens
-LEGILLON EMILIEN,6,11,Elite - Opens
-BRICE MATTHIEU,7,11,Elite - Opens
-REGOST THIBAUT,8,11,Elite - Opens
-MOUCHARD ALEXIS,9,11,Elite - Opens
-ROUBLIC TOM,10,11,Elite - Opens
-ATTAGNANT MATHYS,11,11,Elite - Opens
-RAEKELBOOM NOÉ,1,5,U19
-REGOST LOUIS,2,5,U19
-BUGNICOURT ELIAS,3,5,U19
-BRIDOUX AURÉLIEN,4,5,U19
-DEFRANCQ MAEL,5,5,U19
-MOLMY AXEL,1,10,U15
-DETRE LYSANDRE,2,10,U15
-VIEQUE TOM,3,10,U15
-DELBECQUE GASTON,4,10,U15
-LECLERCQ ADAM,5,10,U15
-VANDENKOORNHUYSE CYPRIEN,6,10,U15
-GADRET FANTINE,7,10,U15
-VANACKER MARIUS,8,10,U15
-GRESSIER AXEL,9,10,U15
-MANTEAU CALLEMEYN MAËLINE,10,10,U15
-LEDOUX LOUIS,1,10,U17
-INGELAERE OCTAVE,2,10,U17
-DESGROUSILLIERS JACQUES,3,10,U17
-DEFRANCQ ROBIN,4,10,U17
-DEVOS LOUIS,5,10,U17
-CAMPINHO CLÉMENT,6,10,U17
-DRUESNE JULES,7,10,U17
-GRZESKIEWICZ ELIE,8,10,U17
-PECOURT NOÉ,9,10,U17
-DESGROUSILLIERS EVA,10,10,U17
-BUGNICOURT CYRIL,1,11,Classement général individuel (épreuve de 1 jour)
-HERFEUIL ANTHONY,2,11,Classement général individuel (épreuve de 1 jour)
-LEBRUN XAVIER,3,11,Classement général individuel (épreuve de 1 jour)
-GOBAILLE FRANÇOIS,4,11,Classement général individuel (épreuve de 1 jour)
-LECLERCQ DAVID,5,11,Classement général individuel (épreuve de 1 jour)
-CAULIER NICOLAS,6,11,Classement général individuel (épreuve de 1 jour)
-LIAL DENIS,7,11,Classement général individuel (épreuve de 1 jour)
-DEHONGHER MATTHIEU,8,11,Classement général individuel (épreuve de 1 jour)
-ZANOLINO FABRICE,9,11,Classement général individuel (épreuve de 1 jour)
-BRIDOUX RÉMI,10,11,Classement général individuel (épreuve de 1 jour)
-BAUW EDOUARD,11,11,Classement général individuel (épreuve de 1 jour)
-BUGNICOURT CYRIL,1,11,Classement général individuel (épreuve de 1 jour)
-HERFEUIL ANTHONY,2,11,Classement général individuel (épreuve de 1 jour)
-LEBRUN XAVIER,3,11,Classement général individuel (épreuve de 1 jour)
-GOBAILLE FRANÇOIS,4,11,Classement général individuel (épreuve de 1 jour)
-LECLERCQ DAVID,5,11,Classement général individuel (épreuve de 1 jour)
-CAULIER NICOLAS,6,11,Classement général individuel (épreuve de 1 jour)
-LIAL DENIS,7,11,Classement général individuel (épreuve de 1 jour)
-DEHONGHER MATTHIEU,8,11,Classement général individuel (épreuve de 1 jour)
-ZANOLINO FABRICE,9,11,Classement général individuel (épreuve de 1 jour)
-BRIDOUX RÉMI,10,11,Classement général individuel (épreuve de 1 jour)
-BAUW EDOUARD,11,11,Classement général individuel (épreuve de 1 jour)
+coureur,position,nb_participants,categorie,date_course
+ROELANDT KENNY,1,11,Elite - Opens,
+SALOMEZ YDRIS,2,11,Elite - Opens,
+BLANPAIN KÉVIN,3,11,Elite - Opens,
+ROUSSEL ETIENNE,4,11,Elite - Opens,
+DEMEYER GUILLIAN,5,11,Elite - Opens,
+LEGILLON EMILIEN,6,11,Elite - Opens,
+BRICE MATTHIEU,7,11,Elite - Opens,
+REGOST THIBAUT,8,11,Elite - Opens,
+MOUCHARD ALEXIS,9,11,Elite - Opens,
+ROUBLIC TOM,10,11,Elite - Opens,
+ATTAGNANT MATHYS,11,11,Elite - Opens,
+RAEKELBOOM NOÉ,1,5,U19,
+REGOST LOUIS,2,5,U19,
+BUGNICOURT ELIAS,3,5,U19,
+BRIDOUX AURÉLIEN,4,5,U19,
+DEFRANCQ MAEL,5,5,U19,
+MOLMY AXEL,1,10,U15,
+DETRE LYSANDRE,2,10,U15,
+VIEQUE TOM,3,10,U15,
+DELBECQUE GASTON,4,10,U15,
+LECLERCQ ADAM,5,10,U15,
+VANDENKOORNHUYSE CYPRIEN,6,10,U15,
+GADRET FANTINE,7,10,U15,
+VANACKER MARIUS,8,10,U15,
+GRESSIER AXEL,9,10,U15,
+MANTEAU CALLEMEYN MAËLINE,10,10,U15,
+LEDOUX LOUIS,1,10,U17,
+INGELAERE OCTAVE,2,10,U17,
+DESGROUSILLIERS JACQUES,3,10,U17,
+DEFRANCQ ROBIN,4,10,U17,
+DEVOS LOUIS,5,10,U17,
+CAMPINHO CLÉMENT,6,10,U17,
+DRUESNE JULES,7,10,U17,
+GRZESKIEWICZ ELIE,8,10,U17,
+PECOURT NOÉ,9,10,U17,
+DESGROUSILLIERS EVA,10,10,U17,
+BUGNICOURT CYRIL,1,11,Classement général individuel (épreuve de 1 jour),
+HERFEUIL ANTHONY,2,11,Classement général individuel (épreuve de 1 jour),
+LEBRUN XAVIER,3,11,Classement général individuel (épreuve de 1 jour),
+GOBAILLE FRANÇOIS,4,11,Classement général individuel (épreuve de 1 jour),
+LECLERCQ DAVID,5,11,Classement général individuel (épreuve de 1 jour),
+CAULIER NICOLAS,6,11,Classement général individuel (épreuve de 1 jour),
+LIAL DENIS,7,11,Classement général individuel (épreuve de 1 jour),
+DEHONGHER MATTHIEU,8,11,Classement général individuel (épreuve de 1 jour),
+ZANOLINO FABRICE,9,11,Classement général individuel (épreuve de 1 jour),
+BRIDOUX RÉMI,10,11,Classement général individuel (épreuve de 1 jour),
+BAUW EDOUARD,11,11,Classement général individuel (épreuve de 1 jour),
+BUGNICOURT CYRIL,1,11,Classement général individuel (épreuve de 1 jour),
+HERFEUIL ANTHONY,2,11,Classement général individuel (épreuve de 1 jour),
+LEBRUN XAVIER,3,11,Classement général individuel (épreuve de 1 jour),
+GOBAILLE FRANÇOIS,4,11,Classement général individuel (épreuve de 1 jour),
+LECLERCQ DAVID,5,11,Classement général individuel (épreuve de 1 jour),
+CAULIER NICOLAS,6,11,Classement général individuel (épreuve de 1 jour),
+LIAL DENIS,7,11,Classement général individuel (épreuve de 1 jour),
+DEHONGHER MATTHIEU,8,11,Classement général individuel (épreuve de 1 jour),
+ZANOLINO FABRICE,9,11,Classement général individuel (épreuve de 1 jour),
+BRIDOUX RÉMI,10,11,Classement général individuel (épreuve de 1 jour),
+BAUW EDOUARD,11,11,Classement général individuel (épreuve de 1 jour),

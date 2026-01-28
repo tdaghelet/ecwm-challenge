@@ -282,32 +282,40 @@ class ECWMPipeline:
         classements: Dict[str, CoureurClassement]
     ) -> None:
         """Traite un CSV FFC"""
-        # Parser le CSV
-        resultats = parser.parse_course_csv(csv_path)
+        # Parser le CSV (retourne tuple: resultats, date_course)
+        resultats, date_course = parser.parse_course_csv(csv_path)
         if not resultats:
             return
 
         # Récupérer les métadonnées de la course
         metadata = config.get_course_metadata(course_name, discipline)
-        
+
         # Si pas de métadonnées, créer des métadonnées par défaut pour FFC
         if metadata is None:
-            print(f"   ℹ️  Création automatique des métadonnées pour {course_name} (FFC)")
             metadata = CourseMetadata(
                 nom=course_name,
                 discipline=discipline,
                 federation="ffc",  # FFC par défaut pour les CSV
                 is_objectif=False,
-                saison="25-26"
+                saison="25-26",
+                date_course=date_course
             )
-        
+        elif date_course and not metadata.date_course:
+            # Mettre à jour la date si elle vient du CSV et n'est pas dans les métadonnées
+            metadata = CourseMetadata(
+                nom=metadata.nom,
+                discipline=metadata.discipline,
+                federation=metadata.federation,
+                is_objectif=metadata.is_objectif,
+                saison=metadata.saison,
+                date_course=date_course
+            )
+
         federation = metadata.federation
         is_objectif = metadata.is_objectif
-        
-        print(f"   DEBUG: discipline={discipline}, federation={federation}")
 
         # Affichage
-        objectif_marker = " ⭐" if is_objectif else ""
+        objectif_marker = " ★" if is_objectif else ""
         nb_coureurs_trouves = 0
 
         # Pour chaque coureur ECWM
@@ -338,7 +346,7 @@ class ECWMPipeline:
 
         # Affichage
         course_display = course_name.upper().ljust(25)
-        print(f"📄 {course_display}→ {nb_coureurs_trouves:2d} coureurs{objectif_marker}")
+        print(f"{course_display} -> {nb_coureurs_trouves:2d} coureurs{objectif_marker}")
 
 
     def _process_manual_entries(
@@ -355,6 +363,8 @@ class ECWMPipeline:
             return
 
         nb_resultats = 0
+        courses_info = {}  # Pour mise à jour du metadata: {(nom, discipline): info}
+
         for result in manual_results:
             # Chercher le coureur parmi nos coureurs ECWM
             coureur_trouve = None
@@ -369,6 +379,9 @@ class ECWMPipeline:
             # Récupérer les métadonnées (ou créer avec les infos du result)
             manual_metadata = config.get_course_metadata(result.course_name, result.discipline)
 
+            # Déterminer la date : priorité au ManualResult, sinon métadonnées
+            date_course = result.date or (manual_metadata.date_course if manual_metadata else None)
+
             # Si pas de métadonnées, créer avec les infos de la saisie manuelle
             if manual_metadata is None:
                 from src.core.models import CourseMetadata
@@ -377,8 +390,30 @@ class ECWMPipeline:
                     discipline=result.discipline,
                     federation=result.federation,  # Utiliser la fédération de la saisie manuelle !
                     is_objectif=False,
-                    saison="25-26"
+                    saison="25-26",
+                    date_course=date_course
                 )
+            elif date_course and manual_metadata.date_course != date_course:
+                # Mettre à jour avec la date du ManualResult si différente
+                from src.core.models import CourseMetadata
+                manual_metadata = CourseMetadata(
+                    nom=manual_metadata.nom,
+                    discipline=manual_metadata.discipline,
+                    federation=manual_metadata.federation,
+                    is_objectif=manual_metadata.is_objectif,
+                    saison=manual_metadata.saison,
+                    date_course=date_course
+                )
+
+            # Collecter les infos pour mise à jour du metadata
+            key = (result.course_name, result.discipline)
+            if key not in courses_info:
+                courses_info[key] = {
+                    'course_name': result.course_name,
+                    'discipline': result.discipline,
+                    'federation': result.federation,
+                    'date_course': date_course
+                }
 
             # Calculer les points (utiliser la méthode pour saisies manuelles)
             course_points = calculator.calculate_course_points_manual(
@@ -396,8 +431,93 @@ class ECWMPipeline:
             classements[nom_norm].add_course(course_points)
             nb_resultats += 1
 
-        print(f"   ✅ {nb_resultats} résultats manuels traités")
+        # Mettre à jour courses_metadata.csv avec les saisies manuelles
+        if courses_info:
+            self._update_courses_metadata(list(courses_info.values()))
+
+        print(f"   {nb_resultats} resultats manuels traites")
         print()
+
+    def _update_courses_metadata(
+        self,
+        courses_info: list,
+        metadata_path: str = "data/courses_metadata.csv"
+    ) -> int:
+        """
+        Met à jour courses_metadata.csv avec les courses des saisies manuelles
+
+        Args:
+            courses_info: Liste de dicts {course_name, discipline, federation, date_course}
+            metadata_path: Chemin du fichier CSV de métadonnées
+
+        Returns:
+            Nombre de courses ajoutées ou mises à jour
+        """
+        import csv
+
+        # Lire le fichier existant
+        rows = []
+        fieldnames = ['nom', 'discipline', 'federation', 'is_objectif', 'saison', 'date_course']
+
+        if os.path.exists(metadata_path):
+            with open(metadata_path, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                if reader.fieldnames:
+                    fieldnames = list(reader.fieldnames)
+                    if 'date_course' not in fieldnames:
+                        fieldnames.append('date_course')
+                rows = list(reader)
+
+        # Index des courses existantes
+        existing_courses = {}
+        for i, row in enumerate(rows):
+            nom = row['nom'].strip().lower()
+            discipline = row['discipline'].strip().lower()
+            existing_courses[(nom, discipline)] = i
+
+        added = 0
+        updated = 0
+
+        for info in courses_info:
+            course_name = info['course_name'].strip().lower()
+            discipline = info['discipline'].strip().lower()
+            date_course = info.get('date_course') or ''
+            federation = info.get('federation', 'ufolep').strip().lower()
+
+            key = (course_name, discipline)
+
+            if key in existing_courses:
+                # Course existe -> mettre à jour la date si différente
+                idx = existing_courses[key]
+                old_date = rows[idx].get('date_course', '')
+                if date_course and date_course != old_date:
+                    rows[idx]['date_course'] = date_course
+                    updated += 1
+            else:
+                # Nouvelle course -> ajouter
+                new_row = {
+                    'nom': course_name,
+                    'discipline': discipline,
+                    'federation': federation,
+                    'is_objectif': 'false',
+                    'saison': '25-26',
+                    'date_course': date_course
+                }
+                rows.append(new_row)
+                existing_courses[key] = len(rows) - 1
+                added += 1
+
+        # Trier par nom puis discipline
+        rows.sort(key=lambda r: (r['nom'].lower(), r['discipline'].lower()))
+
+        # Écrire le fichier
+        with open(metadata_path, 'w', encoding='utf-8', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(rows)
+
+        if added > 0 or updated > 0:
+            print(f"   {added} courses ajoutees, {updated} dates mises a jour dans {metadata_path}")
 
     def _print_top10(self, classements: Dict[str, CoureurClassement]) -> None:
         """Affiche le TOP 10"""
@@ -481,6 +601,7 @@ class ECWMPipeline:
                         'coefficient': cp.coefficient,
                         'bonus_objectif': cp.bonus_objectif,
                         'points_total': cp.points_total,
+                        'date_course': cp.date_course,
                     }
                     for cp in coureur.courses_detail
                 ],
@@ -722,6 +843,7 @@ class ECWMPipeline:
                         'coefficient': cp['coefficient'],
                         'bonus_objectif': cp['bonus_objectif'],
                         'points': round(cp['points_total'], 1),
+                        'date_course': cp.get('date_course'),
                     }
                     for cp in coureur_data['courses_detail']
                 ],
@@ -749,7 +871,7 @@ class ECWMPipeline:
 
         # Calculer la liste des courses avec participants
         # Utiliser (nom, discipline, federation) comme clé pour séparer UFOLEP et FFC
-        courses_stats = {}  # {(nom, discipline, federation): {nb_participants, is_objectif}}
+        courses_stats = {}  # {(nom, discipline, federation): {nb_participants, is_objectif, date_course}}
         for coureur_data in classements_data.values():
             for cp in coureur_data['courses_detail']:
                 key = (cp['course'], cp['discipline'], cp['federation'])
@@ -758,9 +880,13 @@ class ECWMPipeline:
                     metadata = config.get_course_metadata(cp['course'], cp['discipline'])
                     courses_stats[key] = {
                         'nb_participants': 0,
-                        'is_objectif': metadata.is_objectif if metadata else False
+                        'is_objectif': metadata.is_objectif if metadata else False,
+                        'date_course': cp.get('date_course') or (metadata.date_course if metadata else None)
                     }
                 courses_stats[key]['nb_participants'] += 1
+                # Mettre à jour la date si elle est disponible dans le résultat
+                if cp.get('date_course') and not courses_stats[key]['date_course']:
+                    courses_stats[key]['date_course'] = cp.get('date_course')
 
         # Construire la liste des courses pour le site
         courses_list = []
@@ -770,11 +896,15 @@ class ECWMPipeline:
                 'discipline': discipline,
                 'federation': federation,
                 'is_objectif': stats['is_objectif'],
-                'nb_participants': stats['nb_participants']
+                'nb_participants': stats['nb_participants'],
+                'date_course': stats['date_course']
             })
 
-        # Trier par nom
-        courses_list.sort(key=lambda c: c['nom'])
+        # Trier par date (plus récentes en premier), puis par nom
+        def sort_key(c):
+            date = c.get('date_course') or '9999-12-31'  # Les courses sans date à la fin
+            return (date, c['nom'])
+        courses_list.sort(key=sort_key, reverse=True)
 
         # Charger la configuration des badges pour le site
         badge_calculator = BadgeCalculator()
