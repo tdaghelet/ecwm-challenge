@@ -47,21 +47,60 @@ class UfolepCalendarScraper:
     """Scraper pour le calendrier UFOLEP CX/VTT"""
 
     BASE_URL = "https://www.cyclismeufolep5962.fr/"
-    CALENDAR_URLS = {
-        'cx': "https://www.cyclismeufolep5962.fr/calResCross.php",
-        'vtt': "https://www.cyclismeufolep5962.fr/calResVTT.php"
-    }
 
-    def __init__(self, timeout: int = 10):
+    def __init__(self, timeout: int = 10, sources_file: str = "config/sources_ufolep.csv"):
         """
         Initialise le scraper
 
         Args:
             timeout: Timeout des requêtes HTTP en secondes
+            sources_file: Chemin vers le fichier de config des sources UFOLEP
         """
         self.timeout = timeout
+        self.sources_file = sources_file
         self.session = requests.Session()
         self.session.verify = False  # Pour ignorer les erreurs SSL
+        self.calendar_urls = self._load_sources()
+
+    def _load_sources(self) -> Dict[str, str]:
+        """
+        Charge les URLs des calendriers depuis le fichier CSV
+
+        Returns:
+            Dictionnaire {discipline: url}
+        """
+        if not os.path.exists(self.sources_file):
+            print(f"⚠️  Fichier {self.sources_file} non trouvé, utilisation des URLs par défaut")
+            return {
+                'cx': "https://www.cyclismeufolep5962.fr/calResCross.php",
+                'vtt': "https://www.cyclismeufolep5962.fr/calResVTT.php"
+            }
+
+        try:
+            import pandas as pd
+            df = pd.read_csv(self.sources_file, comment='#')
+
+            if 'discipline' not in df.columns or 'url' not in df.columns:
+                print(f"⚠️  Colonnes manquantes dans {self.sources_file}, utilisation des URLs par défaut")
+                return {
+                    'cx': "https://www.cyclismeufolep5962.fr/calResCross.php",
+                    'vtt': "https://www.cyclismeufolep5962.fr/calResVTT.php"
+                }
+
+            urls = {}
+            for _, row in df.iterrows():
+                discipline = row['discipline'].strip().lower()
+                url = row['url'].strip()
+                urls[discipline] = url
+
+            return urls
+
+        except Exception as e:
+            print(f"⚠️  Erreur lors du chargement de {self.sources_file}: {e}")
+            return {
+                'cx': "https://www.cyclismeufolep5962.fr/calResCross.php",
+                'vtt': "https://www.cyclismeufolep5962.fr/calResVTT.php"
+            }
 
     def _parse_date_fr(self, date_str: str, year_hint: int = None) -> Optional[str]:
         """
@@ -133,10 +172,10 @@ class UfolepCalendarScraper:
         Returns:
             Liste des entrées du calendrier
         """
-        if discipline not in self.CALENDAR_URLS:
-            raise ValueError(f"Discipline inconnue: {discipline}")
+        if discipline not in self.calendar_urls:
+            raise ValueError(f"Discipline inconnue: {discipline}. Disciplines disponibles: {list(self.calendar_urls.keys())}")
 
-        url = self.CALENDAR_URLS[discipline]
+        url = self.calendar_urls[discipline]
         print(f"   Récupération du calendrier {discipline.upper()}: {url}")
 
         try:
@@ -280,7 +319,7 @@ class UfolepCalendarScraper:
     def update_courses_metadata(
         self,
         entries: List[UfolepCalendarEntry],
-        metadata_path: str = "data/courses_metadata.csv"
+        metadata_path: str = "config/courses.csv"
     ) -> int:
         """
         Met à jour courses_metadata.csv avec les courses scrapées :

@@ -10,7 +10,7 @@ auchy-les-mines,vtt,ufolep,false,25-26,2025-11-02
 avesnes-les-aubert,cx,ufolep,false,25-26,2025-12-07
 avesnes-les-aubert,vtt,ufolep,false,25-26,2025-12-07
 baal,cx,uci,false,25-26,2026-01-01
-barlin,cx,ffc,false,25-26,2025-10-11
+barlin,cx,ffc,false,25-26,2026-01-18
 beautor,cx,ffc,false,25-26,2025-12-07
 bethune,cx,uci,false,25-26,2025-12-20
 bettrechies,cx,ufolep,false,25-26,2025-10-19
@@ -45,8 +45,8 @@ fourmies,vtt,ufolep,false,25-26,2025-11-02
 france troyes,cx,uci,false,25-26,2026-01-11
 gernelle,cx,uci,false,25-26,2025-11-22
 gullegem,cx,uci,false,25-26,2026-01-03
-halluin,cx,ufolep,false,25-26,2025-10-26
-halluin,vtt,ufolep,false,25-26,2025-10-26
+halluin,cx,ufolep,true,25-26,2025-10-26
+halluin,vtt,ufolep,true,25-26,2025-10-26
 haspres,cx,ufolep,false,25-26,2025-11-15
 haspres,vtt,ufolep,false,25-26,2025-11-15
 haspres2,cx,ufolep,false,25-26,2026-01-18
@@ -64,8 +64,8 @@ le-quesnoy,vtt,ufolep,false,25-26,2026-01-11
 le-touquet,cx,ufolep,false,25-26,2026-01-31
 le-touquet,vtt,ufolep,false,25-26,2026-01-31
 lievin,cx,ffc,false,25-26,2025-12-28
-lille-btwin-village,cx,ufolep,false,25-26,2025-11-23
-lille-btwin-village,vtt,ufolep,false,25-26,2025-11-23
+lille-btwin-village,cx,ufolep,true,25-26,2025-11-23
+lille-btwin-village,vtt,ufolep,true,25-26,2025-11-23
 lillers,cx,ufolep,false,25-26,2025-10-19
 lillers,vtt,ufolep,false,25-26,2025-10-19
 lillers2,cx,ufolep,false,25-26,2025-11-22
@@ -101,8 +101,8 @@ saint-waast-la-vallee,vtt,ufolep,false,25-26,2025-11-22
 solesmes,cx,ufolep,false,25-26,2026-01-31
 solesmes,vtt,ufolep,false,25-26,2026-01-31
 terril-89---hénin-beaumont,cx,ufolep,false,25-26,2025-11-01
-verlinghem,cx,ufolep,false,25-26,2025-11-29
-verlinghem,vtt,ufolep,false,25-26,2025-11-30
+verlinghem,cx,ufolep,true,25-26,2025-11-29
+verlinghem,vtt,ufolep,true,25-26,2025-11-30
 vieux-conde,vtt,ufolep,false,25-26,2025-10-12
 vieux-condé,cx,ufolep,false,25-26,2025-10-12
 vimy,cx,ffc,false,25-26,2025-08-10

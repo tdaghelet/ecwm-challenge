@@ -38,12 +38,12 @@ class BadgeObtenu:
 class BadgeCalculator:
     """Calculateur de badges pour les coureurs"""
 
-    def __init__(self, config_dir: str = "data"):
+    def __init__(self, config_dir: str = "config"):
         """
         Initialise le calculateur
 
         Args:
-            config_dir: Répertoire contenant badges_config.csv
+            config_dir: Répertoire contenant badges.csv
         """
         self.badges: List[Badge] = []
         self.load_badges_config(config_dir)
@@ -55,7 +55,7 @@ class BadgeCalculator:
         Args:
             config_dir: Répertoire contenant le fichier de config
         """
-        csv_path = os.path.join(config_dir, "badges_config.csv")
+        csv_path = os.path.join(config_dir, "badges.csv")
 
         if not os.path.exists(csv_path):
             print(f"⚠️  Fichier {csv_path} non trouvé, badges désactivés")

@@ -29,7 +29,7 @@ cache/
 # Données sensibles (à ajuster selon vos besoins)
 # data/ecwm_coureurs.csv  # Décommenter si noms privés
 
-old/
+cartons/
 
 # Optionnel : exclure les anciens PDFs
 # classements24-25/

@@ -1,0 +1,6 @@
+# Configuration des sources UFOLEP à scraper
+# Format: discipline,url
+# Les URLs pointent vers les calendriers UFOLEP avec les résultats
+discipline,url
+cx,https://www.cyclismeufolep5962.fr/calResCross.php
+vtt,https://www.cyclismeufolep5962.fr/calResVTT.php

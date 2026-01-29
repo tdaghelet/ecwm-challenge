@@ -140,7 +140,7 @@ class ManualParser:
             print(f"❌ Erreur lors du parsing de {source_url}: {e}")
             return []
 
-    def load_all_sources(self, config_path: str = "data/sources_config.csv") -> List[ManualResult]:
+    def load_all_sources(self, config_path: str = "config/sources_manuelles.csv") -> List[ManualResult]:
         """
         Charge tous les résultats depuis toutes les sources actives
 

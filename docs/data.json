@@ -1,6 +1,6 @@
 {
   "meta": {
-    "derniere_maj": "28/01/2026 à 23:05",
+    "derniere_maj": "29/01/2026 12:27",
     "nb_coureurs": 78,
     "nb_courses": 58
   },
@@ -373,9 +373,9 @@
       "nom": "DAGHELET THOMAS",
       "nb_courses": 20,
       "nb_courses_objectif": 0,
-      "points_courses": 759,
+      "points_courses": 797,
       "bonus_badges": 195,
-      "points_total": 954,
+      "points_total": 992,
       "courses_detail": [
         {
           "course": "auchy-les-mines",
@@ -505,11 +505,11 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 53.8,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 13.5,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 38,
+          "bonus_objectif": 1.5,
+          "points": 51,
           "date_course": "2025-11-23"
         },
         {
@@ -565,12 +565,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 57.1,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 14.3,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 39,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 52,
+          "date_course": "2025-11-30"
         },
         {
           "course": "vieux-condé",
@@ -670,12 +670,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 46.2,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 11.5,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 37,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 49,
+          "date_course": "2025-11-30"
         }
       ],
       "badges": [
@@ -713,9 +713,9 @@
       "nom": "DE RIEMAECKER TOM",
       "nb_courses": 13,
       "nb_courses_objectif": 0,
-      "points_courses": 532,
+      "points_courses": 569,
       "bonus_badges": 160,
-      "points_total": 692,
+      "points_total": 729,
       "courses_detail": [
         {
           "course": "le-quesnoy",
@@ -740,11 +740,11 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 100.0,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 18.8,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 44,
+          "bonus_objectif": 1.5,
+          "points": 56,
           "date_course": "2025-11-23"
         },
         {
@@ -800,12 +800,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 83.3,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 15.6,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 41,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 53,
+          "date_course": "2025-11-30"
         },
         {
           "course": "abbeville",
@@ -865,7 +865,7 @@
           "coefficient": 1.0,
           "bonus_objectif": 1.0,
           "points": 42,
-          "date_course": "2025-10-11"
+          "date_course": "2026-01-18"
         },
         {
           "course": "beautor",
@@ -905,12 +905,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 88.9,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 22.2,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 47,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 60,
+          "date_course": "2025-11-30"
         }
       ],
       "badges": [
@@ -966,9 +966,9 @@
       "nom": "VANDERMEIREN MANUEL",
       "nb_courses": 16,
       "nb_courses_objectif": 0,
-      "points_courses": 537,
+      "points_courses": 588,
       "bonus_badges": 130,
-      "points_total": 667,
+      "points_total": 718,
       "courses_detail": [
         {
           "course": "auchy-les-mines",
@@ -1038,11 +1038,11 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 13.3,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 3.3,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 28,
+          "bonus_objectif": 1.5,
+          "points": 41,
           "date_course": "2025-10-26"
         },
         {
@@ -1098,11 +1098,11 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 28.6,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 7.1,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 32,
+          "bonus_objectif": 1.5,
+          "points": 45,
           "date_course": "2025-11-23"
         },
         {
@@ -1128,12 +1128,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 26.7,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 6.7,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 32,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 44,
+          "date_course": "2025-11-30"
         },
         {
           "course": "arenberg",
@@ -1163,7 +1163,7 @@
           "coefficient": 1.0,
           "bonus_objectif": 1.0,
           "points": 38,
-          "date_course": "2025-10-11"
+          "date_course": "2026-01-18"
         },
         {
           "course": "bruay",
@@ -1203,12 +1203,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 53.8,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 13.5,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 38,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 51,
+          "date_course": "2025-11-30"
         }
       ],
       "badges": [
@@ -1246,9 +1246,9 @@
       "nom": "LEONARDI FLORIAN",
       "nb_courses": 12,
       "nb_courses_objectif": 0,
-      "points_courses": 478,
+      "points_courses": 516,
       "bonus_badges": 70,
-      "points_total": 548,
+      "points_total": 586,
       "courses_detail": [
         {
           "course": "auchy-les-mines",
@@ -1318,11 +1318,11 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 71.0,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 17.7,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 43,
+          "bonus_objectif": 1.5,
+          "points": 55,
           "date_course": "2025-10-26"
         },
         {
@@ -1348,11 +1348,11 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 80.8,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 20.2,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 45,
+          "bonus_objectif": 1.5,
+          "points": 58,
           "date_course": "2025-11-23"
         },
         {
@@ -1423,12 +1423,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 52.4,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 13.1,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 38,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 51,
+          "date_course": "2025-11-30"
         }
       ],
       "badges": [
@@ -1457,9 +1457,9 @@
       "nom": "MALVACHE NICOLAS",
       "nb_courses": 8,
       "nb_courses_objectif": 0,
-      "points_courses": 267,
+      "points_courses": 292,
       "bonus_badges": 30,
-      "points_total": 297,
+      "points_total": 322,
       "courses_detail": [
         {
           "course": "eclaibes",
@@ -1484,11 +1484,11 @@
           "discipline": "vtt",
           "federation": "ufolep",
           "percentile": 10.0,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 2.5,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 28,
+          "bonus_objectif": 1.5,
+          "points": 40,
           "date_course": "2025-10-26"
         },
         {
@@ -1574,11 +1574,11 @@
           "discipline": "vtt",
           "federation": "ufolep",
           "percentile": 50.0,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 6.2,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 31,
+          "bonus_objectif": 1.5,
+          "points": 44,
           "date_course": "2025-11-30"
         }
       ],
@@ -1599,9 +1599,9 @@
       "nom": "NUEE VALENTIN",
       "nb_courses": 8,
       "nb_courses_objectif": 0,
-      "points_courses": 258,
+      "points_courses": 270,
       "bonus_badges": 30,
-      "points_total": 288,
+      "points_total": 300,
       "courses_detail": [
         {
           "course": "auchy-les-mines",
@@ -1701,12 +1701,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 30.4,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 7.6,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 33,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 45,
+          "date_course": "2025-11-30"
         },
         {
           "course": "vieux-condé",
@@ -1741,9 +1741,9 @@
       "nom": "SYMOND OCTAVE",
       "nb_courses": 5,
       "nb_courses_objectif": 0,
-      "points_courses": 197,
+      "points_courses": 234,
       "bonus_badges": 20,
-      "points_total": 217,
+      "points_total": 254,
       "courses_detail": [
         {
           "course": "lille-btwin-village",
@@ -1753,11 +1753,11 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 66.7,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 16.7,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 42,
+          "bonus_objectif": 1.5,
+          "points": 54,
           "date_course": "2025-11-23"
         },
         {
@@ -1783,12 +1783,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 72.2,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 18.1,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 43,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 56,
+          "date_course": "2025-11-30"
         },
         {
           "course": "arenberg",
@@ -1813,12 +1813,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 50.0,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 12.5,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 38,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 50,
+          "date_course": "2025-11-30"
         }
       ],
       "badges": [
@@ -1900,7 +1900,7 @@
           "coefficient": 1.0,
           "bonus_objectif": 1.0,
           "points": 33,
-          "date_course": "2025-10-11"
+          "date_course": "2026-01-18"
         },
         {
           "course": "beautor",
@@ -1925,9 +1925,9 @@
       "nom": "GEMELINE MATTHIEU",
       "nb_courses": 4,
       "nb_courses_objectif": 0,
-      "points_courses": 150,
+      "points_courses": 162,
       "bonus_badges": 0,
-      "points_total": 150,
+      "points_total": 162,
       "courses_detail": [
         {
           "course": "dept-haspres",
@@ -1967,12 +1967,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 43.5,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 10.9,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 36,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 48,
+          "date_course": "2025-11-30"
         },
         {
           "course": "wingles-2---pyramides-passion",
@@ -1997,9 +1997,9 @@
       "nom": "BOUVET GRICOURT HUGO",
       "nb_courses": 5,
       "nb_courses_objectif": 0,
-      "points_courses": 149,
+      "points_courses": 161,
       "bonus_badges": 0,
-      "points_total": 149,
+      "points_total": 161,
       "courses_detail": [
         {
           "course": "auchy-les-mines",
@@ -2069,24 +2069,81 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 20.0,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 5.0,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 30,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 42,
+          "date_course": "2025-11-30"
         }
       ],
       "badges": [],
       "rang": 11
     },
     {
+      "nom": "BROSSE MAELAN",
+      "nb_courses": 3,
+      "nb_courses_objectif": 0,
+      "points_courses": 138,
+      "bonus_badges": 0,
+      "points_total": 138,
+      "courses_detail": [
+        {
+          "course": "dept-haspres",
+          "position": "10",
+          "nb_participants": 15,
+          "categorie": "Benjamins",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 40.0,
+          "points_participation": 25.0,
+          "points_performance": 10.0,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 35,
+          "date_course": "2025-12-14"
+        },
+        {
+          "course": "lille-btwin-village",
+          "position": "9",
+          "nb_participants": 18,
+          "categorie": "Benjamins",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 55.6,
+          "points_participation": 37.5,
+          "points_performance": 13.9,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 51,
+          "date_course": "2025-11-23"
+        },
+        {
+          "course": "verlinghem",
+          "position": "9",
+          "nb_participants": 20,
+          "categorie": "U13",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 60.0,
+          "points_participation": 37.5,
+          "points_performance": 15.0,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 52,
+          "date_course": "2025-11-30"
+        }
+      ],
+      "badges": [],
+      "rang": 12
+    },
+    {
       "nom": "LONZA GASPARD",
       "nb_courses": 3,
       "nb_courses_objectif": 0,
-      "points_courses": 103,
+      "points_courses": 116,
       "bonus_badges": 20,
-      "points_total": 123,
+      "points_total": 136,
       "courses_detail": [
         {
           "course": "arenberg",
@@ -2126,12 +2183,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 37.0,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 9.3,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 34,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 47,
+          "date_course": "2025-11-30"
         }
       ],
       "badges": [
@@ -2145,72 +2202,15 @@
           "bonus_points": 20
         }
       ],
-      "rang": 12
-    },
-    {
-      "nom": "BROSSE MAELAN",
-      "nb_courses": 3,
-      "nb_courses_objectif": 0,
-      "points_courses": 114,
-      "bonus_badges": 0,
-      "points_total": 114,
-      "courses_detail": [
-        {
-          "course": "dept-haspres",
-          "position": "10",
-          "nb_participants": 15,
-          "categorie": "Benjamins",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 40.0,
-          "points_participation": 25.0,
-          "points_performance": 10.0,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 35,
-          "date_course": "2025-12-14"
-        },
-        {
-          "course": "lille-btwin-village",
-          "position": "9",
-          "nb_participants": 18,
-          "categorie": "Benjamins",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 55.6,
-          "points_participation": 25.0,
-          "points_performance": 13.9,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 39,
-          "date_course": "2025-11-23"
-        },
-        {
-          "course": "verlinghem",
-          "position": "9",
-          "nb_participants": 20,
-          "categorie": "U13",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 60.0,
-          "points_participation": 25.0,
-          "points_performance": 15.0,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 40,
-          "date_course": "2025-11-29"
-        }
-      ],
-      "badges": [],
       "rang": 13
     },
     {
       "nom": "SIJNESAEL PABLO",
       "nb_courses": 3,
       "nb_courses_objectif": 0,
-      "points_courses": 90,
+      "points_courses": 114,
       "bonus_badges": 20,
-      "points_total": 110,
+      "points_total": 134,
       "courses_detail": [
         {
           "course": "verlinghem",
@@ -2220,12 +2220,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 20.0,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 5.0,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 30,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 42,
+          "date_course": "2025-11-30"
         },
         {
           "course": "bruay",
@@ -2250,12 +2250,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 35.0,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 8.8,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 34,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 46,
+          "date_course": "2025-11-30"
         }
       ],
       "badges": [
@@ -2270,6 +2270,58 @@
         }
       ],
       "rang": 14
+    },
+    {
+      "nom": "NIEPCERON ALIX",
+      "nb_courses": 2,
+      "nb_courses_objectif": 0,
+      "points_courses": 83,
+      "bonus_badges": 20,
+      "points_total": 103,
+      "courses_detail": [
+        {
+          "course": "arenberg",
+          "position": "12",
+          "nb_participants": 17,
+          "categorie": "U13",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 35.3,
+          "points_participation": 25.0,
+          "points_performance": 8.8,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 34,
+          "date_course": "2025-11-11"
+        },
+        {
+          "course": "verlinghem",
+          "position": "12",
+          "nb_participants": 20,
+          "categorie": "U13",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 45.0,
+          "points_participation": 37.5,
+          "points_performance": 11.2,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 49,
+          "date_course": "2025-11-30"
+        }
+      ],
+      "badges": [
+        {
+          "badge_id": "multi_fede",
+          "nom": "Multi-fédé",
+          "emoji": "🌟",
+          "description": "Participer aux deux fédérations",
+          "niveau": null,
+          "valeur_obtenue": 100,
+          "bonus_points": 20
+        }
+      ],
+      "rang": 15
     },
     {
       "nom": "BRIFFAUX JUSTIN",
@@ -2326,45 +2378,45 @@
         }
       ],
       "badges": [],
-      "rang": 15
+      "rang": 16
     },
     {
-      "nom": "NIEPCERON ALIX",
+      "nom": "MAES NILS",
       "nb_courses": 2,
       "nb_courses_objectif": 0,
-      "points_courses": 70,
+      "points_courses": 75,
       "bonus_badges": 20,
-      "points_total": 90,
+      "points_total": 95,
       "courses_detail": [
         {
           "course": "arenberg",
-          "position": "12",
-          "nb_participants": 17,
-          "categorie": "U13",
+          "position": "8",
+          "nb_participants": 10,
+          "categorie": "U11",
           "discipline": "cx",
           "federation": "ffc",
-          "percentile": 35.3,
+          "percentile": 30.0,
           "points_participation": 25.0,
-          "points_performance": 8.8,
+          "points_performance": 7.5,
           "coefficient": 1.0,
           "bonus_objectif": 1.0,
-          "points": 34,
+          "points": 32,
           "date_course": "2025-11-11"
         },
         {
           "course": "verlinghem",
           "position": "12",
-          "nb_participants": 20,
-          "categorie": "U13",
+          "nb_participants": 14,
+          "categorie": "U11",
           "discipline": "cx",
           "federation": "ufolep",
-          "percentile": 45.0,
-          "points_participation": 25.0,
-          "points_performance": 11.2,
+          "percentile": 21.4,
+          "points_participation": 37.5,
+          "points_performance": 5.4,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 36,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 43,
+          "date_course": "2025-11-30"
         }
       ],
       "badges": [
@@ -2378,7 +2430,185 @@
           "bonus_points": 20
         }
       ],
-      "rang": 16
+      "rang": 17
+    },
+    {
+      "nom": "ADAM AUGUSTIN",
+      "nb_courses": 2,
+      "nb_courses_objectif": 0,
+      "points_courses": 91,
+      "bonus_badges": 0,
+      "points_total": 91,
+      "courses_detail": [
+        {
+          "course": "verlinghem",
+          "position": "6",
+          "nb_participants": 10,
+          "categorie": "Benjamins",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 50.0,
+          "points_participation": 37.5,
+          "points_performance": 12.5,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 50,
+          "date_course": "2025-11-30"
+        },
+        {
+          "course": "verlinghem",
+          "position": "18",
+          "nb_participants": 20,
+          "categorie": "U13",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 15.0,
+          "points_participation": 37.5,
+          "points_performance": 3.8,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 41,
+          "date_course": "2025-11-30"
+        }
+      ],
+      "badges": [],
+      "rang": 18
+    },
+    {
+      "nom": "STIEVENARD HADRIEN",
+      "nb_courses": 2,
+      "nb_courses_objectif": 0,
+      "points_courses": 71,
+      "bonus_badges": 20,
+      "points_total": 91,
+      "courses_detail": [
+        {
+          "course": "arenberg",
+          "position": "15",
+          "nb_participants": 17,
+          "categorie": "U13",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 17.6,
+          "points_participation": 25.0,
+          "points_performance": 4.4,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 29,
+          "date_course": "2025-11-11"
+        },
+        {
+          "course": "verlinghem",
+          "position": "17",
+          "nb_participants": 20,
+          "categorie": "U13",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 20.0,
+          "points_participation": 37.5,
+          "points_performance": 5.0,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 42,
+          "date_course": "2025-11-30"
+        }
+      ],
+      "badges": [
+        {
+          "badge_id": "multi_fede",
+          "nom": "Multi-fédé",
+          "emoji": "🌟",
+          "description": "Participer aux deux fédérations",
+          "niveau": null,
+          "valeur_obtenue": 100,
+          "bonus_points": 20
+        }
+      ],
+      "rang": 19
+    },
+    {
+      "nom": "ADAM VALENTIN",
+      "nb_courses": 2,
+      "nb_courses_objectif": 0,
+      "points_courses": 86,
+      "bonus_badges": 0,
+      "points_total": 86,
+      "courses_detail": [
+        {
+          "course": "verlinghem",
+          "position": "14",
+          "nb_participants": 18,
+          "categorie": "Minimes",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 27.8,
+          "points_participation": 37.5,
+          "points_performance": 6.9,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 44,
+          "date_course": "2025-11-30"
+        },
+        {
+          "course": "verlinghem",
+          "position": "22",
+          "nb_participants": 26,
+          "categorie": "U15",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 19.2,
+          "points_participation": 37.5,
+          "points_performance": 4.8,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 42,
+          "date_course": "2025-11-30"
+        }
+      ],
+      "badges": [],
+      "rang": 20
+    },
+    {
+      "nom": "SCHOUB LUDOVIC",
+      "nb_courses": 2,
+      "nb_courses_objectif": 0,
+      "points_courses": 86,
+      "bonus_badges": 0,
+      "points_total": 86,
+      "courses_detail": [
+        {
+          "course": "auchy-les-mines",
+          "position": "6",
+          "nb_participants": 12,
+          "categorie": "1ère Catégorie",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 58.3,
+          "points_participation": 25.0,
+          "points_performance": 14.6,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "points": 40,
+          "date_course": "2025-11-02"
+        },
+        {
+          "course": "verlinghem",
+          "position": "11",
+          "nb_participants": 15,
+          "categorie": "1ère Catégorie",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 33.3,
+          "points_participation": 37.5,
+          "points_performance": 8.3,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 46,
+          "date_course": "2025-11-30"
+        }
+      ],
+      "badges": [],
+      "rang": 21
     },
     {
       "nom": "LEFEVRE GREGOIRE",
@@ -2435,161 +2665,57 @@
         }
       ],
       "badges": [],
-      "rang": 17
+      "rang": 22
     },
     {
-      "nom": "MAES NILS",
+      "nom": "FAUCHILLE ERIC",
       "nb_courses": 2,
       "nb_courses_objectif": 0,
-      "points_courses": 62,
-      "bonus_badges": 20,
-      "points_total": 82,
-      "courses_detail": [
-        {
-          "course": "arenberg",
-          "position": "8",
-          "nb_participants": 10,
-          "categorie": "U11",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 30.0,
-          "points_participation": 25.0,
-          "points_performance": 7.5,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 32,
-          "date_course": "2025-11-11"
-        },
-        {
-          "course": "verlinghem",
-          "position": "12",
-          "nb_participants": 14,
-          "categorie": "U11",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 21.4,
-          "points_participation": 25.0,
-          "points_performance": 5.4,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 30,
-          "date_course": "2025-11-29"
-        }
-      ],
-      "badges": [
-        {
-          "badge_id": "multi_fede",
-          "nom": "Multi-fédé",
-          "emoji": "🌟",
-          "description": "Participer aux deux fédérations",
-          "niveau": null,
-          "valeur_obtenue": 100,
-          "bonus_points": 20
-        }
-      ],
-      "rang": 18
-    },
-    {
-      "nom": "STIEVENARD HADRIEN",
-      "nb_courses": 2,
-      "nb_courses_objectif": 0,
-      "points_courses": 59,
-      "bonus_badges": 20,
-      "points_total": 79,
-      "courses_detail": [
-        {
-          "course": "arenberg",
-          "position": "15",
-          "nb_participants": 17,
-          "categorie": "U13",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 17.6,
-          "points_participation": 25.0,
-          "points_performance": 4.4,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 29,
-          "date_course": "2025-11-11"
-        },
-        {
-          "course": "verlinghem",
-          "position": "17",
-          "nb_participants": 20,
-          "categorie": "U13",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 20.0,
-          "points_participation": 25.0,
-          "points_performance": 5.0,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 30,
-          "date_course": "2025-11-29"
-        }
-      ],
-      "badges": [
-        {
-          "badge_id": "multi_fede",
-          "nom": "Multi-fédé",
-          "emoji": "🌟",
-          "description": "Participer aux deux fédérations",
-          "niveau": null,
-          "valeur_obtenue": 100,
-          "bonus_points": 20
-        }
-      ],
-      "rang": 19
-    },
-    {
-      "nom": "SCHOUB LUDOVIC",
-      "nb_courses": 2,
-      "nb_courses_objectif": 0,
-      "points_courses": 73,
+      "points_courses": 84,
       "bonus_badges": 0,
-      "points_total": 73,
+      "points_total": 84,
       "courses_detail": [
         {
-          "course": "auchy-les-mines",
-          "position": "6",
-          "nb_participants": 12,
-          "categorie": "1ère Catégorie",
+          "course": "halluin",
+          "position": "37",
+          "nb_participants": 8,
+          "categorie": "3ème Catégorie",
           "discipline": "cx",
           "federation": "ufolep",
-          "percentile": 58.3,
-          "points_participation": 25.0,
-          "points_performance": 14.6,
+          "percentile": 0.0,
+          "points_participation": 37.5,
+          "points_performance": 0.0,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 40,
-          "date_course": "2025-11-02"
+          "bonus_objectif": 1.5,
+          "points": 38,
+          "date_course": "2025-10-26"
         },
         {
           "course": "verlinghem",
-          "position": "11",
-          "nb_participants": 15,
-          "categorie": "1ère Catégorie",
+          "position": "16",
+          "nb_participants": 23,
+          "categorie": "3ème Catégorie",
           "discipline": "cx",
           "federation": "ufolep",
-          "percentile": 33.3,
-          "points_participation": 25.0,
-          "points_performance": 8.3,
+          "percentile": 34.8,
+          "points_participation": 37.5,
+          "points_performance": 8.7,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 33,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 46,
+          "date_course": "2025-11-30"
         }
       ],
       "badges": [],
-      "rang": 20
+      "rang": 23
     },
     {
       "nom": "BROSSE JIMMY",
       "nb_courses": 2,
       "nb_courses_objectif": 0,
-      "points_courses": 69,
+      "points_courses": 82,
       "bonus_badges": 0,
-      "points_total": 69,
+      "points_total": 82,
       "courses_detail": [
         {
           "course": "dept-haspres",
@@ -2614,142 +2740,58 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 73.1,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 18.3,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 43,
+          "bonus_objectif": 1.5,
+          "points": 56,
           "date_course": "2025-11-23"
         }
       ],
       "badges": [],
-      "rang": 21
-    },
-    {
-      "nom": "ADAM AUGUSTIN",
-      "nb_courses": 2,
-      "nb_courses_objectif": 0,
-      "points_courses": 67,
-      "bonus_badges": 0,
-      "points_total": 67,
-      "courses_detail": [
-        {
-          "course": "verlinghem",
-          "position": "6",
-          "nb_participants": 10,
-          "categorie": "Benjamins",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 50.0,
-          "points_participation": 25.0,
-          "points_performance": 12.5,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 38,
-          "date_course": "2025-11-29"
-        },
-        {
-          "course": "verlinghem",
-          "position": "18",
-          "nb_participants": 20,
-          "categorie": "U13",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 15.0,
-          "points_participation": 25.0,
-          "points_performance": 3.8,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 29,
-          "date_course": "2025-11-29"
-        }
-      ],
-      "badges": [],
-      "rang": 22
-    },
-    {
-      "nom": "ADAM VALENTIN",
-      "nb_courses": 2,
-      "nb_courses_objectif": 0,
-      "points_courses": 62,
-      "bonus_badges": 0,
-      "points_total": 62,
-      "courses_detail": [
-        {
-          "course": "verlinghem",
-          "position": "14",
-          "nb_participants": 18,
-          "categorie": "Minimes",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 27.8,
-          "points_participation": 25.0,
-          "points_performance": 6.9,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 32,
-          "date_course": "2025-11-29"
-        },
-        {
-          "course": "verlinghem",
-          "position": "22",
-          "nb_participants": 26,
-          "categorie": "U15",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 19.2,
-          "points_participation": 25.0,
-          "points_performance": 4.8,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 30,
-          "date_course": "2025-11-29"
-        }
-      ],
-      "badges": [],
-      "rang": 23
-    },
-    {
-      "nom": "FAUCHILLE ERIC",
-      "nb_courses": 2,
-      "nb_courses_objectif": 0,
-      "points_courses": 59,
-      "bonus_badges": 0,
-      "points_total": 59,
-      "courses_detail": [
-        {
-          "course": "halluin",
-          "position": "37",
-          "nb_participants": 8,
-          "categorie": "3ème Catégorie",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 0.0,
-          "points_participation": 25.0,
-          "points_performance": 0.0,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 25,
-          "date_course": "2025-10-26"
-        },
-        {
-          "course": "verlinghem",
-          "position": "16",
-          "nb_participants": 23,
-          "categorie": "3ème Catégorie",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 34.8,
-          "points_participation": 25.0,
-          "points_performance": 8.7,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 34,
-          "date_course": "2025-11-29"
-        }
-      ],
-      "badges": [],
       "rang": 24
+    },
+    {
+      "nom": "GUERLE CLEMENT",
+      "nb_courses": 2,
+      "nb_courses_objectif": 0,
+      "points_courses": 81,
+      "bonus_badges": 0,
+      "points_total": 81,
+      "courses_detail": [
+        {
+          "course": "lille-btwin-village",
+          "position": "8",
+          "nb_participants": 8,
+          "categorie": "Cadets",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 12.5,
+          "points_participation": 37.5,
+          "points_performance": 2.3,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 40,
+          "date_course": "2025-11-23"
+        },
+        {
+          "course": "verlinghem",
+          "position": "24",
+          "nb_participants": 27,
+          "categorie": "U17",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 14.8,
+          "points_participation": 37.5,
+          "points_performance": 3.7,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 41,
+          "date_course": "2025-11-30"
+        }
+      ],
+      "badges": [],
+      "rang": 25
     },
     {
       "nom": "WYPELIER VICTOR",
@@ -2791,7 +2833,7 @@
         }
       ],
       "badges": [],
-      "rang": 25
+      "rang": 26
     },
     {
       "nom": "HUYNEN BATISTE",
@@ -2833,57 +2875,15 @@
         }
       ],
       "badges": [],
-      "rang": 26
-    },
-    {
-      "nom": "GUERLE CLEMENT",
-      "nb_courses": 2,
-      "nb_courses_objectif": 0,
-      "points_courses": 56,
-      "bonus_badges": 0,
-      "points_total": 56,
-      "courses_detail": [
-        {
-          "course": "lille-btwin-village",
-          "position": "8",
-          "nb_participants": 8,
-          "categorie": "Cadets",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 12.5,
-          "points_participation": 25.0,
-          "points_performance": 2.3,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 27,
-          "date_course": "2025-11-23"
-        },
-        {
-          "course": "verlinghem",
-          "position": "24",
-          "nb_participants": 27,
-          "categorie": "U17",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 14.8,
-          "points_participation": 25.0,
-          "points_performance": 3.7,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 29,
-          "date_course": "2025-11-29"
-        }
-      ],
-      "badges": [],
       "rang": 27
     },
     {
       "nom": "DUCATILLON CLARISSE",
       "nb_courses": 1,
       "nb_courses_objectif": 0,
-      "points_courses": 38,
+      "points_courses": 50,
       "bonus_badges": 0,
-      "points_total": 38,
+      "points_total": 50,
       "courses_detail": [
         {
           "course": "verlinghem",
@@ -2893,12 +2893,12 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 100.0,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 12.5,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 38,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 50,
+          "date_course": "2025-11-30"
         }
       ],
       "badges": [],
@@ -2908,9 +2908,9 @@
       "nom": "BOUQUET ARON",
       "nb_courses": 1,
       "nb_courses_objectif": 0,
-      "points_courses": 35,
+      "points_courses": 48,
       "bonus_badges": 0,
-      "points_total": 35,
+      "points_total": 48,
       "courses_detail": [
         {
           "course": "verlinghem",
@@ -2920,16 +2920,151 @@
           "discipline": "cx",
           "federation": "ufolep",
           "percentile": 40.7,
-          "points_participation": 25.0,
+          "points_participation": 37.5,
           "points_performance": 10.2,
           "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 35,
-          "date_course": "2025-11-29"
+          "bonus_objectif": 1.5,
+          "points": 48,
+          "date_course": "2025-11-30"
         }
       ],
       "badges": [],
       "rang": 29
+    },
+    {
+      "nom": "MUI PHILIPPE HOO TONG",
+      "nb_courses": 1,
+      "nb_courses_objectif": 0,
+      "points_courses": 43,
+      "bonus_badges": 0,
+      "points_total": 43,
+      "courses_detail": [
+        {
+          "course": "lille-btwin-village",
+          "position": "15",
+          "nb_participants": 18,
+          "categorie": "3ème Catégorie",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 22.2,
+          "points_participation": 37.5,
+          "points_performance": 5.6,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 43,
+          "date_course": "2025-11-23"
+        }
+      ],
+      "badges": [],
+      "rang": 30
+    },
+    {
+      "nom": "LABRE FRANCOIS",
+      "nb_courses": 1,
+      "nb_courses_objectif": 0,
+      "points_courses": 41,
+      "bonus_badges": 0,
+      "points_total": 41,
+      "courses_detail": [
+        {
+          "course": "verlinghem",
+          "position": "5",
+          "nb_participants": 5,
+          "categorie": "VTT Vétérans C",
+          "discipline": "vtt",
+          "federation": "ufolep",
+          "percentile": 20.0,
+          "points_participation": 37.5,
+          "points_performance": 3.8,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 41,
+          "date_course": "2025-11-30"
+        }
+      ],
+      "badges": [],
+      "rang": 31
+    },
+    {
+      "nom": "IDZIAK DIDIER",
+      "nb_courses": 1,
+      "nb_courses_objectif": 0,
+      "points_courses": 40,
+      "bonus_badges": 0,
+      "points_total": 40,
+      "courses_detail": [
+        {
+          "course": "verlinghem",
+          "position": "7",
+          "nb_participants": 7,
+          "categorie": "VTT Vétérans B",
+          "discipline": "vtt",
+          "federation": "ufolep",
+          "percentile": 14.3,
+          "points_participation": 37.5,
+          "points_performance": 2.7,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 40,
+          "date_course": "2025-11-30"
+        }
+      ],
+      "badges": [],
+      "rang": 32
+    },
+    {
+      "nom": "MOREAU THOMAS",
+      "nb_courses": 1,
+      "nb_courses_objectif": 0,
+      "points_courses": 40,
+      "bonus_badges": 0,
+      "points_total": 40,
+      "courses_detail": [
+        {
+          "course": "verlinghem",
+          "position": "22",
+          "nb_participants": 23,
+          "categorie": "3ème Catégorie",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 8.7,
+          "points_participation": 37.5,
+          "points_performance": 2.2,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 40,
+          "date_course": "2025-11-30"
+        }
+      ],
+      "badges": [],
+      "rang": 33
+    },
+    {
+      "nom": "SIJNESAEL REMI",
+      "nb_courses": 1,
+      "nb_courses_objectif": 0,
+      "points_courses": 40,
+      "bonus_badges": 0,
+      "points_total": 40,
+      "courses_detail": [
+        {
+          "course": "verlinghem",
+          "position": "20",
+          "nb_participants": 21,
+          "categorie": "2ème Catégorie",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 9.5,
+          "points_participation": 37.5,
+          "points_performance": 2.4,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "points": 40,
+          "date_course": "2025-11-30"
+        }
+      ],
+      "badges": [],
+      "rang": 34
     },
     {
       "nom": "SIJNESAEL RUBEN",
@@ -2956,7 +3091,7 @@
         }
       ],
       "badges": [],
-      "rang": 30
+      "rang": 35
     },
     {
       "nom": "AURY VALLET LOANN",
@@ -2983,7 +3118,7 @@
         }
       ],
       "badges": [],
-      "rang": 31
+      "rang": 36
     },
     {
       "nom": "BARRE VICTOR",
@@ -3010,34 +3145,7 @@
         }
       ],
       "badges": [],
-      "rang": 32
-    },
-    {
-      "nom": "MUI PHILIPPE HOO TONG",
-      "nb_courses": 1,
-      "nb_courses_objectif": 0,
-      "points_courses": 31,
-      "bonus_badges": 0,
-      "points_total": 31,
-      "courses_detail": [
-        {
-          "course": "lille-btwin-village",
-          "position": "15",
-          "nb_participants": 18,
-          "categorie": "3ème Catégorie",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 22.2,
-          "points_participation": 25.0,
-          "points_performance": 5.6,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 31,
-          "date_course": "2025-11-23"
-        }
-      ],
-      "badges": [],
-      "rang": 33
+      "rang": 37
     },
     {
       "nom": "VANDER POORTEN EZRA",
@@ -3064,34 +3172,7 @@
         }
       ],
       "badges": [],
-      "rang": 34
-    },
-    {
-      "nom": "LABRE FRANCOIS",
-      "nb_courses": 1,
-      "nb_courses_objectif": 0,
-      "points_courses": 29,
-      "bonus_badges": 0,
-      "points_total": 29,
-      "courses_detail": [
-        {
-          "course": "verlinghem",
-          "position": "5",
-          "nb_participants": 5,
-          "categorie": "VTT Vétérans C",
-          "discipline": "vtt",
-          "federation": "ufolep",
-          "percentile": 20.0,
-          "points_participation": 25.0,
-          "points_performance": 3.8,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 29,
-          "date_course": "2025-11-30"
-        }
-      ],
-      "badges": [],
-      "rang": 35
+      "rang": 38
     },
     {
       "nom": "DA CUNHA RAMOS NINO",
@@ -3118,7 +3199,7 @@
         }
       ],
       "badges": [],
-      "rang": 36
+      "rang": 39
     },
     {
       "nom": "HOFFMANN RAPHAEL",
@@ -3145,61 +3226,7 @@
         }
       ],
       "badges": [],
-      "rang": 37
-    },
-    {
-      "nom": "IDZIAK DIDIER",
-      "nb_courses": 1,
-      "nb_courses_objectif": 0,
-      "points_courses": 28,
-      "bonus_badges": 0,
-      "points_total": 28,
-      "courses_detail": [
-        {
-          "course": "verlinghem",
-          "position": "7",
-          "nb_participants": 7,
-          "categorie": "VTT Vétérans B",
-          "discipline": "vtt",
-          "federation": "ufolep",
-          "percentile": 14.3,
-          "points_participation": 25.0,
-          "points_performance": 2.7,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 28,
-          "date_course": "2025-11-30"
-        }
-      ],
-      "badges": [],
-      "rang": 38
-    },
-    {
-      "nom": "MOREAU THOMAS",
-      "nb_courses": 1,
-      "nb_courses_objectif": 0,
-      "points_courses": 27,
-      "bonus_badges": 0,
-      "points_total": 27,
-      "courses_detail": [
-        {
-          "course": "verlinghem",
-          "position": "22",
-          "nb_participants": 23,
-          "categorie": "3ème Catégorie",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 8.7,
-          "points_participation": 25.0,
-          "points_performance": 2.2,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 27,
-          "date_course": "2025-11-29"
-        }
-      ],
-      "badges": [],
-      "rang": 39
+      "rang": 40
     },
     {
       "nom": "MUI EMILE JACK",
@@ -3226,7 +3253,7 @@
         }
       ],
       "badges": [],
-      "rang": 40
+      "rang": 41
     },
     {
       "nom": "PERSON LOUIS",
@@ -3250,33 +3277,6 @@
           "bonus_objectif": 1.0,
           "points": 27,
           "date_course": "2025-11-11"
-        }
-      ],
-      "badges": [],
-      "rang": 41
-    },
-    {
-      "nom": "SIJNESAEL REMI",
-      "nb_courses": 1,
-      "nb_courses_objectif": 0,
-      "points_courses": 27,
-      "bonus_badges": 0,
-      "points_total": 27,
-      "courses_detail": [
-        {
-          "course": "verlinghem",
-          "position": "20",
-          "nb_participants": 21,
-          "categorie": "2ème Catégorie",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 9.5,
-          "points_participation": 25.0,
-          "points_performance": 2.4,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "points": 27,
-          "date_course": "2025-11-29"
         }
       ],
       "badges": [],
@@ -3530,7 +3530,7 @@
       "rang": 63
     },
     {
-      "nom": "LEIGNEL PIERRE-ANTOINE",
+      "nom": "LEIGNEL PIERRE ANTOINE",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -3729,6 +3729,14 @@
       "date_course": "2026-01-18"
     },
     {
+      "nom": "barlin",
+      "discipline": "cx",
+      "federation": "ffc",
+      "is_objectif": false,
+      "nb_participants": 3,
+      "date_course": "2026-01-18"
+    },
+    {
       "nom": "wingles-2---pyramides-passion",
       "discipline": "cx",
       "federation": "ufolep",
@@ -3874,9 +3882,17 @@
     },
     {
       "nom": "verlinghem",
+      "discipline": "cx",
+      "federation": "ufolep",
+      "is_objectif": true,
+      "nb_participants": 30,
+      "date_course": "2025-11-30"
+    },
+    {
+      "nom": "verlinghem",
       "discipline": "vtt",
       "federation": "ufolep",
-      "is_objectif": false,
+      "is_objectif": true,
       "nb_participants": 3,
       "date_course": "2025-11-30"
     },
@@ -3889,18 +3905,10 @@
       "date_course": "2025-11-30"
     },
     {
-      "nom": "verlinghem",
-      "discipline": "cx",
-      "federation": "ufolep",
-      "is_objectif": false,
-      "nb_participants": 30,
-      "date_course": "2025-11-29"
-    },
-    {
       "nom": "lille-btwin-village",
       "discipline": "cx",
       "federation": "ufolep",
-      "is_objectif": false,
+      "is_objectif": true,
       "nb_participants": 9,
       "date_course": "2025-11-23"
     },
@@ -4036,7 +4044,7 @@
       "nom": "halluin",
       "discipline": "cx",
       "federation": "ufolep",
-      "is_objectif": false,
+      "is_objectif": true,
       "nb_participants": 3,
       "date_course": "2025-10-26"
     },
@@ -4044,7 +4052,7 @@
       "nom": "halluin",
       "discipline": "vtt",
       "federation": "ufolep",
-      "is_objectif": false,
+      "is_objectif": true,
       "nb_participants": 1,
       "date_course": "2025-10-26"
     },
@@ -4102,14 +4110,6 @@
       "federation": "ufolep",
       "is_objectif": false,
       "nb_participants": 1,
-      "date_course": "2025-10-11"
-    },
-    {
-      "nom": "barlin",
-      "discipline": "cx",
-      "federation": "ffc",
-      "is_objectif": false,
-      "nb_participants": 3,
       "date_course": "2025-10-11"
     },
     {

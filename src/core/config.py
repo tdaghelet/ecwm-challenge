@@ -11,7 +11,7 @@ from .models import CourseMetadata
 class Config:
     """Gestionnaire de configuration centralisé"""
 
-    def __init__(self, data_dir: str = "data"):
+    def __init__(self, data_dir: str = "config"):
         """
         Initialise la configuration
 
@@ -37,8 +37,8 @@ class Config:
         self.load_coureurs()
 
     def load_points_config(self) -> None:
-        """Charge les paramètres de points depuis config_points.csv"""
-        path = os.path.join(self.data_dir, "config_points.csv")
+        """Charge les paramètres de points depuis points.csv"""
+        path = os.path.join(self.data_dir, "points.csv")
         if not os.path.exists(path):
             raise FileNotFoundError(f"Fichier de config introuvable: {path}")
 
@@ -50,7 +50,7 @@ class Config:
 
     def load_paliers_reduction(self) -> None:
         """Charge les paliers de réduction des points de performance"""
-        path = os.path.join(self.data_dir, "paliers_reduction.csv")
+        path = os.path.join(self.data_dir, "coefficients_peloton.csv")
         if not os.path.exists(path):
             print(f"⚠️  Fichier {path} non trouvé, pas de réduction sur petites courses")
             return
@@ -84,7 +84,7 @@ class Config:
 
     def load_bareme_simplifie(self) -> None:
         """Charge le barème simplifié pour saisie manuelle sans nb_participants"""
-        path = os.path.join(self.data_dir, "bareme_simplifie.csv")
+        path = os.path.join(self.data_dir, "points_par_position.csv")
         if not os.path.exists(path):
             print(f"⚠️  Fichier {path} non trouvé, pas de barème simplifié disponible")
             return
@@ -126,8 +126,8 @@ class Config:
         return 0.0  # Par défaut, 0 points si hors barème
 
     def load_courses_metadata(self) -> None:
-        """Charge les métadonnées des courses depuis courses_metadata.csv"""
-        path = os.path.join(self.data_dir, "courses_metadata.csv")
+        """Charge les métadonnées des courses depuis courses.csv"""
+        path = os.path.join(self.data_dir, "courses.csv")
         if not os.path.exists(path):
             raise FileNotFoundError(f"Fichier de métadonnées introuvable: {path}")
 
@@ -156,8 +156,8 @@ class Config:
             self.courses_metadata[key] = metadata
 
     def load_coureurs(self) -> None:
-        """Charge la liste des coureurs depuis ecwm_coureurs.csv"""
-        path = os.path.join(self.data_dir, "ecwm_coureurs.csv")
+        """Charge la liste des coureurs depuis coureurs.csv"""
+        path = os.path.join(self.data_dir, "coureurs.csv")
         if not os.path.exists(path):
             raise FileNotFoundError(f"Fichier de coureurs introuvable: {path}")
 
