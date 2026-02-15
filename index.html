@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge ECWM Compétitions 2025/2026</title>
+    <meta name="description" content="Classement du challenge compétitions ECWM saison 2025/2026">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>🏆 Challenge ECWM 🏆</h1>
+                <p class="subtitle">Compétitions 2025/2026</p>
+                <p class="last-update" id="lastUpdate">Chargement...</p>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="tabs">
+            <button class="tab active" data-tab="classement">Classement</button>
+            <button class="tab" data-tab="courses">Courses</button>
+            <button class="tab" data-tab="bareme">Barème</button>
+            <button class="tab" data-tab="badges">Badges</button>
+        </nav>
+
+        <!-- Chargement -->
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Chargement des données...</p>
+        </div>
+
+        <!-- Erreur -->
+        <div id="error" class="error" style="display: none;">
+            <p>❌ Erreur lors du chargement des données</p>
+        </div>
+
+        <!-- Contenu principal -->
+        <main id="content" style="display: none;">
+
+            <!-- Tab: Classement -->
+            <section id="tab-classement" class="tab-content active">
+                <!-- Podium -->
+                <div id="podium" class="podium"></div>
+
+                <!-- Classement complet -->
+                <div id="classement" class="classement"></div>
+            </section>
+
+            <!-- Tab: Barème -->
+            <section id="tab-bareme" class="tab-content">
+                <div class="bareme-section">
+                    <h2>📊 Comment sont calculés les points ?</h2>
+
+                    <div class="formula-box">
+                        <h3>Formule de base</h3>
+                        <div class="formula">
+                            Points = Participation + Performance
+                        </div>
+                        <p style="margin-top: 1rem; color: var(--text-muted); font-size: 0.875rem;">
+                            Toutes les courses (UFOLEP et FFC) sont valorisées de la même manière
+                        </p>
+                    </div>
+
+                    <div class="bareme-grid">
+                        <div class="bareme-card">
+                            <h3>🎯 Points de participation</h3>
+                            <p class="bareme-value" id="ptsParticipation">25 pts</p>
+                            <p class="bareme-desc">Points fixes pour participer à la course</p>
+                            <p class="bareme-note">⭐ Courses objectif club : ×<span id="bonusObjectif">1.5</span> sur la participation uniquement</p>
+                            <p class="bareme-note">🏅 Courses échelon national : ×<span id="bonusEchelonNational">1.5</span> sur la participation uniquement</p>
+                            <p class="bareme-note">🌍 Courses échelon international : ×<span id="bonusEchelonInternational">1.5</span> sur la participation uniquement</p>
+                        </div>
+
+                        <div class="bareme-card">
+                            <h3>📈 Points de performance</h3>
+                            <p class="bareme-value">0 - <span id="ptsPerformanceMax">25</span> pts</p>
+                            <p class="bareme-desc">Basés sur votre classement relatif (percentile)</p>
+                            <div class="example">
+                                <strong>Exemple :</strong> 10e sur 30 coureurs<br>
+                                → Percentile = 70%<br>
+                                → Performance = 25 × 0.70 = 18 pts
+                            </div>
+                            <div id="paliersReduction" style="margin-top: 1rem;">
+                                <!-- Rempli dynamiquement -->
+                            </div>
+                        </div>
+
+                        <!-- Coefficients masqués (tous à 1.0 actuellement)
+                        <div class="bareme-card">
+                            <h3>🏁 Coefficients par type</h3>
+                            <table class="coef-table" id="tableCoefficients">
+                                <!- Rempli dynamiquement ->
+                            </table>
+                        </div>
+                        -->
+                    </div>
+
+                    <div class="example-box">
+                        <h3>💡 Exemple complet</h3>
+                        <div class="example-calc">
+                            <p><strong>Course :</strong> Halluin (CX UFOLEP, course objectif ⭐)</p>
+                            <p><strong>Résultat :</strong> 10e sur 31 coureurs</p>
+                            <hr>
+                            <p>Percentile = (31 - 10 + 1) / 31 = <strong>71%</strong></p>
+                            <p>Participation = 25 × 1.5 (objectif) = <strong>37.5 pts</strong></p>
+                            <p>Performance = 25 × 0.71 = <strong>17.75 pts</strong></p>
+                            <p>Total = 37.5 + 17.75 = <strong>55 pts</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Badges -->
+            <section id="tab-badges" class="tab-content">
+                <div class="bareme-section">
+                    <h2>🏅 Système de badges</h2>
+                    
+                    <p style="margin-bottom: 2rem; color: var(--text-muted);">
+                        Les badges récompensent vos performances et votre assiduité. Chaque badge rapporte des points bonus qui s'ajoutent à votre total !
+                    </p>
+
+                    <div class="badges-categories">
+                        <!-- Badges à paliers -->
+                        <div class="badge-category">
+                            <h3>🏅 Badges à paliers</h3>
+                            <p class="category-desc">Plus vous progressez, plus le niveau (et les points bonus) augmentent. Seul le plus haut niveau obtenu est comptabilisé.</p>
+                            <div id="badgesPaliers" class="badges-list"></div>
+                        </div>
+
+                        <!-- Badges uniques -->
+                        <div class="badge-category">
+                            <h3>⭐ Badges uniques</h3>
+                            <p class="category-desc">Badges spéciaux obtenus en remplissant des conditions particulières.</p>
+                            <div id="badgesUniques" class="badges-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Courses -->
+            <section id="tab-courses" class="tab-content">
+                <h2>📅 Courses de la saison</h2>
+                <div id="listeCourses"></div>
+            </section>
+
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>
+            <a href="https://www.ec-wambrechies-marquette.fr/" target="_blank">ECWM</a>
+        </p>
+    </footer>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>
