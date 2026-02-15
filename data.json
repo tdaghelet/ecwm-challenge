@@ -1,6 +1,6 @@
 {
   "meta": {
-    "derniere_maj": "15/02/2026 19:00",
+    "derniere_maj": "15/02/2026 21:56",
     "nb_coureurs": 119,
     "nb_courses": 197
   },
@@ -3341,6 +3341,60 @@
       "rang": 16
     },
     {
+      "nom": "BROSSE JIMMY",
+      "nb_courses": 2,
+      "nb_courses_objectif": 0,
+      "points_courses": 113,
+      "bonus_badges": 0,
+      "points_total": 113,
+      "courses_detail": [
+        {
+          "course": "lille-btwin-village",
+          "position": "8",
+          "nb_participants": 26,
+          "categorie": "2ème Catégorie",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 73.1,
+          "points_participation": 37.5,
+          "points_performance": 18.3,
+          "points_performance_base": 18.3,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 56,
+          "date_course": "2025-11-23"
+        },
+        {
+          "course": "dept-haspres",
+          "position": "7",
+          "nb_participants": 26,
+          "categorie": "CAT2",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 76.9,
+          "points_participation": 37.5,
+          "points_performance": 19.2,
+          "points_performance_base": 19.2,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 57,
+          "date_course": "2025-12-14"
+        }
+      ],
+      "badges": [],
+      "rang": 17
+    },
+    {
       "nom": "WYPELIER VICTOR",
       "nb_courses": 3,
       "nb_courses_objectif": 0,
@@ -3413,7 +3467,7 @@
         }
       ],
       "badges": [],
-      "rang": 17
+      "rang": 18
     },
     {
       "nom": "SIJNESAEL PABLO",
@@ -3485,60 +3539,6 @@
           "points_participation_base": 25.0,
           "points": 34,
           "date_course": "2025-11-29"
-        }
-      ],
-      "badges": [],
-      "rang": 18
-    },
-    {
-      "nom": "BROSSE JIMMY",
-      "nb_courses": 2,
-      "nb_courses_objectif": 0,
-      "points_courses": 94,
-      "bonus_badges": 0,
-      "points_total": 94,
-      "courses_detail": [
-        {
-          "course": "dept-haspres",
-          "position": "26",
-          "nb_participants": 26,
-          "categorie": "VTT Vétérans A",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 3.8,
-          "points_participation": 37.5,
-          "points_performance": 1.0,
-          "points_performance_base": 1.0,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.5,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 38,
-          "date_course": "2025-12-14"
-        },
-        {
-          "course": "lille-btwin-village",
-          "position": "8",
-          "nb_participants": 26,
-          "categorie": "2ème Catégorie",
-          "discipline": "cx",
-          "federation": "ufolep",
-          "percentile": 73.1,
-          "points_participation": 37.5,
-          "points_performance": 18.3,
-          "points_performance_base": 18.3,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.5,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 56,
-          "date_course": "2025-11-23"
         }
       ],
       "badges": [],
