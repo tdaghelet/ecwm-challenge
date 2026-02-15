@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Chargement des données
 async function loadData() {
     try {
-        const response = await fetch('data.json');
+        const response = await fetch('data.json?v=' + Date.now());
         if (!response.ok) throw new Error('Erreur de chargement');
 
         data = await response.json();
