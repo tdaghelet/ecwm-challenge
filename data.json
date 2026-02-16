@@ -1,7 +1,7 @@
 {
   "meta": {
-    "derniere_maj": "15/02/2026 21:56",
-    "nb_coureurs": 119,
+    "derniere_maj": "16/02/2026 08:58",
+    "nb_coureurs": 118,
     "nb_courses": 197
   },
   "coureurs": [
@@ -4409,7 +4409,7 @@
       "rang": 35
     },
     {
-      "nom": "DUCATILLON CLARISSE",
+      "nom": "DUCATILLION CLARISSE",
       "nb_courses": 1,
       "nb_courses_objectif": 0,
       "points_courses": 50,
@@ -4981,7 +4981,7 @@
       "rang": 67
     },
     {
-      "nom": "DUCATILLION CLARISSE",
+      "nom": "DUCHATELET GASPARD",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -4992,7 +4992,7 @@
       "rang": 68
     },
     {
-      "nom": "DUCHATELET GASPARD",
+      "nom": "DUHAMEL BENOIT",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5003,7 +5003,7 @@
       "rang": 69
     },
     {
-      "nom": "DUHAMEL BENOIT",
+      "nom": "DUPLOUY RICHARD",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5014,7 +5014,7 @@
       "rang": 70
     },
     {
-      "nom": "DUPLOUY RICHARD",
+      "nom": "EVRARD DESTRES KERYANN",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5025,7 +5025,7 @@
       "rang": 71
     },
     {
-      "nom": "EVRARD DESTRES KERYANN",
+      "nom": "FONTAINE ALEXANDRE",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5036,7 +5036,7 @@
       "rang": 72
     },
     {
-      "nom": "FONTAINE ALEXANDRE",
+      "nom": "GALAND VICTOR",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5047,7 +5047,7 @@
       "rang": 73
     },
     {
-      "nom": "GALAND VICTOR",
+      "nom": "GALVAIRE CHRISTOPHE",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5058,7 +5058,7 @@
       "rang": 74
     },
     {
-      "nom": "GALVAIRE CHRISTOPHE",
+      "nom": "GOSSET JULIEN",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5069,7 +5069,7 @@
       "rang": 75
     },
     {
-      "nom": "GOSSET JULIEN",
+      "nom": "GUSTAVE DIMITRI",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5080,7 +5080,7 @@
       "rang": 76
     },
     {
-      "nom": "GUSTAVE DIMITRI",
+      "nom": "JAFFRENNOU PAUL",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5091,7 +5091,7 @@
       "rang": 77
     },
     {
-      "nom": "JAFFRENNOU PAUL",
+      "nom": "JOLIS CLEMENT",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5102,7 +5102,7 @@
       "rang": 78
     },
     {
-      "nom": "JOLIS CLEMENT",
+      "nom": "KADLUCZKA ANTHONY",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5113,7 +5113,7 @@
       "rang": 79
     },
     {
-      "nom": "KADLUCZKA ANTHONY",
+      "nom": "LAMMERANT CLEMENT",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5124,7 +5124,7 @@
       "rang": 80
     },
     {
-      "nom": "LAMMERANT CLEMENT",
+      "nom": "LATTUADA CLEMENT",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5135,7 +5135,7 @@
       "rang": 81
     },
     {
-      "nom": "LATTUADA CLEMENT",
+      "nom": "LEBOEUF TOM",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5146,7 +5146,7 @@
       "rang": 82
     },
     {
-      "nom": "LEBOEUF TOM",
+      "nom": "LEBON CYRIL",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5157,7 +5157,7 @@
       "rang": 83
     },
     {
-      "nom": "LEBON CYRIL",
+      "nom": "LEIGNEL PIERRE ANTOINE",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5168,7 +5168,7 @@
       "rang": 84
     },
     {
-      "nom": "LEIGNEL PIERRE ANTOINE",
+      "nom": "LELEU NICOLAS",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5179,7 +5179,7 @@
       "rang": 85
     },
     {
-      "nom": "LELEU NICOLAS",
+      "nom": "LEURENT MAXIME",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5190,7 +5190,7 @@
       "rang": 86
     },
     {
-      "nom": "LEURENT MAXIME",
+      "nom": "MALEZIEUX ADAM",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5201,7 +5201,7 @@
       "rang": 87
     },
     {
-      "nom": "MALEZIEUX ADAM",
+      "nom": "MARQUET SEBASTIEN",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5212,7 +5212,7 @@
       "rang": 88
     },
     {
-      "nom": "MARQUET SEBASTIEN",
+      "nom": "MARQUET VICTOR",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5223,7 +5223,7 @@
       "rang": 89
     },
     {
-      "nom": "MARQUET VICTOR",
+      "nom": "MASSON GAETAN",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5234,7 +5234,7 @@
       "rang": 90
     },
     {
-      "nom": "MASSON GAETAN",
+      "nom": "MAYEUR LUCAS",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5245,7 +5245,7 @@
       "rang": 91
     },
     {
-      "nom": "MAYEUR LUCAS",
+      "nom": "MIZERA YOANN",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5256,7 +5256,7 @@
       "rang": 92
     },
     {
-      "nom": "MIZERA YOANN",
+      "nom": "NUTTEN GEOFFREY",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5267,7 +5267,7 @@
       "rang": 93
     },
     {
-      "nom": "NUTTEN GEOFFREY",
+      "nom": "OHLIN JENNIE",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5278,7 +5278,7 @@
       "rang": 94
     },
     {
-      "nom": "OHLIN JENNIE",
+      "nom": "PEREL ALEXIS",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5289,7 +5289,7 @@
       "rang": 95
     },
     {
-      "nom": "PEREL ALEXIS",
+      "nom": "PRUDHOMME REMI",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5300,7 +5300,7 @@
       "rang": 96
     },
     {
-      "nom": "PRUDHOMME REMI",
+      "nom": "RAOUL MARK",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5311,7 +5311,7 @@
       "rang": 97
     },
     {
-      "nom": "RAOUL MARK",
+      "nom": "RIGOLLE IVAN",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5322,7 +5322,7 @@
       "rang": 98
     },
     {
-      "nom": "RIGOLLE IVAN",
+      "nom": "RIOLS FONCLARE STEPHEN",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5333,7 +5333,7 @@
       "rang": 99
     },
     {
-      "nom": "RIOLS FONCLARE STEPHEN",
+      "nom": "ROEKENS AUGUSTIN",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5344,7 +5344,7 @@
       "rang": 100
     },
     {
-      "nom": "ROEKENS AUGUSTIN",
+      "nom": "ROQUE BENJAMIN",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5355,7 +5355,7 @@
       "rang": 101
     },
     {
-      "nom": "ROQUE BENJAMIN",
+      "nom": "RYCKEBUSH BAPTISTE",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5366,7 +5366,7 @@
       "rang": 102
     },
     {
-      "nom": "RYCKEBUSH BAPTISTE",
+      "nom": "SANS CHAGRIN TIMOTHEE",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5377,7 +5377,7 @@
       "rang": 103
     },
     {
-      "nom": "SANS CHAGRIN TIMOTHEE",
+      "nom": "SECK KEBA",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5388,7 +5388,7 @@
       "rang": 104
     },
     {
-      "nom": "SECK KEBA",
+      "nom": "SECQ MAXENCE",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5399,7 +5399,7 @@
       "rang": 105
     },
     {
-      "nom": "SECQ MAXENCE",
+      "nom": "SION CORENTIN",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5410,7 +5410,7 @@
       "rang": 106
     },
     {
-      "nom": "SION CORENTIN",
+      "nom": "SIUDRYGA JULIEN",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5421,7 +5421,7 @@
       "rang": 107
     },
     {
-      "nom": "SIUDRYGA JULIEN",
+      "nom": "SUBIGER ANTONIN",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5432,7 +5432,7 @@
       "rang": 108
     },
     {
-      "nom": "SUBIGER ANTONIN",
+      "nom": "TRUWANT TIMOTHY",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5443,7 +5443,7 @@
       "rang": 109
     },
     {
-      "nom": "TRUWANT TIMOTHY",
+      "nom": "VALEMBOIS ALAN",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5454,7 +5454,7 @@
       "rang": 110
     },
     {
-      "nom": "VALEMBOIS ALAN",
+      "nom": "VALEMBOIS AXEL",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5465,7 +5465,7 @@
       "rang": 111
     },
     {
-      "nom": "VALEMBOIS AXEL",
+      "nom": "VALIN JEAN",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5476,7 +5476,7 @@
       "rang": 112
     },
     {
-      "nom": "VALIN JEAN",
+      "nom": "VALLEE HUGO",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5487,7 +5487,7 @@
       "rang": 113
     },
     {
-      "nom": "VALLEE HUGO",
+      "nom": "VANDERPOL VINCENT",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5498,7 +5498,7 @@
       "rang": 114
     },
     {
-      "nom": "VANDERPOL VINCENT",
+      "nom": "VERDEGEM GASPAR",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5509,7 +5509,7 @@
       "rang": 115
     },
     {
-      "nom": "VERDEGEM GASPAR",
+      "nom": "VIALLON THIBAULT",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5520,7 +5520,7 @@
       "rang": 116
     },
     {
-      "nom": "VIALLON THIBAULT",
+      "nom": "VINCENS CLEMENT",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
       "points_courses": 0,
@@ -5531,17 +5531,6 @@
       "rang": 117
     },
     {
-      "nom": "VINCENS CLEMENT",
-      "nb_courses": 0,
-      "nb_courses_objectif": 0,
-      "points_courses": 0,
-      "bonus_badges": 0,
-      "points_total": 0,
-      "courses_detail": [],
-      "badges": [],
-      "rang": 118
-    },
-    {
       "nom": "VITALIS ZACK",
       "nb_courses": 0,
       "nb_courses_objectif": 0,
@@ -5550,7 +5539,7 @@
       "points_total": 0,
       "courses_detail": [],
       "badges": [],
-      "rang": 119
+      "rang": 118
     }
   ],
   "courses": [
