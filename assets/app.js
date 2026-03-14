@@ -475,12 +475,13 @@ function applyResultatsFilters() {
             : '—';
         return `
             <tr>
-                <td style="white-space: nowrap; font-size: 0.8rem;">${dateStr}</td>
+                <td class="resultats-col-date">${dateStr}</td>
                 <td>
-                    ${prefix ? prefix + ' ' : ''}<strong>${r.course.toUpperCase()}</strong><br>
-                    <span style="font-size: 0.75rem; color: var(--text-muted);">${r.discipline.toUpperCase()} ${r.federation.toUpperCase()}</span>
+                    <span class="resultats-coureur-mobile">${r.coureur}</span>
+                    ${prefix ? prefix + ' ' : ''}<span class="resultats-course-name">${r.course.toUpperCase()}</span><br>
+                    <span style="font-size: 0.75rem; color: var(--text-muted);">${dateStr} · ${r.discipline.toUpperCase()} ${r.federation.toUpperCase()}</span>
                 </td>
-                <td style="font-size: 0.85rem;">${r.coureur}</td>
+                <td class="resultats-col-coureur">${r.coureur}</td>
                 <td style="white-space: nowrap; text-align: center;"><strong>${r.position}</strong><span style="color: var(--text-muted);">/${r.nb_participants}</span></td>
                 <td style="white-space: nowrap; text-align: right;"><strong>${r.points}</strong></td>
             </tr>
@@ -501,11 +502,11 @@ function applyResultatsFilters() {
         <table class="courses-table">
             <thead>
                 <tr>
-                    <th style="width:1%; white-space:nowrap;">Date</th>
+                    <th class="resultats-col-date">Date</th>
                     <th>Course</th>
-                    <th>Coureur</th>
-                    <th style="width:1%; white-space:nowrap;">Pos.</th>
-                    <th style="width:1%; white-space:nowrap;">Pts</th>
+                    <th class="resultats-col-coureur">Coureur</th>
+                    <th style="white-space:nowrap;">Pos.</th>
+                    <th style="white-space:nowrap;">Pts</th>
                 </tr>
             </thead>
             <tbody>${rows || '<tr><td colspan="5" style="color: var(--text-muted); text-align: center;">Aucun résultat</td></tr>'}</tbody>

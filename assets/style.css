@@ -551,6 +551,8 @@ body {
 
 .courses-table th.sortable:hover { color: var(--primary); }
 
+.resultats-coureur-mobile { display: none; }
+
 /* Courses */
 .courses-table {
     width: 100%;
@@ -990,6 +992,25 @@ body {
     .courses-table td {
         word-break: break-word;
         white-space: normal;
+    }
+
+    /* Résultats : passer à 3 colonnes sur mobile */
+    .resultats-col-date,
+    .resultats-col-coureur { display: none; }
+
+    #resultats-table .courses-table {
+        table-layout: auto;
+    }
+
+    .resultats-coureur-mobile {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 0.1rem;
+    }
+
+    .resultats-course-name {
+        font-size: 0.8rem;
+        color: var(--text-muted);
     }
 
     .badge-item {
