@@ -1,5 +1,10 @@
 // Application ECWM Challenge
 let data = null;
+let allResultats = [];
+let resultatsPage = 1;
+const RESULTATS_PER_PAGE = 50;
+const resultatsFilter = { text: '', disciplines: new Set() };
+let classementDisc = 'tout';
 
 // Formatage de date ISO vers français
 function formatDateFr(isoDate) {
@@ -69,6 +74,7 @@ function renderPage() {
 
     // Tabs
     renderClassement();
+    renderResultats();
     renderBareme();
     renderBadgesTab();
     renderCourses();
@@ -77,43 +83,78 @@ function renderPage() {
 // === TAB: CLASSEMENT ===
 
 function renderClassement() {
+    const disciplines = ['tout', ...new Set(
+        data.coureurs.flatMap(c => c.courses_detail.map(cd => cd.discipline))
+    )].sort((a, b) => a === 'tout' ? -1 : b === 'tout' ? 1 : a.localeCompare(b));
+
+    document.getElementById('classement-filters').innerHTML = `
+        <div class="courses-filters" style="margin-bottom: 1.5rem;">
+            <div class="filter-group">
+                ${disciplines.map(d => `
+                    <div class="filter-chip ${d === classementDisc ? 'active' : ''}" data-cdisc="${d}">
+                        ${d === 'tout' ? 'Tout' : d.toUpperCase()}
+                    </div>
+                `).join('')}
+            </div>
+        </div>
+    `;
+
+    document.querySelectorAll('[data-cdisc]').forEach(chip => {
+        chip.addEventListener('click', () => {
+            classementDisc = chip.dataset.cdisc;
+            document.querySelectorAll('[data-cdisc]').forEach(c =>
+                c.classList.toggle('active', c.dataset.cdisc === classementDisc)
+            );
+            applyClassementFilter();
+        });
+    });
+
+    applyClassementFilter();
+}
+
+function applyClassementFilter() {
     const podiumEl = document.getElementById('podium');
     const classementEl = document.getElementById('classement');
 
-    // Podium dans l'ordre classique : 2ème, 1er, 3ème
-    const top3 = data.coureurs.slice(0, 3);
-    if (top3.length >= 3) {
-        podiumEl.innerHTML = [top3[1], top3[0], top3[2]].map(coureur => `
-            <div class="podium-item rank-${coureur.rang}">
-                <div class="podium-medal">${getMedal(coureur.rang)}</div>
-                <div class="podium-name">${coureur.nom}</div>
-                <div class="podium-points">${coureur.points_total} pts</div>
-            </div>
-        `).join('');
-    } else {
-        // Si moins de 3 coureurs, affichage simple
-        podiumEl.innerHTML = top3.map(coureur => `
-            <div class="podium-item rank-${coureur.rang}">
-                <div class="podium-medal">${getMedal(coureur.rang)}</div>
-                <div class="podium-name">${coureur.nom}</div>
-                <div class="podium-points">${coureur.points_total} pts</div>
-            </div>
-        `).join('');
-    }
+    // Calculer les points filtrés pour chaque coureur et trier
+    const ranked = data.coureurs.map(coureur => {
+        const pts = classementDisc === 'tout'
+            ? coureur.points_total
+            : Math.round(coureur.courses_detail
+                .filter(cd => cd.discipline === classementDisc)
+                .reduce((s, cd) => s + cd.points, 0));
+        const nb = classementDisc === 'tout'
+            ? coureur.nb_courses
+            : coureur.courses_detail.filter(cd => cd.discipline === classementDisc).length;
+        return { ...coureur, _pts: pts, _nb: nb };
+    }).sort((a, b) => b._pts - a._pts);
 
-    // Classement complet (du 1er au dernier)
-    classementEl.innerHTML = data.coureurs.map(coureur => `
+    ranked.forEach((c, i) => c._rang = i + 1);
+
+    // Podium
+    const top3 = ranked.slice(0, 3);
+    const podiumOrder = top3.length >= 3 ? [top3[1], top3[0], top3[2]] : top3;
+    podiumEl.innerHTML = podiumOrder.map(coureur => `
+        <div class="podium-item rank-${coureur._rang}">
+            <div class="podium-medal">${getMedal(coureur._rang)}</div>
+            <div class="podium-name">${coureur.nom}</div>
+            <div class="podium-points">${coureur._pts} pts</div>
+        </div>
+    `).join('');
+
+    // Classement complet
+    classementEl.innerHTML = ranked.map(coureur => `
         <div class="coureur-item" data-coureur="${coureur.nom}">
             <div class="coureur-header" onclick="toggleCoureur(this)">
-                <div class="coureur-rank">${coureur.rang}.</div>
+                <div class="coureur-rank">${coureur._rang}.</div>
                 <div class="coureur-name">${coureur.nom}</div>
-                ${coureur.badges && coureur.badges.length > 0 ? `
+                ${coureur.badges && coureur.badges.length > 0 && classementDisc === 'tout' ? `
                     <div class="badges-compact">
                         ${renderBadgesCompact(coureur.badges)}
                     </div>
                 ` : ''}
-                <div class="coureur-courses-badge">${coureur.nb_courses}</div>
-                <div class="coureur-points">${coureur.points_total}</div>
+                <div class="coureur-courses-badge">${coureur._nb}</div>
+                <div class="coureur-points">${coureur._pts}</div>
                 <div class="expand-icon">▶</div>
             </div>
             <div class="coureur-details">
@@ -129,13 +170,17 @@ function toggleCoureur(element) {
 }
 
 function renderCoureurDetails(coureur) {
-    if (coureur.courses_detail.length === 0) {
-        return '<p class="text-muted">Aucune course pour le moment</p>';
+    const filtered = classementDisc === 'tout'
+        ? coureur.courses_detail
+        : coureur.courses_detail.filter(cd => cd.discipline === classementDisc);
+
+    if (filtered.length === 0) {
+        return `<p class="text-muted">Aucune course ${classementDisc !== 'tout' ? classementDisc.toUpperCase() + ' ' : ''}pour le moment</p>`;
     }
 
     return `
         <div>
-            ${coureur.badges && coureur.badges.length > 0 ? `
+            ${coureur.badges && coureur.badges.length > 0 && classementDisc === 'tout' ? `
                 <div style="margin-bottom: 1.5rem;">
                     <strong>Badges obtenus (${coureur.badges.length})</strong>
                     <div class="badges-detailed">
@@ -143,8 +188,8 @@ function renderCoureurDetails(coureur) {
                     </div>
                 </div>
             ` : ''}
-            
-            <strong>Détail des courses (${coureur.courses_detail.length})</strong>
+
+            <strong>Détail des courses (${filtered.length})</strong>
             <table class="courses-table">
                 <thead>
                     <tr>
@@ -154,10 +199,9 @@ function renderCoureurDetails(coureur) {
                     </tr>
                 </thead>
                 <tbody>
-                    ${coureur.courses_detail
+                    ${filtered
                         .slice()
                         .sort((a, b) => {
-                            // Trier par date décroissante
                             const dateA = a.date_course || '0000-00-00';
                             const dateB = b.date_course || '0000-00-00';
                             return dateB.localeCompare(dateA);
@@ -207,19 +251,21 @@ function renderCoureurDetails(coureur) {
                 </tbody>
             </table>
             ${(() => {
-                const totParticipation = Math.round(coureur.courses_detail.reduce((s, c) => s + c.points_participation, 0));
-                const totPerformance = Math.round(coureur.courses_detail.reduce((s, c) => s + c.points_performance, 0));
+                const totParticipation = Math.round(filtered.reduce((s, c) => s + c.points_participation, 0));
+                const totPerformance = Math.round(filtered.reduce((s, c) => s + c.points_performance, 0));
+                const totCourses = Math.round(filtered.reduce((s, c) => s + c.points, 0));
+                const isFiltered = classementDisc !== 'tout';
                 return `
                 <div style="margin-top: 1rem; padding: 0.75rem; background: var(--bg); border-radius: 0.5rem;">
-                    <strong>Total des points :</strong><br>
+                    <strong>Total des points${isFiltered ? ' (' + classementDisc.toUpperCase() + ')' : ''} :</strong><br>
                     <div style="margin-top: 0.5rem; font-size: 1rem; color: var(--text-muted);">
                         ${totParticipation} pts participation<br>
                         + ${totPerformance} pts performance
                         <hr style="margin: 0.5rem 0; border: none; border-top: 1px solid var(--border);">
-                        = ${coureur.points_courses} pts (courses)
-                        ${coureur.bonus_badges > 0 ? `<br>+ ${coureur.bonus_badges} pts (badges)` : ''}
+                        = ${totCourses} pts (courses)
+                        ${!isFiltered && coureur.bonus_badges > 0 ? `<br>+ ${coureur.bonus_badges} pts (badges)` : ''}
                         <hr style="margin: 0.5rem 0; border: none; border-top: 2px solid var(--border);">
-                        <strong style="color: var(--accent); font-size: 1.5rem;">${coureur.points_total} pts</strong>
+                        <strong style="color: var(--accent); font-size: 1.5rem;">${isFiltered ? totCourses : coureur.points_total} pts</strong>
                     </div>
                 </div>`;
             })()}
@@ -350,6 +396,125 @@ function renderBadges(badges, compact = false) {
             </span>
         `;
     }).join('');
+}
+
+// === TAB: RÉSULTATS ===
+
+function renderResultats() {
+    allResultats = data.coureurs.flatMap(c =>
+        c.courses_detail.map(cd => ({ ...cd, coureur: c.nom }))
+    ).sort((a, b) =>
+        (b.date_course || '0000-00-00').localeCompare(a.date_course || '0000-00-00')
+        || a.course.localeCompare(b.course)
+        || a.coureur.localeCompare(b.coureur)
+    );
+
+    const disciplines = [...new Set(allResultats.map(r => r.discipline))].sort();
+    resultatsFilter.disciplines = new Set(disciplines);
+
+    document.getElementById('resultats-content').innerHTML = `
+        <div class="courses-filters">
+            <input type="text" id="resultatsSearch"
+                placeholder="Rechercher un coureur ou une course…"
+                style="padding: 0.4rem 0.75rem; border: 1px solid var(--border); border-radius: 1rem; background: var(--bg-card); color: var(--text); font-size: 0.875rem; width: 100%; max-width: 320px;">
+            <div class="filter-group" style="margin-top: 0.5rem;">
+                ${disciplines.map(d => `
+                    <div class="filter-chip active" data-rdisc="${d}">${d.toUpperCase()}</div>
+                `).join('')}
+            </div>
+        </div>
+        <div id="resultats-table"></div>
+    `;
+
+    document.getElementById('resultatsSearch').addEventListener('input', e => {
+        resultatsFilter.text = e.target.value;
+        resultatsPage = 1;
+        applyResultatsFilters();
+    });
+
+    document.querySelectorAll('[data-rdisc]').forEach(chip => {
+        chip.addEventListener('click', () => {
+            const d = chip.dataset.rdisc;
+            if (resultatsFilter.disciplines.has(d)) {
+                resultatsFilter.disciplines.delete(d);
+                chip.classList.remove('active');
+            } else {
+                resultatsFilter.disciplines.add(d);
+                chip.classList.add('active');
+            }
+            resultatsPage = 1;
+            applyResultatsFilters();
+        });
+    });
+
+    applyResultatsFilters();
+}
+
+function applyResultatsFilters() {
+    const query = resultatsFilter.text.trim().toLowerCase();
+    const filtered = allResultats.filter(r => {
+        if (!resultatsFilter.disciplines.has(r.discipline)) return false;
+        if (query && !r.course.toLowerCase().includes(query) && !r.coureur.toLowerCase().includes(query)) return false;
+        return true;
+    });
+
+    const total = filtered.length;
+    const totalPages = Math.ceil(total / RESULTATS_PER_PAGE);
+    if (resultatsPage > totalPages) resultatsPage = 1;
+    const start = (resultatsPage - 1) * RESULTATS_PER_PAGE;
+    const page = filtered.slice(start, start + RESULTATS_PER_PAGE);
+
+    const rows = page.map(r => {
+        const icons = [];
+        if (r.bonus_objectif > 1) icons.push('⭐');
+        if (r.echelon === 'national') icons.push('🇫🇷');
+        if (r.echelon === 'international') icons.push('🌍');
+        const prefix = icons.join('');
+        return `
+            <tr>
+                <td style="white-space: nowrap;">${r.date_course ? formatDateShort(r.date_course) : '—'}</td>
+                <td>
+                    ${prefix ? prefix + ' ' : ''}<strong>${r.course.toUpperCase()}</strong><br>
+                    <span style="font-size: 0.75rem; color: var(--text-muted);">${r.discipline.toUpperCase()} ${r.federation.toUpperCase()}</span>
+                </td>
+                <td>${r.coureur}</td>
+                <td><strong>${r.position}</strong>/${r.nb_participants}</td>
+                <td><strong>${r.points}</strong> pts</td>
+            </tr>
+        `;
+    }).join('');
+
+    const pagination = totalPages > 1 ? `
+        <div style="display: flex; align-items: center; gap: 1rem; margin: 1rem 0;">
+            <button class="filter-chip ${resultatsPage <= 1 ? '' : 'active'}" onclick="goResultatsPage(${resultatsPage - 1})" ${resultatsPage <= 1 ? 'disabled' : ''}>◀ Préc.</button>
+            <span style="color: var(--text-muted);">Page ${resultatsPage} / ${totalPages}</span>
+            <button class="filter-chip ${resultatsPage >= totalPages ? '' : 'active'}" onclick="goResultatsPage(${resultatsPage + 1})" ${resultatsPage >= totalPages ? 'disabled' : ''}>Suiv. ▶</button>
+        </div>
+    ` : '';
+
+    document.getElementById('resultats-table').innerHTML = `
+        <p style="color: var(--text-muted); margin-bottom: 0.5rem;">${total} résultat${total > 1 ? 's' : ''}</p>
+        ${pagination}
+        <table class="courses-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Course</th>
+                    <th>Coureur</th>
+                    <th>Position</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>${rows || '<tr><td colspan="5" style="color: var(--text-muted); text-align: center;">Aucun résultat</td></tr>'}</tbody>
+        </table>
+        ${pagination}
+    `;
+}
+
+function goResultatsPage(n) {
+    resultatsPage = n;
+    applyResultatsFilters();
+    document.getElementById('tab-resultats').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 // === TAB: BAREME ===
