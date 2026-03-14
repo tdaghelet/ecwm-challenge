@@ -470,16 +470,19 @@ function applyResultatsFilters() {
         if (r.echelon === 'national') icons.push('🇫🇷');
         if (r.echelon === 'international') icons.push('🌍');
         const prefix = icons.join('');
+        const dateStr = r.date_course
+            ? (() => { const d = new Date(r.date_course + 'T00:00:00'); return `${String(d.getDate()).padStart(2,'0')}/${String(d.getMonth()+1).padStart(2,'0')}`; })()
+            : '—';
         return `
             <tr>
-                <td style="white-space: nowrap;">${r.date_course ? formatDateShort(r.date_course) : '—'}</td>
+                <td style="white-space: nowrap; font-size: 0.8rem;">${dateStr}</td>
                 <td>
                     ${prefix ? prefix + ' ' : ''}<strong>${r.course.toUpperCase()}</strong><br>
                     <span style="font-size: 0.75rem; color: var(--text-muted);">${r.discipline.toUpperCase()} ${r.federation.toUpperCase()}</span>
                 </td>
-                <td>${r.coureur}</td>
-                <td><strong>${r.position}</strong>/${r.nb_participants}</td>
-                <td><strong>${r.points}</strong> pts</td>
+                <td style="font-size: 0.85rem;">${r.coureur}</td>
+                <td style="white-space: nowrap; text-align: center;"><strong>${r.position}</strong><span style="color: var(--text-muted);">/${r.nb_participants}</span></td>
+                <td style="white-space: nowrap; text-align: right;"><strong>${r.points}</strong></td>
             </tr>
         `;
     }).join('');
@@ -498,11 +501,11 @@ function applyResultatsFilters() {
         <table class="courses-table">
             <thead>
                 <tr>
-                    <th>Date</th>
+                    <th style="width:1%; white-space:nowrap;">Date</th>
                     <th>Course</th>
                     <th>Coureur</th>
-                    <th>Position</th>
-                    <th>Points</th>
+                    <th style="width:1%; white-space:nowrap;">Pos.</th>
+                    <th style="width:1%; white-space:nowrap;">Pts</th>
                 </tr>
             </thead>
             <tbody>${rows || '<tr><td colspan="5" style="color: var(--text-muted); text-align: center;">Aucun résultat</td></tr>'}</tbody>
