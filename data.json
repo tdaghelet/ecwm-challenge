@@ -1,6 +1,6 @@
 {
   "meta": {
-    "derniere_maj": "14/03/2026 19:05",
+    "derniere_maj": "16/03/2026 08:45",
     "nb_coureurs": 118,
     "nb_courses": 210
   },
@@ -5079,6 +5079,60 @@
       "rang": 33
     },
     {
+      "nom": "GALVAIRE CHRISTOPHE",
+      "nb_courses": 2,
+      "nb_courses_objectif": 0,
+      "points_courses": 99,
+      "bonus_badges": 0,
+      "points_total": 99,
+      "courses_detail": [
+        {
+          "course": "haspres",
+          "position": "23",
+          "nb_participants": 52,
+          "categorie": "3ème Catégorie",
+          "discipline": "route",
+          "federation": "ufolep",
+          "percentile": 57.7,
+          "points_participation": 25.0,
+          "points_performance": 14.4,
+          "points_performance_base": 14.4,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 39,
+          "date_course": "2026-03-07"
+        },
+        {
+          "course": "rieulay",
+          "position": "8",
+          "nb_participants": 87,
+          "categorie": "CAT3",
+          "discipline": "route",
+          "federation": "ufolep",
+          "percentile": 92.0,
+          "points_participation": 37.5,
+          "points_performance": 23.0,
+          "points_performance_base": 23.0,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 60,
+          "date_course": "2026-03-08"
+        }
+      ],
+      "badges": [],
+      "rang": 34
+    },
+    {
       "nom": "PERSON LOUIS",
       "nb_courses": 2,
       "nb_courses_objectif": 0,
@@ -5140,7 +5194,7 @@
           "bonus_points": 30
         }
       ],
-      "rang": 34
+      "rang": 35
     },
     {
       "nom": "FAUCHILLE ERIC",
@@ -5194,7 +5248,7 @@
         }
       ],
       "badges": [],
-      "rang": 35
+      "rang": 36
     },
     {
       "nom": "ADAM AUGUSTIN",
@@ -5248,7 +5302,7 @@
         }
       ],
       "badges": [],
-      "rang": 36
+      "rang": 37
     },
     {
       "nom": "VALEMBOIS ALAN",
@@ -5302,7 +5356,7 @@
         }
       ],
       "badges": [],
-      "rang": 37
+      "rang": 38
     },
     {
       "nom": "SIJNESAEL RUBEN",
@@ -5356,7 +5410,7 @@
         }
       ],
       "badges": [],
-      "rang": 38
+      "rang": 39
     },
     {
       "nom": "BARRE VICTOR",
@@ -5410,7 +5464,7 @@
         }
       ],
       "badges": [],
-      "rang": 39
+      "rang": 40
     },
     {
       "nom": "VIALLON THIBAULT",
@@ -5443,7 +5497,7 @@
         }
       ],
       "badges": [],
-      "rang": 40
+      "rang": 41
     },
     {
       "nom": "MAYEUR LUCAS",
@@ -5476,7 +5530,7 @@
         }
       ],
       "badges": [],
-      "rang": 41
+      "rang": 42
     },
     {
       "nom": "STIEVENARD HADRIEN",
@@ -5530,7 +5584,7 @@
         }
       ],
       "badges": [],
-      "rang": 42
+      "rang": 43
     },
     {
       "nom": "DA CUNHA RAMOS NINO",
@@ -5584,7 +5638,7 @@
         }
       ],
       "badges": [],
-      "rang": 43
+      "rang": 44
     },
     {
       "nom": "HUYNEN BATISTE",
@@ -5638,7 +5692,7 @@
         }
       ],
       "badges": [],
-      "rang": 44
+      "rang": 45
     },
     {
       "nom": "DUCHATELET GASPARD",
@@ -5671,7 +5725,7 @@
         }
       ],
       "badges": [],
-      "rang": 45
+      "rang": 46
     },
     {
       "nom": "LAMMERANT CLEMENT",
@@ -5704,7 +5758,7 @@
         }
       ],
       "badges": [],
-      "rang": 46
+      "rang": 47
     },
     {
       "nom": "POTTIER MILAN",
@@ -5758,7 +5812,7 @@
         }
       ],
       "badges": [],
-      "rang": 47
+      "rang": 48
     },
     {
       "nom": "GOSSET JULIEN",
@@ -5791,7 +5845,7 @@
         }
       ],
       "badges": [],
-      "rang": 48
+      "rang": 49
     },
     {
       "nom": "DEVYNCK MATTHIEU",
@@ -5824,7 +5878,7 @@
         }
       ],
       "badges": [],
-      "rang": 49
+      "rang": 50
     },
     {
       "nom": "MARQUET VICTOR",
@@ -5857,7 +5911,7 @@
         }
       ],
       "badges": [],
-      "rang": 50
+      "rang": 51
     },
     {
       "nom": "BEAUGRAND AUGUSTE",
@@ -5890,7 +5944,7 @@
         }
       ],
       "badges": [],
-      "rang": 51
+      "rang": 52
     },
     {
       "nom": "DELEPLANQUE LOIC",
@@ -5923,7 +5977,7 @@
         }
       ],
       "badges": [],
-      "rang": 52
+      "rang": 53
     },
     {
       "nom": "GUSTAVE DIMITRI",
@@ -5956,7 +6010,7 @@
         }
       ],
       "badges": [],
-      "rang": 53
+      "rang": 54
     },
     {
       "nom": "MASSON GAETAN",
@@ -5989,7 +6043,7 @@
         }
       ],
       "badges": [],
-      "rang": 54
+      "rang": 55
     },
     {
       "nom": "ROEKENS AUGUSTIN",
@@ -6022,7 +6076,7 @@
         }
       ],
       "badges": [],
-      "rang": 55
+      "rang": 56
     },
     {
       "nom": "SION CORENTIN",
@@ -6055,7 +6109,7 @@
         }
       ],
       "badges": [],
-      "rang": 56
+      "rang": 57
     },
     {
       "nom": "CHAUVEL BENJAMIN",
@@ -6088,7 +6142,7 @@
         }
       ],
       "badges": [],
-      "rang": 57
+      "rang": 58
     },
     {
       "nom": "DREGER ARTHUR",
@@ -6121,7 +6175,7 @@
         }
       ],
       "badges": [],
-      "rang": 58
+      "rang": 59
     },
     {
       "nom": "JAFFRENNOU PAUL",
@@ -6154,7 +6208,7 @@
         }
       ],
       "badges": [],
-      "rang": 59
+      "rang": 60
     },
     {
       "nom": "MUI PHILIPPE HOO TONG",
@@ -6187,7 +6241,7 @@
         }
       ],
       "badges": [],
-      "rang": 60
+      "rang": 61
     },
     {
       "nom": "LEIGNEL PIERRE ANTOINE",
@@ -6220,7 +6274,7 @@
         }
       ],
       "badges": [],
-      "rang": 61
+      "rang": 62
     },
     {
       "nom": "ROQUE BENJAMIN",
@@ -6253,7 +6307,7 @@
         }
       ],
       "badges": [],
-      "rang": 62
+      "rang": 63
     },
     {
       "nom": "SANS CHAGRIN TIMOTHEE",
@@ -6286,7 +6340,7 @@
         }
       ],
       "badges": [],
-      "rang": 63
+      "rang": 64
     },
     {
       "nom": "VALEMBOIS AXEL",
@@ -6319,7 +6373,7 @@
         }
       ],
       "badges": [],
-      "rang": 64
+      "rang": 65
     },
     {
       "nom": "VINCENS CLEMENT",
@@ -6352,7 +6406,7 @@
         }
       ],
       "badges": [],
-      "rang": 65
+      "rang": 66
     },
     {
       "nom": "IDZIAK DIDIER",
@@ -6385,7 +6439,7 @@
         }
       ],
       "badges": [],
-      "rang": 66
+      "rang": 67
     },
     {
       "nom": "MOREAU THOMAS",
@@ -6418,7 +6472,7 @@
         }
       ],
       "badges": [],
-      "rang": 67
+      "rang": 68
     },
     {
       "nom": "SIJNESAEL REMI",
@@ -6448,39 +6502,6 @@
           "points_participation_base": 25.0,
           "points": 40,
           "date_course": "2025-11-30"
-        }
-      ],
-      "badges": [],
-      "rang": 68
-    },
-    {
-      "nom": "GALVAIRE CHRISTOPHE",
-      "nb_courses": 1,
-      "nb_courses_objectif": 0,
-      "points_courses": 39,
-      "bonus_badges": 0,
-      "points_total": 39,
-      "courses_detail": [
-        {
-          "course": "haspres",
-          "position": "23",
-          "nb_participants": 52,
-          "categorie": "3ème Catégorie",
-          "discipline": "route",
-          "federation": "ufolep",
-          "percentile": 57.7,
-          "points_participation": 25.0,
-          "points_performance": 14.4,
-          "points_performance_base": 14.4,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": false,
-          "points_participation_base": 25.0,
-          "points": 39,
-          "date_course": "2026-03-07"
         }
       ],
       "badges": [],
@@ -7918,7 +7939,7 @@
       "federation": "ufolep",
       "is_objectif": true,
       "echelon": "",
-      "nb_participants": 18,
+      "nb_participants": 19,
       "date_course": "2026-03-08"
     },
     {
