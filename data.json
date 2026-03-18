@@ -1,10 +1,521 @@
 {
   "meta": {
-    "derniere_maj": "16/03/2026 08:45",
+    "derniere_maj": "18/03/2026 13:28",
     "nb_coureurs": 118,
-    "nb_courses": 210
+    "nb_courses": 211
   },
   "coureurs": [
+    {
+      "nom": "DEVIGNE CAMILLE",
+      "nb_courses": 22,
+      "nb_courses_objectif": 0,
+      "points_courses": 977,
+      "bonus_badges": 200,
+      "points_total": 1177,
+      "courses_detail": [
+        {
+          "course": "albi",
+          "position": "7",
+          "nb_participants": 41,
+          "categorie": "Classement Manche : Elite et U23 Femme",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 85.4,
+          "points_participation": 37.5,
+          "points_performance": 21.3,
+          "points_performance_base": 21.3,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.5,
+          "echelon": "national",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 59,
+          "date_course": "2025-10-25"
+        },
+        {
+          "course": "albi2",
+          "position": "7",
+          "nb_participants": 42,
+          "categorie": "Classement Manche : Elite et U23 Femme",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 85.7,
+          "points_participation": 37.5,
+          "points_performance": 21.4,
+          "points_performance_base": 21.4,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.5,
+          "echelon": "national",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 59,
+          "date_course": "2025-10-26"
+        },
+        {
+          "course": "arenberg",
+          "position": "23",
+          "nb_participants": 34,
+          "categorie": "Classement général individuel (épreuve de 1 jour)",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 35.3,
+          "points_participation": 25.0,
+          "points_performance": 8.8,
+          "points_performance_base": 8.8,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 34,
+          "date_course": "2025-11-11"
+        },
+        {
+          "course": "arques",
+          "position": "1",
+          "nb_participants": 4,
+          "categorie": "DAMES",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 100.0,
+          "points_participation": 25.0,
+          "points_performance": 12.5,
+          "points_performance_base": 25.0,
+          "points_perf_reduits": true,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 38,
+          "date_course": "2025-09-28"
+        },
+        {
+          "course": "beautor",
+          "position": "1",
+          "nb_participants": 11,
+          "categorie": "DAMES",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 100.0,
+          "points_participation": 37.5,
+          "points_performance": 25.0,
+          "points_performance_base": 25.0,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 62,
+          "date_course": "2025-12-07"
+        },
+        {
+          "course": "ouistreham",
+          "position": "8",
+          "nb_participants": 37,
+          "categorie": "ELITE ET U23 FEMMES",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 81.1,
+          "points_participation": 37.5,
+          "points_performance": 20.3,
+          "points_performance_base": 20.3,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.5,
+          "echelon": "national",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 58,
+          "date_course": "2025-12-14"
+        },
+        {
+          "course": "quelneuc",
+          "position": "3",
+          "nb_participants": 40,
+          "categorie": "ELITE ET U23 FEMMES",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 95.0,
+          "points_participation": 37.5,
+          "points_performance": 23.8,
+          "points_performance_base": 23.8,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.5,
+          "echelon": "national",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 61,
+          "date_course": "2025-11-15"
+        },
+        {
+          "course": "quelneuc2",
+          "position": "8",
+          "nb_participants": 40,
+          "categorie": "ELITE ET U23 FEMMES",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 82.5,
+          "points_participation": 37.5,
+          "points_performance": 20.6,
+          "points_performance_base": 20.6,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.5,
+          "echelon": "national",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 58,
+          "date_course": "2025-11-16"
+        },
+        {
+          "course": "vimy",
+          "position": "1",
+          "nb_participants": 3,
+          "categorie": "DAMES",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 100.0,
+          "points_participation": 25.0,
+          "points_performance": 12.5,
+          "points_performance_base": 25.0,
+          "points_perf_reduits": true,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 38,
+          "date_course": "2025-10-12"
+        },
+        {
+          "course": "essen",
+          "position": "23",
+          "nb_participants": 30,
+          "categorie": "ELITE",
+          "discipline": "cx",
+          "federation": "uci",
+          "percentile": 26.7,
+          "points_participation": 25.0,
+          "points_performance": 6.7,
+          "points_performance_base": 6.7,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 32,
+          "date_course": "2025-10-10"
+        },
+        {
+          "course": "ruddervoorde",
+          "position": "27",
+          "nb_participants": 35,
+          "categorie": "ELITE",
+          "discipline": "cx",
+          "federation": "uci",
+          "percentile": 25.7,
+          "points_participation": 25.0,
+          "points_performance": 6.4,
+          "points_performance_base": 6.4,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 31,
+          "date_course": "2025-10-19"
+        },
+        {
+          "course": "gernelle",
+          "position": "7",
+          "nb_participants": 19,
+          "categorie": "ELITE",
+          "discipline": "cx",
+          "federation": "uci",
+          "percentile": 68.4,
+          "points_participation": 25.0,
+          "points_performance": 17.1,
+          "points_performance_base": 17.1,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 42,
+          "date_course": "2025-11-22"
+        },
+        {
+          "course": "cdm flamanville",
+          "position": "30",
+          "nb_participants": 46,
+          "categorie": "ELITE",
+          "discipline": "cx",
+          "federation": "uci",
+          "percentile": 37.0,
+          "points_participation": 37.5,
+          "points_performance": 9.2,
+          "points_performance_base": 9.2,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.5,
+          "echelon": "international",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 47,
+          "date_course": "2025-11-30"
+        },
+        {
+          "course": "bethune",
+          "position": "8",
+          "nb_participants": 17,
+          "categorie": "ELITE",
+          "discipline": "cx",
+          "federation": "uci",
+          "percentile": 58.8,
+          "points_participation": 25.0,
+          "points_performance": 14.7,
+          "points_performance_base": 14.7,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 40,
+          "date_course": "2025-12-20"
+        },
+        {
+          "course": "loenhout",
+          "position": "32",
+          "nb_participants": 75,
+          "categorie": "ELITE",
+          "discipline": "cx",
+          "federation": "uci",
+          "percentile": 58.7,
+          "points_participation": 25.0,
+          "points_performance": 14.7,
+          "points_performance_base": 14.7,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 40,
+          "date_course": "2025-12-29"
+        },
+        {
+          "course": "baal",
+          "position": "27",
+          "nb_participants": 59,
+          "categorie": "ELITE",
+          "discipline": "cx",
+          "federation": "uci",
+          "percentile": 55.9,
+          "points_participation": 25.0,
+          "points_performance": 14.0,
+          "points_performance_base": 14.0,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 39,
+          "date_course": "2026-01-01"
+        },
+        {
+          "course": "gullegem",
+          "position": "16",
+          "nb_participants": 38,
+          "categorie": "ELITE",
+          "discipline": "cx",
+          "federation": "uci",
+          "percentile": 60.5,
+          "points_participation": 25.0,
+          "points_performance": 15.1,
+          "points_performance_base": 15.1,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 40,
+          "date_course": "2026-01-03"
+        },
+        {
+          "course": "france troyes",
+          "position": "17",
+          "nb_participants": 46,
+          "categorie": "ELITE",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 65.2,
+          "points_participation": 37.5,
+          "points_performance": 16.3,
+          "points_performance_base": 16.3,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.5,
+          "echelon": "national",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 54,
+          "date_course": "2026-01-11"
+        },
+        {
+          "course": "otegem",
+          "position": "AB",
+          "nb_participants": 0,
+          "categorie": "ELITE",
+          "discipline": "cx",
+          "federation": "uci",
+          "percentile": 0.0,
+          "points_participation": 25.0,
+          "points_performance": 0.0,
+          "points_performance_base": 0.0,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 25,
+          "date_course": "2026-01-12"
+        },
+        {
+          "course": "cdm maasmechelen",
+          "position": "52",
+          "nb_participants": 61,
+          "categorie": "ELITE",
+          "discipline": "cx",
+          "federation": "uci",
+          "percentile": 16.4,
+          "points_participation": 37.5,
+          "points_performance": 4.1,
+          "points_performance_base": 4.1,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.5,
+          "echelon": "international",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 42,
+          "date_course": "2026-01-24"
+        },
+        {
+          "course": "cdm hoogerheide",
+          "position": "65",
+          "nb_participants": 69,
+          "categorie": "ELITE",
+          "discipline": "cx",
+          "federation": "uci",
+          "percentile": 7.2,
+          "points_participation": 37.5,
+          "points_performance": 1.8,
+          "points_performance_base": 1.8,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.5,
+          "echelon": "international",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 39,
+          "date_course": "2026-01-25"
+        },
+        {
+          "course": "ooike",
+          "position": "44",
+          "nb_participants": 102,
+          "categorie": "ELITE",
+          "discipline": "route",
+          "federation": "cv",
+          "percentile": 57.8,
+          "points_participation": 25.0,
+          "points_performance": 14.5,
+          "points_performance_base": 14.5,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 39,
+          "date_course": "2026-03-15"
+        }
+      ],
+      "badges": [
+        {
+          "badge_id": "multi_discipline",
+          "nom": "Multi-discipline",
+          "emoji": "🚴",
+          "description": "Participer en Route ET (CX ou VTT)",
+          "niveau": null,
+          "valeur_obtenue": 100,
+          "bonus_points": 30
+        },
+        {
+          "badge_id": "assidu_platine",
+          "nom": "Assidu",
+          "emoji": "🏅",
+          "description": "Participer à plusieurs courses",
+          "niveau": "Platine",
+          "valeur_obtenue": 22,
+          "bonus_points": 100
+        },
+        {
+          "badge_id": "podium_bronze",
+          "nom": "Podium",
+          "emoji": "🥇",
+          "description": "Monter sur le podium",
+          "niveau": "Bronze",
+          "valeur_obtenue": 4,
+          "bonus_points": 30
+        },
+        {
+          "badge_id": "top10_argent",
+          "nom": "Top 10",
+          "emoji": "🏆",
+          "description": "Finir dans les 10 premiers",
+          "niveau": "Argent",
+          "valeur_obtenue": 10,
+          "bonus_points": 40
+        }
+      ],
+      "rang": 1
+    },
     {
       "nom": "DAGHELET THOMAS",
       "nb_courses": 22,
@@ -502,487 +1013,6 @@
           "description": "Finir dans les 10 premiers",
           "niveau": "Argent",
           "valeur_obtenue": 13,
-          "bonus_points": 40
-        }
-      ],
-      "rang": 1
-    },
-    {
-      "nom": "DEVIGNE CAMILLE",
-      "nb_courses": 21,
-      "nb_courses_objectif": 0,
-      "points_courses": 938,
-      "bonus_badges": 170,
-      "points_total": 1108,
-      "courses_detail": [
-        {
-          "course": "albi",
-          "position": "7",
-          "nb_participants": 41,
-          "categorie": "Classement Manche : Elite et U23 Femme",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 85.4,
-          "points_participation": 37.5,
-          "points_performance": 21.3,
-          "points_performance_base": 21.3,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.5,
-          "echelon": "national",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 59,
-          "date_course": "2025-10-25"
-        },
-        {
-          "course": "albi2",
-          "position": "7",
-          "nb_participants": 42,
-          "categorie": "Classement Manche : Elite et U23 Femme",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 85.7,
-          "points_participation": 37.5,
-          "points_performance": 21.4,
-          "points_performance_base": 21.4,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.5,
-          "echelon": "national",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 59,
-          "date_course": "2025-10-26"
-        },
-        {
-          "course": "arenberg",
-          "position": "23",
-          "nb_participants": 34,
-          "categorie": "Classement général individuel (épreuve de 1 jour)",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 35.3,
-          "points_participation": 25.0,
-          "points_performance": 8.8,
-          "points_performance_base": 8.8,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": false,
-          "points_participation_base": 25.0,
-          "points": 34,
-          "date_course": "2025-11-11"
-        },
-        {
-          "course": "arques",
-          "position": "1",
-          "nb_participants": 4,
-          "categorie": "DAMES",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 100.0,
-          "points_participation": 25.0,
-          "points_performance": 12.5,
-          "points_performance_base": 25.0,
-          "points_perf_reduits": true,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": false,
-          "points_participation_base": 25.0,
-          "points": 38,
-          "date_course": "2025-09-28"
-        },
-        {
-          "course": "beautor",
-          "position": "1",
-          "nb_participants": 11,
-          "categorie": "DAMES",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 100.0,
-          "points_participation": 37.5,
-          "points_performance": 25.0,
-          "points_performance_base": 25.0,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.5,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 62,
-          "date_course": "2025-12-07"
-        },
-        {
-          "course": "ouistreham",
-          "position": "8",
-          "nb_participants": 37,
-          "categorie": "ELITE ET U23 FEMMES",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 81.1,
-          "points_participation": 37.5,
-          "points_performance": 20.3,
-          "points_performance_base": 20.3,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.5,
-          "echelon": "national",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 58,
-          "date_course": "2025-12-14"
-        },
-        {
-          "course": "quelneuc",
-          "position": "3",
-          "nb_participants": 40,
-          "categorie": "ELITE ET U23 FEMMES",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 95.0,
-          "points_participation": 37.5,
-          "points_performance": 23.8,
-          "points_performance_base": 23.8,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.5,
-          "echelon": "national",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 61,
-          "date_course": "2025-11-15"
-        },
-        {
-          "course": "quelneuc2",
-          "position": "8",
-          "nb_participants": 40,
-          "categorie": "ELITE ET U23 FEMMES",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 82.5,
-          "points_participation": 37.5,
-          "points_performance": 20.6,
-          "points_performance_base": 20.6,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.5,
-          "echelon": "national",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 58,
-          "date_course": "2025-11-16"
-        },
-        {
-          "course": "vimy",
-          "position": "1",
-          "nb_participants": 3,
-          "categorie": "DAMES",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 100.0,
-          "points_participation": 25.0,
-          "points_performance": 12.5,
-          "points_performance_base": 25.0,
-          "points_perf_reduits": true,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": false,
-          "points_participation_base": 25.0,
-          "points": 38,
-          "date_course": "2025-10-12"
-        },
-        {
-          "course": "essen",
-          "position": "23",
-          "nb_participants": 30,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "uci",
-          "percentile": 26.7,
-          "points_participation": 25.0,
-          "points_performance": 6.7,
-          "points_performance_base": 6.7,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": false,
-          "points_participation_base": 25.0,
-          "points": 32,
-          "date_course": "2025-10-10"
-        },
-        {
-          "course": "ruddervoorde",
-          "position": "27",
-          "nb_participants": 35,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "uci",
-          "percentile": 25.7,
-          "points_participation": 25.0,
-          "points_performance": 6.4,
-          "points_performance_base": 6.4,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": false,
-          "points_participation_base": 25.0,
-          "points": 31,
-          "date_course": "2025-10-19"
-        },
-        {
-          "course": "gernelle",
-          "position": "7",
-          "nb_participants": 19,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "uci",
-          "percentile": 68.4,
-          "points_participation": 25.0,
-          "points_performance": 17.1,
-          "points_performance_base": 17.1,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": false,
-          "points_participation_base": 25.0,
-          "points": 42,
-          "date_course": "2025-11-22"
-        },
-        {
-          "course": "cdm flamanville",
-          "position": "30",
-          "nb_participants": 46,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "uci",
-          "percentile": 37.0,
-          "points_participation": 37.5,
-          "points_performance": 9.2,
-          "points_performance_base": 9.2,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.5,
-          "echelon": "international",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 47,
-          "date_course": "2025-11-30"
-        },
-        {
-          "course": "bethune",
-          "position": "8",
-          "nb_participants": 17,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "uci",
-          "percentile": 58.8,
-          "points_participation": 25.0,
-          "points_performance": 14.7,
-          "points_performance_base": 14.7,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": false,
-          "points_participation_base": 25.0,
-          "points": 40,
-          "date_course": "2025-12-20"
-        },
-        {
-          "course": "loenhout",
-          "position": "32",
-          "nb_participants": 75,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "uci",
-          "percentile": 58.7,
-          "points_participation": 25.0,
-          "points_performance": 14.7,
-          "points_performance_base": 14.7,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": false,
-          "points_participation_base": 25.0,
-          "points": 40,
-          "date_course": "2025-12-29"
-        },
-        {
-          "course": "baal",
-          "position": "27",
-          "nb_participants": 59,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "uci",
-          "percentile": 55.9,
-          "points_participation": 25.0,
-          "points_performance": 14.0,
-          "points_performance_base": 14.0,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": false,
-          "points_participation_base": 25.0,
-          "points": 39,
-          "date_course": "2026-01-01"
-        },
-        {
-          "course": "gullegem",
-          "position": "16",
-          "nb_participants": 38,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "uci",
-          "percentile": 60.5,
-          "points_participation": 25.0,
-          "points_performance": 15.1,
-          "points_performance_base": 15.1,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": false,
-          "points_participation_base": 25.0,
-          "points": 40,
-          "date_course": "2026-01-03"
-        },
-        {
-          "course": "france troyes",
-          "position": "17",
-          "nb_participants": 46,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 65.2,
-          "points_participation": 37.5,
-          "points_performance": 16.3,
-          "points_performance_base": 16.3,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.5,
-          "echelon": "national",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 54,
-          "date_course": "2026-01-11"
-        },
-        {
-          "course": "otegem",
-          "position": "AB",
-          "nb_participants": 0,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "uci",
-          "percentile": 0.0,
-          "points_participation": 25.0,
-          "points_performance": 0.0,
-          "points_performance_base": 0.0,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": false,
-          "points_participation_base": 25.0,
-          "points": 25,
-          "date_course": "2026-01-12"
-        },
-        {
-          "course": "cdm maasmechelen",
-          "position": "52",
-          "nb_participants": 61,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "uci",
-          "percentile": 16.4,
-          "points_participation": 37.5,
-          "points_performance": 4.1,
-          "points_performance_base": 4.1,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.5,
-          "echelon": "international",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 42,
-          "date_course": "2026-01-24"
-        },
-        {
-          "course": "cdm hoogerheide",
-          "position": "65",
-          "nb_participants": 69,
-          "categorie": "ELITE",
-          "discipline": "cx",
-          "federation": "uci",
-          "percentile": 7.2,
-          "points_participation": 37.5,
-          "points_performance": 1.8,
-          "points_performance_base": 1.8,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.0,
-          "bonus_echelon": 1.5,
-          "echelon": "international",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 39,
-          "date_course": "2026-01-25"
-        }
-      ],
-      "badges": [
-        {
-          "badge_id": "assidu_platine",
-          "nom": "Assidu",
-          "emoji": "🏅",
-          "description": "Participer à plusieurs courses",
-          "niveau": "Platine",
-          "valeur_obtenue": 21,
-          "bonus_points": 100
-        },
-        {
-          "badge_id": "podium_bronze",
-          "nom": "Podium",
-          "emoji": "🥇",
-          "description": "Monter sur le podium",
-          "niveau": "Bronze",
-          "valeur_obtenue": 4,
-          "bonus_points": 30
-        },
-        {
-          "badge_id": "top10_argent",
-          "nom": "Top 10",
-          "emoji": "🏆",
-          "description": "Finir dans les 10 premiers",
-          "niveau": "Argent",
-          "valeur_obtenue": 10,
           "bonus_points": 40
         }
       ],
@@ -4363,6 +4393,91 @@
       "rang": 23
     },
     {
+      "nom": "ADAM AUGUSTIN",
+      "nb_courses": 3,
+      "nb_courses_objectif": 0,
+      "points_courses": 106,
+      "bonus_badges": 30,
+      "points_total": 136,
+      "courses_detail": [
+        {
+          "course": "verlinghem",
+          "position": "6",
+          "nb_participants": 10,
+          "categorie": "Benjamins",
+          "discipline": "cx",
+          "federation": "ufolep",
+          "percentile": 50.0,
+          "points_participation": 37.5,
+          "points_performance": 12.5,
+          "points_performance_base": 12.5,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 50,
+          "date_course": "2025-11-30"
+        },
+        {
+          "course": "verlinghem",
+          "position": "18",
+          "nb_participants": 20,
+          "categorie": "U13",
+          "discipline": "cx",
+          "federation": "ffc",
+          "percentile": 15.0,
+          "points_participation": 25.0,
+          "points_performance": 3.8,
+          "points_performance_base": 3.8,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 29,
+          "date_course": "2025-11-29"
+        },
+        {
+          "course": "bousies",
+          "position": "20",
+          "nb_participants": 21,
+          "categorie": "Benjamins",
+          "discipline": "route",
+          "federation": "ufolep",
+          "percentile": 9.5,
+          "points_participation": 25.0,
+          "points_performance": 2.4,
+          "points_performance_base": 2.4,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 27,
+          "date_course": "2026-07-04"
+        }
+      ],
+      "badges": [
+        {
+          "badge_id": "multi_discipline",
+          "nom": "Multi-discipline",
+          "emoji": "🚴",
+          "description": "Participer en Route ET (CX ou VTT)",
+          "niveau": null,
+          "valeur_obtenue": 100,
+          "bonus_points": 30
+        }
+      ],
+      "rang": 24
+    },
+    {
       "nom": "AURY VALLET LOANN",
       "nb_courses": 3,
       "nb_courses_objectif": 0,
@@ -4445,7 +4560,7 @@
           "bonus_points": 30
         }
       ],
-      "rang": 24
+      "rang": 25
     },
     {
       "nom": "MAES NILS",
@@ -4530,7 +4645,7 @@
           "bonus_points": 30
         }
       ],
-      "rang": 25
+      "rang": 26
     },
     {
       "nom": "MUI EMILE JACK",
@@ -4615,7 +4730,7 @@
           "bonus_points": 30
         }
       ],
-      "rang": 26
+      "rang": 27
     },
     {
       "nom": "HOFFMANN RAPHAEL",
@@ -4700,7 +4815,7 @@
           "bonus_points": 30
         }
       ],
-      "rang": 27
+      "rang": 28
     },
     {
       "nom": "SCHOUB LUDOVIC",
@@ -4775,7 +4890,7 @@
         }
       ],
       "badges": [],
-      "rang": 28
+      "rang": 29
     },
     {
       "nom": "ROUGE MAXIME",
@@ -4839,7 +4954,7 @@
           "bonus_points": 30
         }
       ],
-      "rang": 29
+      "rang": 30
     },
     {
       "nom": "BROSSE JIMMY",
@@ -4893,7 +5008,7 @@
         }
       ],
       "badges": [],
-      "rang": 30
+      "rang": 31
     },
     {
       "nom": "DESTRES KERYANN",
@@ -4947,7 +5062,7 @@
         }
       ],
       "badges": [],
-      "rang": 31
+      "rang": 32
     },
     {
       "nom": "BECUWE ROMAIN",
@@ -5001,7 +5116,61 @@
         }
       ],
       "badges": [],
-      "rang": 32
+      "rang": 33
+    },
+    {
+      "nom": "LAMMERANT CLEMENT",
+      "nb_courses": 2,
+      "nb_courses_objectif": 0,
+      "points_courses": 102,
+      "bonus_badges": 0,
+      "points_total": 102,
+      "courses_detail": [
+        {
+          "course": "bousies",
+          "position": "8",
+          "nb_participants": 45,
+          "categorie": "3ème Catégorie",
+          "discipline": "route",
+          "federation": "ufolep",
+          "percentile": 84.4,
+          "points_participation": 25.0,
+          "points_performance": 21.1,
+          "points_performance_base": 21.1,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 46,
+          "date_course": "2026-07-04"
+        },
+        {
+          "course": "rieulay",
+          "position": "23",
+          "nb_participants": 84,
+          "categorie": "3ème Catégorie",
+          "discipline": "route",
+          "federation": "ufolep",
+          "percentile": 73.8,
+          "points_participation": 37.5,
+          "points_performance": 18.5,
+          "points_performance_base": 18.5,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 56,
+          "date_course": "2026-03-08"
+        }
+      ],
+      "badges": [],
+      "rang": 34
     },
     {
       "nom": "SIJNESAEL PABLO",
@@ -5076,7 +5245,7 @@
         }
       ],
       "badges": [],
-      "rang": 33
+      "rang": 35
     },
     {
       "nom": "GALVAIRE CHRISTOPHE",
@@ -5130,7 +5299,7 @@
         }
       ],
       "badges": [],
-      "rang": 34
+      "rang": 36
     },
     {
       "nom": "PERSON LOUIS",
@@ -5194,7 +5363,7 @@
           "bonus_points": 30
         }
       ],
-      "rang": 35
+      "rang": 37
     },
     {
       "nom": "FAUCHILLE ERIC",
@@ -5248,48 +5417,27 @@
         }
       ],
       "badges": [],
-      "rang": 36
+      "rang": 38
     },
     {
-      "nom": "ADAM AUGUSTIN",
+      "nom": "DELEPLANQUE LOIC",
       "nb_courses": 2,
       "nb_courses_objectif": 0,
-      "points_courses": 79,
+      "points_courses": 78,
       "bonus_badges": 0,
-      "points_total": 79,
+      "points_total": 78,
       "courses_detail": [
         {
-          "course": "verlinghem",
-          "position": "6",
-          "nb_participants": 10,
-          "categorie": "Benjamins",
-          "discipline": "cx",
+          "course": "bousies",
+          "position": "35",
+          "nb_participants": 45,
+          "categorie": "3ème Catégorie",
+          "discipline": "route",
           "federation": "ufolep",
-          "percentile": 50.0,
-          "points_participation": 37.5,
-          "points_performance": 12.5,
-          "points_performance_base": 12.5,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.5,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 50,
-          "date_course": "2025-11-30"
-        },
-        {
-          "course": "verlinghem",
-          "position": "18",
-          "nb_participants": 20,
-          "categorie": "U13",
-          "discipline": "cx",
-          "federation": "ffc",
-          "percentile": 15.0,
+          "percentile": 24.4,
           "points_participation": 25.0,
-          "points_performance": 3.8,
-          "points_performance_base": 3.8,
+          "points_performance": 6.1,
+          "points_performance_base": 6.1,
           "points_perf_reduits": false,
           "coefficient": 1.0,
           "bonus_objectif": 1.0,
@@ -5297,12 +5445,33 @@
           "echelon": "",
           "bonus_participation": false,
           "points_participation_base": 25.0,
-          "points": 29,
-          "date_course": "2025-11-29"
+          "points": 31,
+          "date_course": "2026-07-04"
+        },
+        {
+          "course": "rieulay",
+          "position": "53",
+          "nb_participants": 84,
+          "categorie": "3ème Catégorie",
+          "discipline": "route",
+          "federation": "ufolep",
+          "percentile": 38.1,
+          "points_participation": 37.5,
+          "points_performance": 9.5,
+          "points_performance_base": 9.5,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 47,
+          "date_course": "2026-03-08"
         }
       ],
       "badges": [],
-      "rang": 37
+      "rang": 39
     },
     {
       "nom": "VALEMBOIS ALAN",
@@ -5356,7 +5525,115 @@
         }
       ],
       "badges": [],
-      "rang": 38
+      "rang": 40
+    },
+    {
+      "nom": "MARQUET VICTOR",
+      "nb_courses": 2,
+      "nb_courses_objectif": 0,
+      "points_courses": 75,
+      "bonus_badges": 0,
+      "points_total": 75,
+      "courses_detail": [
+        {
+          "course": "bousies",
+          "position": "31",
+          "nb_participants": 31,
+          "categorie": "1ère Catégorie",
+          "discipline": "route",
+          "federation": "ufolep",
+          "percentile": 3.2,
+          "points_participation": 25.0,
+          "points_performance": 0.8,
+          "points_performance_base": 0.8,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 26,
+          "date_course": "2026-07-04"
+        },
+        {
+          "course": "rieulay",
+          "position": "26",
+          "nb_participants": 47,
+          "categorie": "1ère Catégorie",
+          "discipline": "route",
+          "federation": "ufolep",
+          "percentile": 46.8,
+          "points_participation": 37.5,
+          "points_performance": 11.7,
+          "points_performance_base": 11.7,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 49,
+          "date_course": "2026-03-08"
+        }
+      ],
+      "badges": [],
+      "rang": 41
+    },
+    {
+      "nom": "LEIGNEL PIERRE ANTOINE",
+      "nb_courses": 2,
+      "nb_courses_objectif": 0,
+      "points_courses": 68,
+      "bonus_badges": 0,
+      "points_total": 68,
+      "courses_detail": [
+        {
+          "course": "bousies",
+          "position": "42",
+          "nb_participants": 45,
+          "categorie": "3ème Catégorie",
+          "discipline": "route",
+          "federation": "ufolep",
+          "percentile": 8.9,
+          "points_participation": 25.0,
+          "points_performance": 2.2,
+          "points_performance_base": 2.2,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.0,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": false,
+          "points_participation_base": 25.0,
+          "points": 27,
+          "date_course": "2026-07-04"
+        },
+        {
+          "course": "rieulay",
+          "position": "74",
+          "nb_participants": 84,
+          "categorie": "3ème Catégorie",
+          "discipline": "route",
+          "federation": "ufolep",
+          "percentile": 13.1,
+          "points_participation": 37.5,
+          "points_performance": 3.3,
+          "points_performance_base": 3.3,
+          "points_perf_reduits": false,
+          "coefficient": 1.0,
+          "bonus_objectif": 1.5,
+          "bonus_echelon": 1.0,
+          "echelon": "",
+          "bonus_participation": true,
+          "points_participation_base": 25.0,
+          "points": 41,
+          "date_course": "2026-03-08"
+        }
+      ],
+      "badges": [],
+      "rang": 42
     },
     {
       "nom": "SIJNESAEL RUBEN",
@@ -5410,7 +5687,7 @@
         }
       ],
       "badges": [],
-      "rang": 39
+      "rang": 43
     },
     {
       "nom": "BARRE VICTOR",
@@ -5464,7 +5741,7 @@
         }
       ],
       "badges": [],
-      "rang": 40
+      "rang": 44
     },
     {
       "nom": "VIALLON THIBAULT",
@@ -5497,7 +5774,7 @@
         }
       ],
       "badges": [],
-      "rang": 41
+      "rang": 45
     },
     {
       "nom": "MAYEUR LUCAS",
@@ -5530,7 +5807,7 @@
         }
       ],
       "badges": [],
-      "rang": 42
+      "rang": 46
     },
     {
       "nom": "STIEVENARD HADRIEN",
@@ -5584,7 +5861,7 @@
         }
       ],
       "badges": [],
-      "rang": 43
+      "rang": 47
     },
     {
       "nom": "DA CUNHA RAMOS NINO",
@@ -5638,7 +5915,7 @@
         }
       ],
       "badges": [],
-      "rang": 44
+      "rang": 48
     },
     {
       "nom": "HUYNEN BATISTE",
@@ -5692,7 +5969,7 @@
         }
       ],
       "badges": [],
-      "rang": 45
+      "rang": 49
     },
     {
       "nom": "DUCHATELET GASPARD",
@@ -5725,40 +6002,7 @@
         }
       ],
       "badges": [],
-      "rang": 46
-    },
-    {
-      "nom": "LAMMERANT CLEMENT",
-      "nb_courses": 1,
-      "nb_courses_objectif": 0,
-      "points_courses": 56,
-      "bonus_badges": 0,
-      "points_total": 56,
-      "courses_detail": [
-        {
-          "course": "rieulay",
-          "position": "23",
-          "nb_participants": 84,
-          "categorie": "3ème Catégorie",
-          "discipline": "route",
-          "federation": "ufolep",
-          "percentile": 73.8,
-          "points_participation": 37.5,
-          "points_performance": 18.5,
-          "points_performance_base": 18.5,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.5,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 56,
-          "date_course": "2026-03-08"
-        }
-      ],
-      "badges": [],
-      "rang": 47
+      "rang": 50
     },
     {
       "nom": "POTTIER MILAN",
@@ -5812,7 +6056,7 @@
         }
       ],
       "badges": [],
-      "rang": 48
+      "rang": 51
     },
     {
       "nom": "GOSSET JULIEN",
@@ -5845,7 +6089,7 @@
         }
       ],
       "badges": [],
-      "rang": 49
+      "rang": 52
     },
     {
       "nom": "DEVYNCK MATTHIEU",
@@ -5878,40 +6122,7 @@
         }
       ],
       "badges": [],
-      "rang": 50
-    },
-    {
-      "nom": "MARQUET VICTOR",
-      "nb_courses": 1,
-      "nb_courses_objectif": 0,
-      "points_courses": 49,
-      "bonus_badges": 0,
-      "points_total": 49,
-      "courses_detail": [
-        {
-          "course": "rieulay",
-          "position": "26",
-          "nb_participants": 47,
-          "categorie": "1ère Catégorie",
-          "discipline": "route",
-          "federation": "ufolep",
-          "percentile": 46.8,
-          "points_participation": 37.5,
-          "points_performance": 11.7,
-          "points_performance_base": 11.7,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.5,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 49,
-          "date_course": "2026-03-08"
-        }
-      ],
-      "badges": [],
-      "rang": 51
+      "rang": 53
     },
     {
       "nom": "BEAUGRAND AUGUSTE",
@@ -5944,40 +6155,7 @@
         }
       ],
       "badges": [],
-      "rang": 52
-    },
-    {
-      "nom": "DELEPLANQUE LOIC",
-      "nb_courses": 1,
-      "nb_courses_objectif": 0,
-      "points_courses": 47,
-      "bonus_badges": 0,
-      "points_total": 47,
-      "courses_detail": [
-        {
-          "course": "rieulay",
-          "position": "53",
-          "nb_participants": 84,
-          "categorie": "3ème Catégorie",
-          "discipline": "route",
-          "federation": "ufolep",
-          "percentile": 38.1,
-          "points_participation": 37.5,
-          "points_performance": 9.5,
-          "points_performance_base": 9.5,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.5,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 47,
-          "date_course": "2026-03-08"
-        }
-      ],
-      "badges": [],
-      "rang": 53
+      "rang": 54
     },
     {
       "nom": "GUSTAVE DIMITRI",
@@ -6010,7 +6188,7 @@
         }
       ],
       "badges": [],
-      "rang": 54
+      "rang": 55
     },
     {
       "nom": "MASSON GAETAN",
@@ -6043,7 +6221,7 @@
         }
       ],
       "badges": [],
-      "rang": 55
+      "rang": 56
     },
     {
       "nom": "ROEKENS AUGUSTIN",
@@ -6076,7 +6254,7 @@
         }
       ],
       "badges": [],
-      "rang": 56
+      "rang": 57
     },
     {
       "nom": "SION CORENTIN",
@@ -6109,7 +6287,7 @@
         }
       ],
       "badges": [],
-      "rang": 57
+      "rang": 58
     },
     {
       "nom": "CHAUVEL BENJAMIN",
@@ -6142,7 +6320,7 @@
         }
       ],
       "badges": [],
-      "rang": 58
+      "rang": 59
     },
     {
       "nom": "DREGER ARTHUR",
@@ -6175,7 +6353,7 @@
         }
       ],
       "badges": [],
-      "rang": 59
+      "rang": 60
     },
     {
       "nom": "JAFFRENNOU PAUL",
@@ -6208,7 +6386,7 @@
         }
       ],
       "badges": [],
-      "rang": 60
+      "rang": 61
     },
     {
       "nom": "MUI PHILIPPE HOO TONG",
@@ -6238,39 +6416,6 @@
           "points_participation_base": 25.0,
           "points": 43,
           "date_course": "2025-11-23"
-        }
-      ],
-      "badges": [],
-      "rang": 61
-    },
-    {
-      "nom": "LEIGNEL PIERRE ANTOINE",
-      "nb_courses": 1,
-      "nb_courses_objectif": 0,
-      "points_courses": 41,
-      "bonus_badges": 0,
-      "points_total": 41,
-      "courses_detail": [
-        {
-          "course": "rieulay",
-          "position": "74",
-          "nb_participants": 84,
-          "categorie": "3ème Catégorie",
-          "discipline": "route",
-          "federation": "ufolep",
-          "percentile": 13.1,
-          "points_participation": 37.5,
-          "points_performance": 3.3,
-          "points_performance_base": 3.3,
-          "points_perf_reduits": false,
-          "coefficient": 1.0,
-          "bonus_objectif": 1.5,
-          "bonus_echelon": 1.0,
-          "echelon": "",
-          "bonus_participation": true,
-          "points_participation_base": 25.0,
-          "points": 41,
-          "date_course": "2026-03-08"
         }
       ],
       "badges": [],
@@ -7417,7 +7562,7 @@
       "federation": "ufolep",
       "is_objectif": false,
       "echelon": "",
-      "nb_participants": 0,
+      "nb_participants": 5,
       "date_course": "2026-07-04"
     },
     {
@@ -7914,6 +8059,15 @@
       "echelon": "",
       "nb_participants": 0,
       "date_course": "2026-03-28"
+    },
+    {
+      "nom": "ooike",
+      "discipline": "route",
+      "federation": "cv",
+      "is_objectif": false,
+      "echelon": "",
+      "nb_participants": 1,
+      "date_course": "2026-03-15"
     },
     {
       "nom": "crequy",
